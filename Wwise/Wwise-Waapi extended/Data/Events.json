@@ -1,0 +1,31 @@
+{
+	"args" : [  ],
+	"kwargs" : 	{
+		"return" : [ 			{
+				"id" : "{4E1B14CC-7FB5-4140-A906-AD978229AECD}",
+				"name" : "Play_Drones_Music"
+			}
+, 			{
+				"id" : "{11513C34-CDF0-45D6-A925-333005E332FD}",
+				"name" : "Play_Drone_03"
+			}
+, 			{
+				"id" : "{E632986F-53C1-4F81-BEC5-3945B78BCB94}",
+				"name" : "Play_Batiments_2_Order"
+			}
+, 			{
+				"id" : "{8BDED894-A403-41C0-B430-A882600EB66D}",
+				"name" : "Play_Batiments_1_Order"
+			}
+, 			{
+				"id" : "{17937943-25BF-495F-8705-231D1ECA66D1}",
+				"name" : "Play_Voices"
+			}
+, 			{
+				"id" : "{2F589561-AE99-46EC-B5C0-F17D0CE43AB6}",
+				"name" : "Stop_All"
+			}
+ ]
+	}
+
+}

@@ -1,0 +1,3 @@
+Trigger_DoorOpening
+Trigger_MonsterPassing
+Trigger_PuzzRes
