@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 409.0, 283.0, 1274.0, 473.0 ],
+		"rect" : [ 409.0, 283.0, 1437.0, 473.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 586.273809523809632, 339.333332657814026, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1301.0, 264.333332657814026, 91.0, 36.0 ],
+					"text" : "32 4294967295"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-98",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -59,7 +84,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.5, 409.0, 81.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Lista Dispositivos"
 				}
 
@@ -72,7 +96,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 348.026785714285666, 339.333332657814026, 58.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.496117"
 				}
 
@@ -85,7 +108,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 275.610119047619037, 339.333332657814026, 59.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.499992"
 				}
 
@@ -98,7 +120,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 203.916666666666629, 339.333332657814026, 58.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.496117"
 				}
 
@@ -244,7 +265,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 456.470238095238074, 283.333332657814026, 137.684523809524308, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "aba  Arri  izq  der  soltar"
 				}
 
@@ -325,7 +345,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 562.166666666666515, 339.333332657814026, 24.0, 24.0 ]
+					"patching_rect" : [ 560.273809523809632, 339.333332657814026, 24.0, 24.0 ]
 				}
 
 			}
@@ -1900,7 +1920,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"midpoints" : [ 158.0, 211.0, 1267.70833333333394, 211.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -1908,7 +1928,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 1 ],
+					"order" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -2096,6 +2124,13 @@
 					"destination" : [ "obj-45", 0 ],
 					"order" : 0,
 					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-69", 4 ]
 				}
 
 			}

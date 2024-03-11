@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 766.0, 85.0, 1112.0, 953.0 ],
+		"rect" : [ 766.0, 85.0, 793.0, 953.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2126,6 +2126,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -2832,35 +2834,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Joystick.maxpat",
-				"bootpath" : "G:/Max-Msp/CONECTAR WWISE/Wwise-Waapi Link/patchers",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Wwise/Wwise-Waapi extended/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "G:/Max-Msp/CONECTAR WWISE/Wwise-Waapi Link/code",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Wwise/Wwise-Waapi extended/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "index.js",
-				"bootpath" : "G:/Max-Msp/CONECTAR WWISE/Wwise-Waapi Link/code",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Wwise/Wwise-Waapi extended/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "G:/Max-Msp/CONECTAR WWISE/Wwise-Waapi Link/patchers",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Wwise/Wwise-Waapi extended/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "G:/Max-Msp/CONECTAR WWISE/Wwise-Waapi Link/code",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Wwise/Wwise-Waapi extended/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
