@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 184.0, 173.0, 1163.0, 757.0 ],
+		"rect" : [ 42.0, 85.0, 1212.0, 873.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,297 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 37.73288914526583,
+					"id" : "obj-152",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1343.0, 1069.70000159740448, 231.0, 50.0 ],
+					"text" : "VER SALIDA"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.831054773993577,
+					"id" : "obj-149",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1601.646147489547729, 1060.300001740455627, 161.0, 22.0 ],
+					"text" : "\"Deja a un lado la razón\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.616078156166182,
+					"id" : "obj-143",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 860.900013446807861, 479.23334276676178, 120.0, 32.0 ],
+					"text" : "-12, -6 7000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-146",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 860.900013446807861, 518.23334276676178, 66.0, 22.0 ],
+					"text" : "line 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 35.693832332742097,
+					"id" : "obj-142",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1966.200004875659943, 835.358700579940546, 356.0, 89.0 ],
+					"text" : "AGREGAR SONIDO DE SFX CUCHILLO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-134",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2557.0, 692.0, 150.0, 20.0 ],
+					"text" : "- 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 32.825324323339665,
+					"id" : "obj-129",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2124.833360254764557, 156.533341348171291, 553.0, 120.0 ],
+					"text" : "VER ENMASCARAMIENTO VOCES PRESIDENTES CON BANDA (PONER RETORNO)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 17.969507126925361,
+					"id" : "obj-127",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1657.516698062419891, 386.436781609195407, 126.0, 27.0 ],
+					"text" : "RENOMBRAR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 48.462446689825882,
+					"id" : "obj-124",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1366.0, 727.366662204265594, 530.0, 62.0 ],
+					"text" : "AJUSTAR ESTA PARTE"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 17.245766768801435,
+					"id" : "obj-99",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 373.333344459533691, 712.933343708515167, 165.999998688697815, 46.0 ],
+					"text" : "Puede estar un poco mas fuerte"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 320.566681265830994, 718.933343708515167, 45.199998438358307, 34.0 ],
+					"text" : "- 9 \n- 22"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 85.450012505054474, 513.533345997333527, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 114.150014519691467, 452.433336079120636, 50.0, 22.0 ],
+					"text" : "-24."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 40.200012505054474, 384.308429094711983, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.616078156166182,
+					"id" : "obj-58",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.816681265830994, 412.033335983753204, 143.0, 32.0 ],
+					"text" : "-72, -24 12000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 40.816681265830994, 452.433336079120636, 66.0, 22.0 ],
+					"text" : "line 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-34",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2551.999996960163116, 1041.366673767566681, 246.0, 29.0 ],
+					"text" : "Termina Singing in the rain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 23.281713868482026,
+					"id" : "obj-31",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.416675090789795, 900.366673767566681, 556.0, 167.0 ],
+					"text" : "Escenas con mic:\n- ni bien termina la banda - 1mic\n- Mirella corta la 2° fiesta - 2 mic\n- Seguido \"Caian nicotzi\" - 1 mic texto natasha\nTerminan de cantar \"nuestra historia terminó\"\nSeguido \"I´m going slighlty mad\" - 1 mic para Lucas"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.047058823529412, 0.913725490196078, 0.913725490196078, 1.0 ],
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 657.583326399326324, 312.648744114379895, 81.0, 22.0 ],
+					"text" : "loadmess -12"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 454.566681265830994, 438.733346462249756, 54.5, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.616078156166182,
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 454.566681265830994, 474.733341097831726, 113.0, 32.0 ],
+					"text" : "0, -72 4000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 454.566681265830994, 513.733341097831726, 66.0, 22.0 ],
+					"text" : "line 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 26.177061161227535,
+					"id" : "obj-6",
+					"linecount" : 55,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2933.633352041244507, 134.810268960795838, 909.850006759166718, 1662.0 ],
+					"text" : "X - Entrada en calor\n1 - Fin entrada en calor\n2 - La banda toca temas:\nCreep\nSmell teen spirits\nOASIS\nX - Presentador Pote  (I´m singing in the rain)\nX - Músico canta un tema\nX - Cantante Canta la ópera (Nessun Dorma)\n3 - Termina de cantar la ópera\nX - Actores caminan alrededor del cajón\n4 - Padre Hamlet hablar\n(IDEA - Sfx aplausos?)\nX - (Pensar sonoridad - \"Master Final\")\nX - Santi canta un tema en la escena (\"Más allá, Más allá\")\nX - Pote canta el cuarto tema\n5 - Fin canción Pote  “y si el mundo no condenara el suicidio de Hamlet”\nX - Subir un poco el volumen cuando hamlet abraza a su padre\n6 -  Polonio dice “HAMLET, HAMLETTT” para despertar a Hamlet.  \n7 - Anuncian casamiento. Chicas invitan al público\n8 - Cambio a Fiesta 1\n9 - Padre Hamlet Levanta la mano\nAVISAR AL SONIDO DESMUTEAR RETORNOS\n10 - NO FUTURE\n11 - \"Que pasó, estaban haciendo un trencito!???\"\nX - Toca la banda\n(IDEA - Sfx ruido con LP como de arena e ilusion)\nX - Discurso Sacerdotiza\nX - Habla el espectro del padre (Cantante de fondo)\nX - \"Sigue mi mandato, Venga mi muerte!\"\nX - Discurso Hamlet\nIDEA - Quizás alguno efecto en la voz de Hamlet?\nX - Guitarrista toca un tema\nX - Habla Pote (se suma la guitarra abajo del escenario)\nX - Discurso Sacerdotiza, círculo alrededor de la tumba\nX - Cuenco tibetano\nIDEA - Sfx cuenco procesado\nX - Guitarrista \"Tantas veces me morí\"\nX - Aplauden con chasquidos\n11 - Terminan de aplaudir (fantasma comienza a hablar)\n12 - Padre mata fantasma \nX - Discurso Padre Hamlet\nX - Banda toca \"I´m your head\"\nX - \"Nuestra historia terminó, no existe\"\nX - Banda toca \"I´m going slightly mad\", cantante da discurso\nIDEA - \"I´m singing in the rain\"\nIDEA - Sfx risas\nIDEA - Fin \"Singing in the rain\"\nX - Hamlet Mata al padre\nIDEA - Sfx cuchillo\nX - Pote discurso final sentido de la obra\nX - Munaiki - Son 6 + \"En el centro soy yo\"\n15 - Termina el Munay Ki \nIDEA - Ver algún efecto de salida en vez (reverb + disipación) de fade out\n16 - Fade out \"Abrete corazon\"  (letra \"Deja a un lado la razón\")"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 13.831054773993577,
 					"id" : "obj-117",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1601.84614771604538, 1060.300001740455627, 161.0, 22.0 ],
-					"text" : "\"Deja a un lado la razón\""
+					"patching_rect" : [ 1600.146147489547729, 1103.900001525878906, 164.0, 22.0 ],
+					"text" : "\"Escondido en tu interior\""
 				}
 
 			}
@@ -70,7 +354,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2334.0, 1123.0, 29.5, 22.0 ],
+					"patching_rect" : [ 2334.0, 1132.800016939640045, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -136,7 +420,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2449.333330452442169, 1118.366673767566681, 56.0, 22.0 ],
-					"text" : "-72."
+					"text" : "0."
 				}
 
 			}
@@ -171,7 +455,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2379.25, 1265.366681098937988, 40.0, 22.0 ],
+					"patching_rect" : [ 2379.25, 1277.166685700416565, 40.0, 22.0 ],
 					"text" : "s~ R1"
 				}
 
@@ -182,7 +466,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2334.0, 1265.366681098937988, 38.0, 22.0 ],
+					"patching_rect" : [ 2334.0, 1277.166685700416565, 38.0, 22.0 ],
 					"text" : "s~ L1"
 				}
 
@@ -197,7 +481,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2334.0, 1201.866672039031982, 200.0, 47.0 ],
+					"patching_rect" : [ 2334.0, 1213.666676640510559, 200.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[9]",
@@ -220,7 +504,7 @@
 					"clipheight" : 39.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "G:\\Max-Msp\\Propios\\MaxMsp-Patches\\Experiencia Hamlet\\lluvia_loop.mp3",
+								"absolutepath" : "lluvia_loop.mp3",
 								"filename" : "lluvia_loop.mp3",
 								"filekind" : "audiofile",
 								"id" : "u029001535",
@@ -245,7 +529,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2334.0, 1148.70000159740448, 200.0, 40.0 ],
+					"patching_rect" : [ 2334.0, 1160.500006198883057, 200.0, 40.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -296,7 +580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2795.800003409385681, 888.00002646446228, 81.0, 22.0 ],
+					"patching_rect" : [ 2751.800002098083496, 236.983356446027756, 81.0, 22.0 ],
 					"text" : "loadmess -10"
 				}
 
@@ -308,7 +592,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2795.800003409385681, 942.933361291885376, 106.0, 22.0 ],
+					"patching_rect" : [ 2751.800002098083496, 299.533341348171234, 106.0, 22.0 ],
 					"text" : "append \\, -72 5000"
 				}
 
@@ -321,7 +605,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2795.800003409385681, 918.933361291885376, 50.0, 22.0 ]
+					"patching_rect" : [ 2751.800002098083496, 267.916691273450851, 50.0, 22.0 ]
 				}
 
 			}
@@ -385,8 +669,8 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1788.000000059604645, 1024.70000433921814, 229.266664624214172, 29.199999988079071 ],
-					"text" : "Fade out Abrete corazón",
-					"texton" : "Play Abrete corazón"
+					"text" : "Termina el Munay Ki",
+					"texton" : "Fade out Abrete corazón"
 				}
 
 			}
@@ -422,8 +706,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2551.999996960163116, 811.699997842311859, 113.0, 32.0 ],
-					"text" : "-72, 0 7000"
+					"patching_rect" : [ 2551.999996960163116, 811.699997842311859, 131.0, 32.0 ],
+					"text" : "-72, -12 7000"
 				}
 
 			}
@@ -446,9 +730,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2618.999996960163116, 738.500000238418579, 206.0, 29.0 ],
-					"presentation_linecount" : 2,
-					"text" : "padre mata fantasma"
+					"patching_rect" : [ 2619.999996960163116, 738.500000238418579, 206.0, 29.0 ],
+					"text" : "Padre mata fantasma"
 				}
 
 			}
@@ -460,8 +743,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2551.999996960163116, 990.300004333257675, 192.0, 52.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 2554.833330452442169, 981.300004333257675, 192.0, 52.0 ],
 					"text" : "Hamlet canta \"Singing in the rain\""
 				}
 
@@ -477,8 +759,8 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2334.0, 738.500000238418579, 229.266664624214172, 29.199999988079071 ],
-					"text" : "Stop Trompeta tibetana",
-					"texton" : "Play Trompeta tibetana"
+					"text" : "Terminan chasquidos",
+					"texton" : "Padre mata fantasma"
 				}
 
 			}
@@ -492,8 +774,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 707.416675090789795, 513.533345997333527, 309.0, 71.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 715.416675329208374, 549.866663873195648, 311.0, 71.0 ],
 					"text" : "Subir volumen cuando Hamlet se acerca al cuerpo del padre"
 				}
 
@@ -616,7 +897,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2082.733343243598938, 759.366662204265594, 209.0, 29.0 ],
+					"patching_rect" : [ 2124.833360254764557, 738.500000238418579, 209.0, 29.0 ],
 					"text" : "- Terminan chasquidos"
 				}
 
@@ -629,7 +910,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2048.499998927116394, 1024.900004327297211, 201.0, 29.0 ],
-					"text" : "Termina el Munay Ki. "
+					"text" : "Termina el Munay Ki"
 				}
 
 			}
@@ -640,7 +921,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2048.499998927116394, 795.83333432674408, 277.0, 23.0 ],
+					"patching_rect" : [ 2056.833360254764557, 779.033334076404572, 277.0, 23.0 ],
 					"text" : "(El fantasma comienza a dar un discurso)"
 				}
 
@@ -666,8 +947,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2566.800003409385681, 433.133342683315277, 214.866665005683899, 75.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 2566.800003409385681, 433.133342683315277, 215.0, 75.0 ],
 					"text" : " entra Pote:\n“Que pasó?, estaban haciendo un trencito…”"
 				}
 
@@ -880,11 +1160,12 @@
 				"box" : 				{
 					"fontsize" : 20.0,
 					"id" : "obj-204",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2292.700004875659943, 419.733345627784729, 163.666664242744446, 29.0 ],
-					"text" : "\"NO FUTURE\""
+					"patching_rect" : [ 2292.633331596851349, 388.733345627784729, 253.0, 52.0 ],
+					"text" : "\"NO FUTURE\"\nDESMUTEAR RETORNOS"
 				}
 
 			}
@@ -1107,8 +1388,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2107.333352506160736, 583.366663873195648, 83.0, 22.0 ],
-					"text" : "loadmess 100"
+					"patching_rect" : [ 2107.333352506160736, 583.366663873195648, 82.0, 22.0 ],
+					"text" : "loadmess 110"
 				}
 
 			}
@@ -1208,7 +1489,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 480.266681849956512, 1287.333340883255005, 215.0, 47.0 ],
+					"patching_rect" : [ 32.266681849956512, 1593.333340883255005, 215.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -1273,7 +1554,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 752.183326363563538, 141.789190411567688, 44.5, 22.0 ],
+					"patching_rect" : [ 752.183326363563538, 159.122524261474609, 44.5, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -1324,7 +1605,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 752.183326363563538, 117.789190411567688, 70.0, 22.0 ],
+					"patching_rect" : [ 752.183326363563538, 135.122524261474609, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -1342,7 +1623,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 752.416674852371216, 174.789190411567688, 90.20000022649765, 23.0 ],
+					"patching_rect" : [ 752.416674852371216, 192.122524261474609, 90.20000022649765, 23.0 ],
 					"text_width" : 51.0
 				}
 
@@ -1354,7 +1635,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 776.416675090789795, 315.700015962123871, 33.0, 22.0 ],
+					"patching_rect" : [ 777.750008463859558, 273.033348023891449, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -1370,9 +1651,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 752.416674852371216, 277.533345997333527, 180.466663897037506, 30.0 ],
-					"text" : "Corte abrupto",
-					"texton" : "Play Intermezzo"
+					"patching_rect" : [ 752.416674852371216, 237.200012981891632, 180.466663897037506, 30.0 ],
+					"text" : "Suicidio Hamlet",
+					"texton" : "Corte \"HAMLET, HAMLET\""
 				}
 
 			}
@@ -1435,7 +1716,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 565.675018101930618, 256.448739000301373, 70.0, 22.0 ],
+					"patching_rect" : [ 499.041673749685287, 312.648744114379895, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -1447,7 +1728,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 521.200025618076324, 256.448739000301373, 29.5, 22.0 ],
+					"patching_rect" : [ 454.566681265830994, 312.648744114379895, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -1465,21 +1746,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 521.200025618076324, 289.500009000301361, 75.0, 23.0 ],
+					"patching_rect" : [ 454.566681265830994, 345.700014114379883, 75.0, 23.0 ],
 					"text_width" : 51.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.047058823529412, 0.913725490196078, 0.913725490196078, 1.0 ],
-					"id" : "obj-126",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.266681849956512, 143.855855584144592, 81.0, 22.0 ],
-					"text" : "loadmess -10"
 				}
 
 			}
@@ -1493,23 +1761,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 521.200025618076324, 324.183501844724105, 192.466664254665375, 28.099688639004853 ],
-					"text" : "Comienza la ópera",
-					"texton" : "Termina la ópera"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-28",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 99.616681635379791, 347.133016754944947, 50.0, 23.0 ]
+					"patching_rect" : [ 454.566681265830994, 380.383506958802627, 229.216649234294891, 33.049844319502427 ],
+					"text" : "Cuando termina la ópera",
+					"texton" : "Cuando comienzan a hablar"
 				}
 
 			}
@@ -1523,8 +1777,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 81.200012505054474, 310.69999486207962, 190.666669368743896, 32.099688758214143 ],
-					"text" : "Comienzo entrada en calor",
+					"patching_rect" : [ 40.200012505054474, 336.60032535616574, 190.666669368743896, 32.099688758214143 ],
+					"text" : "Entrada en calor",
 					"texton" : "Fin entrada en calor"
 				}
 
@@ -1577,7 +1831,7 @@
 								"filename" : "Tremor - Malambo.mp3",
 								"filekind" : "audiofile",
 								"id" : "u322001765",
-								"selection" : [ 0.096551724137931, 1.0 ],
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1656,31 +1910,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 20.0,
-					"id" : "obj-100",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 89.808347851037979, 126.282061942558357, 239.0, 29.0 ],
-					"text" : "- Cantante Canta la ópera"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 20.0,
-					"id" : "obj-99",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 89.808347851037979, 39.448734112720558, 262.0, 75.0 ],
-					"text" : "- La banda toca unos temas.\n- Presentador Pote\n- Músico canta un tema"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"basictuning" : 440,
 					"clipheight" : 39.0,
 					"data" : 					{
@@ -1721,11 +1950,11 @@
 				"box" : 				{
 					"fontsize" : 20.0,
 					"id" : "obj-89",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1238.266683876514435, 215.533345997333527, 343.96667492389679, 52.0 ],
+					"patching_rect" : [ 981.266683876514435, 268.500009000301361, 239.96667492389679, 75.0 ],
 					"text" : "Polonio dice “HAMLET, HAMLETTT” para despertar a Hamlet."
 				}
 
@@ -1741,9 +1970,9 @@
 								"filekind" : "audiofile",
 								"id" : "u365001417",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1776,7 +2005,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 776.416675090789795, 215.533345997333527, 309.0, 52.0 ],
+					"patching_rect" : [ 394.416664958000183, 226.200012981891632, 309.0, 52.0 ],
 					"text" : "Pote  “y si el mundo no \ncondenara el suicidio de Hamlet”"
 				}
 
@@ -1802,32 +2031,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.200012505054474, 283.666659235954285, 70.0, 22.0 ],
+					"patching_rect" : [ 40.200012505054474, 235.666659235954285, 70.0, 22.0 ],
 					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.266681849956512, 198.789190411567688, 106.0, 22.0 ],
-					"text" : "append \\, -72 5000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-68",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 442.266681849956512, 174.789190411567688, 50.0, 22.0 ]
 				}
 
 			}
@@ -1838,7 +2043,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.266681849956512, 309.900012314319611, 56.0, 22.0 ],
+					"patching_rect" : [ 222.916675090789795, 478.60000741481781, 56.0, 22.0 ],
 					"text" : "-72."
 				}
 
@@ -1851,8 +2056,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.266681849956512, 243.333340883255005, 131.0, 32.0 ],
-					"text" : "-10, -72 5000"
+					"patching_rect" : [ 222.916675090789795, 412.033335983753204, 143.0, 32.0 ],
+					"text" : "-24, -72 10000"
 				}
 
 			}
@@ -1863,7 +2068,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 330.266681849956512, 282.53334242105484, 110.0, 22.0 ],
+					"patching_rect" : [ 222.916675090789795, 451.23333752155304, 110.0, 22.0 ],
 					"text" : "line 0. 0."
 				}
 
@@ -1871,16 +2076,15 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubblepoint" : 1.0,
-					"bubbleside" : 3,
+					"bubbleside" : 2,
 					"fontsize" : 20.0,
 					"id" : "obj-55",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 154.20001631975174, 179.333347320556641, 243.666668295860291, 56.0 ],
-					"text" : "Fade out cuando la banda comienza a tocar"
+					"patching_rect" : [ 253.900014191865921, 339.308429094711983, 165.0, 71.0 ],
+					"text" : "Banda comienza a tocar"
 				}
 
 			}
@@ -1890,7 +2094,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.016681849956512, 492.166670441627502, 40.0, 22.0 ],
+					"patching_rect" : [ 365.816681265830994, 661.566675662994385, 40.0, 22.0 ],
 					"text" : "s~ R1"
 				}
 
@@ -1901,7 +2105,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.766681849956512, 492.166670441627502, 38.0, 22.0 ],
+					"patching_rect" : [ 320.566681265830994, 661.566675662994385, 38.0, 22.0 ],
 					"text" : "s~ L1"
 				}
 
@@ -1916,7 +2120,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 389.766681849956512, 430.666677951812744, 200.0, 47.0 ],
+					"patching_rect" : [ 320.566681265830994, 600.066683173179626, 200.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -1940,7 +2144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 865.050007939338684, 1249.666674494743347, 38.0, 22.0 ],
+					"patching_rect" : [ 417.050007939338684, 1555.666674494743347, 38.0, 22.0 ],
 					"text" : "r~ R2"
 				}
 
@@ -1952,7 +2156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 825.050007939338684, 1249.666674494743347, 36.0, 22.0 ],
+					"patching_rect" : [ 377.050007939338684, 1555.666674494743347, 36.0, 22.0 ],
 					"text" : "r~ L2"
 				}
 
@@ -1964,7 +2168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 676.266681849956512, 1249.666674494743347, 38.0, 22.0 ],
+					"patching_rect" : [ 228.266681849956512, 1555.666674494743347, 38.0, 22.0 ],
 					"text" : "r~ R1"
 				}
 
@@ -1976,7 +2180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 480.050007939338684, 1249.666674494743347, 36.0, 22.0 ],
+					"patching_rect" : [ 32.050007939338684, 1555.666674494743347, 36.0, 22.0 ],
 					"text" : "r~ L1"
 				}
 
@@ -1987,7 +2191,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 126.450012505054474, 557.666662931442261, 40.0, 22.0 ],
+					"patching_rect" : [ 85.450012505054474, 684.766671597957611, 40.0, 22.0 ],
 					"text" : "s~ R1"
 				}
 
@@ -1998,7 +2202,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.200012505054474, 557.666662931442261, 38.0, 22.0 ],
+					"patching_rect" : [ 40.200012505054474, 684.766671597957611, 38.0, 22.0 ],
 					"text" : "s~ L1"
 				}
 
@@ -2010,7 +2214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 421.266681849956512, 354.533341348171234, 29.5, 22.0 ],
+					"patching_rect" : [ 362.46668142080307, 513.533345997333527, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -2022,7 +2226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 389.766681849956512, 354.533341348171234, 29.5, 22.0 ],
+					"patching_rect" : [ 320.566681265830994, 513.533345997333527, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -2058,34 +2262,10 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 389.766681849956512, 382.333340883255005, 200.0, 40.0 ],
+					"patching_rect" : [ 320.566681265830994, 544.533345997333527, 200.0, 40.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 216.700012505054474, 462.166670441627502, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 216.700012505054474, 430.666677951812744, 70.0, 22.0 ],
-					"text" : "select done"
 				}
 
 			}
@@ -2095,7 +2275,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.050007939338684, 1338.333340883255005, 68.216673910617828, 68.216673910617828 ]
+					"patching_rect" : [ 32.050007939338684, 1644.333340883255005, 68.216673910617828, 68.216673910617828 ]
 				}
 
 			}
@@ -2109,7 +2289,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 81.200012505054474, 492.166670441627502, 200.0, 47.0 ],
+					"patching_rect" : [ 40.200012505054474, 619.266679108142853, 200.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -2157,10 +2337,32 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 81.200012505054474, 382.333340883255005, 200.0, 40.0 ],
+					"patching_rect" : [ 40.200012505054474, 544.533345997333527, 200.0, 40.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 20.0,
+					"hint" : "",
+					"id" : "obj-33",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2523.499996960163116, 1041.366673767566681, 29.333333492279053, 30.0 ],
+					"rounded" : 60.0,
+					"text" : "14",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
 			}
@@ -2179,9 +2381,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2017.166665434837341, 1024.900004327297211, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 1559.512814223766327, 1024.70000433921814, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
-					"text" : "14",
+					"text" : "16",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -2201,7 +2403,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1559.512814223766327, 1024.70000433921814, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 2019.266664683818817, 1024.70000433921814, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "15",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2245,7 +2447,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2048.499998927116394, 759.366662204265594, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 2090.600015938282013, 738.500000238418579, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "11",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2267,7 +2469,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2520.666663467884064, 1001.300004333257675, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 2523.499996960163116, 992.300004333257675, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "13",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2377,7 +2579,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1238.266683876514435, 180.033345997333527, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 949.400016605854034, 279.500009000301361, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "6",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2421,7 +2623,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 293.266681849956512, 244.333340883255005, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 222.916675090789795, 381.308429094711983, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2443,7 +2645,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 721.083341360092163, 277.533345997333527, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 715.416675329208374, 237.200012981891632, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2487,7 +2689,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 472.475025922060013, 327.233346164226532, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 418.50000387430191, 380.308429094711983, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2509,7 +2711,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 32.475012809038162, 310.69999486207962, 29.333333492279053, 28.5 ],
+					"patching_rect" : [ 2.675012975931168, 338.400169735272812, 29.333333492279053, 28.5 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2518,6 +2720,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-97", 0 ],
 					"source" : [ "obj-101", 1 ]
@@ -2616,6 +2825,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"source" : [ "obj-111", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
 					"source" : [ "obj-112", 1 ]
 				}
@@ -2662,22 +2878,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"order" : 1,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"order" : 0,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
 					"source" : [ "obj-120", 0 ]
 				}
@@ -2692,16 +2892,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.047058823529412, 0.913725490196078, 0.913725490196078, 1.0 ],
-					"destination" : [ "obj-68", 0 ],
-					"source" : [ "obj-126", 0 ]
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2759,6 +2965,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-146", 0 ],
+					"source" : [ "obj-143", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"source" : [ "obj-144", 0 ]
 				}
@@ -2768,6 +2981,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-154", 0 ],
 					"source" : [ "obj-145", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"source" : [ "obj-146", 0 ]
 				}
 
 			}
@@ -2798,6 +3018,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-153", 0 ],
 					"source" : [ "obj-148", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-15", 1 ]
 				}
 
 			}
@@ -3102,13 +3336,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-2", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-2", 1 ]
 				}
@@ -3274,6 +3501,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -3304,16 +3538,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -3343,6 +3568,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -3378,14 +3610,30 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"source" : [ "obj-63", 1 ]
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 1 ],
+					"order" : 0,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 1 ],
 					"order" : 0,
 					"source" : [ "obj-63", 0 ]
 				}
@@ -3393,9 +3641,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-66", 1 ],
+					"destination" : [ "obj-8", 0 ],
 					"order" : 1,
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"source" : [ "obj-63", 1 ]
 				}
 
 			}
@@ -3417,29 +3672,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"order" : 1,
-					"source" : [ "obj-68", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"order" : 0,
-					"source" : [ "obj-68", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 1 ],
-					"source" : [ "obj-69", 0 ]
 				}
 
 			}
@@ -3529,6 +3761,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-212", 0 ],
 					"source" : [ "obj-83", 0 ]
 				}
@@ -3609,70 +3848,70 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "01 - Huun-Huur-Tu - Saryglarlar.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "02 - Liberame.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FIESTA 1 - Shake Bam Bam-Lovumba.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FIESTA 2 - Discursos-Bad-Harris-Pitbul-Reversa-Trumpet_V2.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Intermezzo from Cavalleria Rusticana,  Pietro Mascagni.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tremor - Malambo.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Trompeta Tibetana.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "corte abrupto.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lluvia_loop.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ábrete corazon.mp3",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Experiencia Hamlet",
+				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/Theatre/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
