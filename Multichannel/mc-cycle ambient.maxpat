@@ -294,7 +294,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 704.648147761821747, 654.962961077690125, 150.0, 20.0 ],
+					"patching_rect" : [ 762.239359617233276, 732.881452583209921, 112.0, 20.0 ],
 					"text" : "Visualizador voces "
 				}
 
@@ -318,20 +318,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.685185015201569, 619.962961077690125, 150.0, 34.0 ],
+					"patching_rect" : [ 464.148147761821747, 613.962961077690125, 90.0, 34.0 ],
 					"text" : "Ataque - 1 seg\nApague - 1 seg"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 490.89361584186554, 771.281460583209991, 124.0, 22.0 ],
-					"text" : "mc.pack~ @chans 10"
 				}
 
 			}
@@ -341,7 +329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 593.962961077690125, 150.0, 20.0 ],
+					"patching_rect" : [ 378.0, 593.962961077690125, 133.0, 20.0 ],
 					"text" : "Generador envolventes"
 				}
 
@@ -707,15 +695,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"order" : 3,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -723,7 +703,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 
