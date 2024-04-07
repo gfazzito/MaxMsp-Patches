@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1212.0, 873.0 ],
+		"rect" : [ 42.0, 85.0, 1212.0, 873.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,18 +40,83 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-167",
+					"fontsize" : 24.154202926866226,
+					"id" : "obj-177",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2087.368611574172974, 1017.333363652229309, 129.0, 20.0 ],
-					"text" : "\"En el centro estoy yo\""
+					"patching_rect" : [ 2157.933312177658081, 895.700001180171967, 169.0, 62.0 ],
+					"text" : "FALTA SFX\nCUCHILLAZO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-163",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1886.748125851154327, 741.566672623157501, 226.019515991210938, 30.998046875 ],
+					"text" : "AUDIO MUTEADO",
+					"texton" : "AUDIO DESMUTEADO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 21.002249463723107,
+					"id" : "obj-162",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2535.999996960163116, 541.366663873195648, 197.666665554046631, 79.0 ],
+					"text" : "Frecuencias:\nAdelante + medios\nAtras + bajos "
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-158",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1616.65995842218399, 752.566672623157501, 140.0, 56.0 ],
+					"presentation_linecount" : 2,
+					"text" : "MUTEAR AUDIO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-159",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1381.159964978694916, 765.067649185657501, 226.019515991210938, 30.998046875 ],
+					"text" : "AUDIO MUTEADO",
+					"texton" : "AUDIO DESMUTEADO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.49,
 					"bubbleside" : 3,
 					"fontsize" : 20.0,
 					"id" : "obj-160",
@@ -59,42 +124,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1629.435249865055084, 1078.700005888938904, 140.0, 56.0 ],
+					"patching_rect" : [ 1205.093277156352997, 749.0, 166.666667580604553, 56.0 ],
 					"presentation_linecount" : 2,
-					"text" : "MUTEAR RETORNOS"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontlink" : 1,
-					"fontsize" : 20.0,
-					"id" : "obj-161",
-					"maxclass" : "textbutton",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1774.268618404865265, 1094.801008224487305, 288.998046875, 30.998046875 ],
-					"text" : "RETORNOS MUTEADOS",
-					"texton" : "RETORNOS DESMUTEADOS"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.49,
-					"fontsize" : 20.0,
-					"id" : "obj-162",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2070.201944649219513, 1082.533359050750732, 153.333333849906921, 56.0 ],
-					"presentation_linecount" : 2,
-					"text" : "DESMUTEAR RETORNOS"
+					"text" : "DESMUTEAR AUDIO"
 				}
 
 			}
@@ -102,14 +134,14 @@
 				"box" : 				{
 					"bubble" : 1,
 					"fontsize" : 20.0,
-					"id" : "obj-157",
+					"id" : "obj-150",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2600.634286820888519, 790.400017559528351, 140.0, 56.0 ],
+					"patching_rect" : [ 2518.90003377199173, 462.566672623157501, 140.0, 56.0 ],
 					"presentation_linecount" : 2,
-					"text" : "MUTEAR RETORNOS"
+					"text" : "MUTEAR AUDIO"
 				}
 
 			}
@@ -117,16 +149,16 @@
 				"box" : 				{
 					"fontlink" : 1,
 					"fontsize" : 20.0,
-					"id" : "obj-158",
+					"id" : "obj-156",
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2304.134308874607086, 806.467666745185852, 288.998046875, 30.998046875 ],
-					"text" : "RETORNOS MUTEADOS",
-					"texton" : "RETORNOS DESMUTEADOS"
+					"patching_rect" : [ 2283.400040328502655, 475.067649185657501, 226.019515991210938, 30.998046875 ],
+					"text" : "AUDIO MUTEADO",
+					"texton" : "AUDIO DESMUTEADO"
 				}
 
 			}
@@ -136,14 +168,14 @@
 					"bubblepoint" : 0.49,
 					"bubbleside" : 3,
 					"fontsize" : 20.0,
-					"id" : "obj-159",
+					"id" : "obj-157",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2128.067621052265167, 790.400017559528351, 166.666667580604553, 56.0 ],
+					"patching_rect" : [ 2107.333352506160736, 459.0, 166.666667580604553, 56.0 ],
 					"presentation_linecount" : 2,
-					"text" : "DESMUTEAR RETORNOS"
+					"text" : "DESMUTEAR AUDIO"
 				}
 
 			}
@@ -151,14 +183,171 @@
 				"box" : 				{
 					"bubble" : 1,
 					"fontsize" : 20.0,
-					"id" : "obj-156",
+					"id" : "obj-136",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2486.499996960163116, 474.633347392082214, 140.0, 56.0 ],
+					"patching_rect" : [ 2569.499993443489075, 790.566672623157501, 140.0, 56.0 ],
 					"presentation_linecount" : 2,
-					"text" : "MUTEAR RETORNOS"
+					"text" : "MUTEAR AUDIO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-137",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2334.0, 803.067649185657501, 226.019515991210938, 30.998046875 ],
+					"text" : "AUDIO MUTEADO",
+					"texton" : "AUDIO DESMUTEADO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.49,
+					"bubbleside" : 3,
+					"fontsize" : 20.0,
+					"id" : "obj-147",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2157.933312177658081, 787.0, 166.666667580604553, 56.0 ],
+					"presentation_linecount" : 2,
+					"text" : "DESMUTEAR AUDIO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontsize" : 20.0,
+					"id" : "obj-128",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1655.266698062419891, 1082.533359050750732, 140.0, 56.0 ],
+					"presentation_linecount" : 2,
+					"text" : "MUTEAR AUDIO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-130",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1809.066687822341919, 1096.067649185657501, 226.019515991210938, 30.998046875 ],
+					"text" : "AUDIO MUTEADO",
+					"texton" : "AUDIO DESMUTEADO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.49,
+					"fontsize" : 20.0,
+					"id" : "obj-132",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2038.846149146556854, 1082.533359050750732, 166.666667580604553, 56.0 ],
+					"presentation_linecount" : 2,
+					"text" : "DESMUTEAR AUDIO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-123",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 514.566681265830994, 793.566672623157501, 140.0, 56.0 ],
+					"presentation_linecount" : 2,
+					"text" : "MUTEAR AUDIO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-124",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 279.066687822341919, 806.067649185657501, 226.019515991210938, 30.998046875 ],
+					"text" : "AUDIO MUTEADO",
+					"texton" : "AUDIO DESMUTEADO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.49,
+					"bubbleside" : 3,
+					"fontsize" : 20.0,
+					"id" : "obj-126",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 103.0, 790.0, 166.666667580604553, 56.0 ],
+					"presentation_linecount" : 2,
+					"text" : "DESMUTEAR AUDIO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 23.664668791524132,
+					"id" : "obj-110",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 937.49999988079071, 12.200018227100429, 576.0, 170.0 ],
+					"text" : "Letra canción\n- si esta carne pudiera despedazarse\n(habla hAMLET)\n- Transformarse en rocio al amanecer\n(habla personaje)\n- y si el mundo no condenara el suicidio de **Hamlet**"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 15.706925401922634,
+					"id" : "obj-167",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2057.679482936859131, 1012.852743497190545, 167.0, 25.0 ],
+					"text" : "\"En el centro estoy yo\""
 				}
 
 			}
@@ -203,18 +392,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-150",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 752.000022411346436, 773.333356380462646, 150.0, 34.0 ],
-					"text" : "Cantante canta un nuevo tema"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"fontsize" : 20.0,
@@ -224,7 +401,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 178.566681265830994, 222.700012981891689, 145.349993824958801, 71.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Termina el calentamiento"
 				}
 
@@ -312,23 +488,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontlink" : 1,
-					"fontsize" : 20.0,
-					"id" : "obj-28",
-					"maxclass" : "textbutton",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2195.333352506160736, 487.134323954582214, 288.998046875, 30.998046875 ],
-					"text" : "RETORNOS MUTEADOS",
-					"texton" : "RETORNOS DESMUTEADOS"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"fontsize" : 17.245766768801435,
@@ -337,7 +496,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 474.383332371711731, 312.648744114379895, 153.999998688697815, 65.0 ],
+					"patching_rect" : [ 454.566681265830994, 312.648744114379895, 153.999998688697815, 65.0 ],
 					"text" : "Termina de cantar \n\"Nessun Dorma\""
 				}
 
@@ -496,25 +655,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 37.73288914526583,
-					"id" : "obj-152",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1351.233358800411224, 1139.300005078315735, 231.0, 50.0 ],
-					"text" : "VER SALIDA"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 13.831054773993577,
 					"id" : "obj-149",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1601.646147489547729, 1139.300005078315735, 161.0, 22.0 ],
-					"text" : "\"Deja a un lado la razón\""
+					"patching_rect" : [ 1616.646147489547729, 1148.300005078315735, 164.0, 22.0 ],
+					"text" : "\"Escondido en tu interior\""
 				}
 
 			}
@@ -571,19 +718,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 28.90299606007278,
-					"id" : "obj-99",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 633.27501317858696, 876.181168787256752, 306.999998688697815, 73.0 ],
-					"text" : "Preguntar cuando debería dejar de sonar"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -614,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.700012505054474, 405.833180362860276, 131.0, 32.0 ],
+					"patching_rect" : [ 68.700012505054474, 411.033335983753204, 131.0, 32.0 ],
 					"text" : "-72, -12 6000"
 				}
 
@@ -638,8 +772,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2551.999996960163116, 1120.366677105426788, 246.0, 29.0 ],
-					"text" : "Termina Singing in the rain"
+					"patching_rect" : [ 2551.999996960163116, 1124.366677105426788, 167.0, 29.0 ],
+					"text" : "Grita que se corte"
 				}
 
 			}
@@ -651,7 +785,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 633.27501317858696, 969.331378579139709, 556.0, 167.0 ],
+					"patching_rect" : [ 762.27501317858696, 1301.998048424720764, 556.0, 167.0 ],
 					"text" : "Escenas con mic:\n- ni bien termina la banda - 1mic\n- Mirella corta la 2° fiesta - 2 mic\n- Seguido \"Caian nicotzi\" - 1 mic texto natasha\nTerminan de cantar \"nuestra historia terminó\"\nSeguido \"I´m going slighlty mad\" - 1 mic para Lucas"
 				}
 
@@ -710,24 +844,12 @@
 				"box" : 				{
 					"fontsize" : 26.177061161227535,
 					"id" : "obj-6",
-					"linecount" : 71,
+					"linecount" : 74,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2917.666664659976959, 19.383348196744919, 1027.183343589305878, 2144.0 ],
-					"text" : "X - Entrada en calor\n1 - Fin entrada en calor\n2 - La banda toca temas:\nCreep\nOASIS - hold on, dont be scared\nSmell teen spirits\nsinet o connor\nX - Presentador Pote  (I´m singing in the rain)\nX - Músico canta un tema\nX - Cantante Canta la ópera (Nessun Dorma)\n3 - Termina de cantar la ópera\nX - Comienza discurso sacerdotiza\nX - Actores caminan alrededor del cajón\n4 - Termina discurso sacerdotiza\nX - Padre Hamlet habla\n(IDEA - Sfx aplausos?)\nX - Habla Madre\nX - Habla Hamlet (\"QUE TE PARECE!???\")\n(Pensar sonoridad - \"Master Final\")\nX - Santi canta un tema en la escena (\"Más allá, Más allá\")\nX - Pote canta el cuarto tema \n5 - Fin canción Pote  “y si el mundo no condenara el suicidio de Hamlet”\nX - Subir un poco el volumen cuando hamlet abraza a su padre\n6 -  Polonio dice “HAMLET, HAMLETTT” para despertar a Hamlet.  \n7 - Anuncian casamiento. Chicas invitan al público\n8 - Cambio a Fiesta 1\n9 - Padre Hamlet Levanta la mano\nAVISAR AL SONIDO DESMUTEAR RETORNOS\n10 - NO FUTURE\n11 - \"Que pasó, estaban haciendo un trencito!???\"\nX - Toca la banda\n(IDEA - Sfx ruido con LP como de arena e ilusion)\nX - Discurso Sacerdotiza\nX - Habla el espectro del padre (Cantante de fondo)\nIDEA - Usar sintes cuando Sacerdotiza \"Por quéee\"? \nX - Discurso fantasma\nX - \"Sigue mi mandato, Venga mi muerte!\"\nX - Discurso Hamlet\nIDEA - Quizás alguno efecto en la voz de Hamlet?\nX - Guitarrista toca un tema\nX - Habla Pote (se suma la guitarra abajo del escenario)\nX - Discurso Sacerdotiza, círculo alrededor de la tumba\nX - Cuenco tibetano\nIDEA - Sfx cuenco procesado\nX - Elección del público\nIDEA - Sfx para preparar el terreno, para animar a los espectados\nX - Guitarrista \"Tantas veces me morí\"\nX - Aplauden con chasquidos\n11 - Terminan de aplaudir (fantasma comienza a hablar)\n12 - Padre mata fantasma \nX - Discurso Padre Hamlet\nX - Banda toca \"I´m your head\"\nX - Polonio \"Creo haber descubierto la verdadera causa de Hamlet\"\nIDEA - Hacer ambiente para espacio de realeza\nX - Discurso Hamlet\nX - Música \"Lo que construimos se acabó. Nuestra historia terminó, no existe\"\nIDEA - Sfx Ambiente de lluvia\nX - Banda toca \"I´m going slightly mad\", cantante da discurso\nIDEA - \"I´m singing in the rain\"\nIDEA - Sfx risas\nIDEA - Fin \"Singing in the rain\"\nX - Discurso Hamlet \"Quien soportaría la insolencia de los cómodos\"\nIDEA - diálogos de políticos, noticias, guerras, tu propio jefe, etc \nX - Hamlet Mata al padre\nIDEA - Sfx cuchillazo \nX - Pote discurso final sentido de la obra\nIDEA - Windows xp que se cierra\nX - Munaiki - Son 6 + \"En el centro soy yo\"\n15 - Termina el Munay Ki \nIDEA - Ver algún efecto de salida en vez (reverb + disipación) de fade out\n16 - Fade out \"Abrete corazon\"  (letra \"Deja a un lado la razón\")"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 13.831054773993577,
-					"id" : "obj-117",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1601.646147489547729, 1211.800020277500153, 164.0, 22.0 ],
-					"text" : "\"Escondido en tu interior\""
+					"patching_rect" : [ 2917.666664659976959, 19.383348196744919, 1027.183343589305878, 2234.0 ],
+					"text" : "X - Entrada en calor\n1 - Fin entrada en calor\n2 - La banda toca temas:\nCreep\nOASIS - hold on, dont be scared\nSmell teen spirits\nsinet o connor\nX - Presentador Pote  (I´m singing in the rain)\nX - Músico canta un tema\nX - Cantante Canta la ópera (Nessun Dorma)\n3 - Termina de cantar la ópera\nX - Comienza discurso sacerdotiza\nX - Actores caminan alrededor del cajón\n4 - Termina discurso sacerdotiza\nX - Padre Hamlet habla\nIDEA - Sfx Castillo realeza\nX - Habla Madre\nX - Habla Hamlet (\"QUE TE PARECE!???\")\n(Pensar sonoridad - \"Master Final\")\nX - Santi canta un tema en la escena (\"Más allá, Más allá\")\nX - Pote canta el cuarto tema \n5 - Fin canción Pote  “y si el mundo no condenara el suicidio de Hamlet”\nX - Subir un poco el volumen cuando hamlet abraza a su padre\n6 -  Polonio dice “HAMLET, HAMLETTT” para despertar a Hamlet.  \n7 - Anuncian casamiento. Chicas invitan al público\n8 - Cambio a Fiesta 1\n9 - Padre Hamlet Levanta la mano\nAVISAR AL SONIDO DESMUTEAR RETORNOS\n10 - NO FUTURE\n11 - \"Que pasó, estaban haciendo un trencito!???\"\nX - Toca la banda\n(IDEA - Sfx ruido con LP como de arena e ilusion)\nX - Discurso Sacerdotiza\nX - Habla el espectro del padre (Cantante de fondo)\nIDEA - Usar sintes cuando Sacerdotiza \"Por quéee\"? \nX - Discurso fantasma\nX - \"Sigue mi mandato, Venga mi muerte!\"\nX - Discurso Hamlet\nIDEA - Quizás alguno efecto en la voz de Hamlet?\nX - Guitarrista toca un tema\nX - Habla Pote (se suma la guitarra abajo del escenario)\nX - Discurso Sacerdotiza, círculo alrededor de la tumba\nX - Cuenco tibetano\nIDEA - Sfx cuenco procesado\nX - Elección del público\nIDEA - Sfx para preparar el terreno, para animar a los espectados\nX - Guitarrista \"Tantas veces me morí\"\nX - Aplauden con chasquidos\n11 - Terminan de aplaudir (fantasma comienza a hablar)\n12 - Padre mata fantasma \nX - Discurso Padre Hamlet\nX - Banda toca \"I´m your head\"\nX - Polonio \"Creo haber descubierto la verdadera causa de Hamlet\"\nIDEA - Hacer ambiente para espacio de realeza\nX - Discurso Hamlet\nX - Música \"Lo que construimos se acabó. Nuestra historia terminó, no existe\"\nIDEA - Sfx Ambiente de lluvia\nX - Banda toca \"I´m going slightly mad\", cantante da discurso\nIDEA - \"I´m singing in the rain\"\nIDEA - Sfx risas\nIDEA - Fin \"Singing in the rain\"\nX - Discurso Hamlet \"Quien soportaría la insolencia de los cómodos\"\nIDEA - diálogos de políticos, noticias, guerras, tu propio jefe, etc \nX - Historia del monje\nIDEA\nX - Hamlet Mata al padre\nIDEA - Sfx cuchillazo \nX - Pote discurso final sentido de la obra\nIDEA - Windows xp que se cierra\nX - Munaiki - Son 6 + \"En el centro soy yo\"\nIDEA - \n15 - Termina el Munay Ki \nIDEA - Ver algún efecto de salida en vez (reverb + disipación) de fade out\n16 - Fade out \"Abrete corazon\"  (letra \"Deja a un lado la razón\")"
 				}
 
 			}
@@ -739,7 +861,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2124.833360254764557, 1197.133368313312531, 70.0, 22.0 ],
+					"patching_rect" : [ 2080.833360254764557, 1192.133368313312531, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -791,9 +913,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2382.333330452442169, 1080.700007677078247, 126.266664624214172, 29.199999988079071 ],
-					"text" : "Stop Lluvia",
-					"texton" : "Play Lluvia"
+					"patching_rect" : [ 2382.333330452442169, 1079.775029316544533, 179.266664624214172, 35.516659468412399 ],
+					"text" : "Singing in the rain",
+					"texton" : "Corte Singing!"
 				}
 
 			}
@@ -817,7 +939,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2449.333330452442169, 1197.366677105426788, 56.0, 22.0 ],
-					"text" : "0."
+					"text" : "-72."
 				}
 
 			}
@@ -829,8 +951,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2382.333330452442169, 1163.366677105426788, 113.0, 32.0 ],
-					"text" : "0, -72 7000"
+					"patching_rect" : [ 2382.333330452442169, 1163.366677105426788, 38.0, 32.0 ],
+					"text" : "-72"
 				}
 
 			}
@@ -1108,7 +1230,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2554.833330452442169, 1060.300007671117783, 192.0, 52.0 ],
+					"patching_rect" : [ 2596.666663706302643, 1071.533359050750732, 192.0, 52.0 ],
 					"text" : "Hamlet canta \"Singing in the rain\""
 				}
 
@@ -1287,13 +1409,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 20.0,
+					"fontsize" : 16.150311550628604,
 					"id" : "obj-7",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2551.999997794628143, 580.033338725566864, 335.0, 75.0 ],
+					"patching_rect" : [ 2535.833352506160736, 655.016673177480584, 267.0, 62.0 ],
 					"text" : "- Se centran alrededor de la tumba. \n- Musico toca cuenco tibetano\n- Aplauden con chasquidos"
 				}
 
@@ -1514,22 +1636,6 @@
 					}
 ,
 					"varname" : "live.gain~[6]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.49,
-					"bubbleside" : 3,
-					"fontsize" : 20.0,
-					"id" : "obj-204",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2019.266664683818817, 471.066674768924713, 166.666667580604553, 56.0 ],
-					"text" : "DESMUTEAR RETORNOS"
 				}
 
 			}
@@ -1938,7 +2044,7 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 752.416674852371216, 237.200012981891632, 276.466666758060455, 30.0 ],
-					"text" : "Pote terminando cantar",
+					"text" : "Suicidio de HAMLET",
 					"texton" : "Corte \"HAMLET, HAMLET\""
 				}
 
@@ -2195,14 +2301,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubblepoint" : 1.0,
 					"fontsize" : 20.0,
 					"id" : "obj-89",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1045.783344149589539, 150.033337414264622, 218.633340954780579, 79.0 ],
+					"patching_rect" : [ 1030.883341610431671, 212.700012981891632, 218.633340954780579, 79.0 ],
 					"text" : "Polonio “HAMLET, HAMLETTT” para despertar a Hamlet."
 				}
 
@@ -2248,29 +2353,16 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubblepoint" : 1.0,
-					"bubbleside" : 3,
+					"bubblepoint" : 0.8,
+					"bubbleside" : 2,
 					"fontsize" : 20.0,
 					"id" : "obj-86",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.816681265830994, 154.033337533473912, 313.0, 79.0 ],
-					"text" : "Mientras pote finaliza de cantar:\n“y si el mundo no condenara el suicidio de Hamlet”"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 20.0,
-					"id" : "obj-85",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 455.916660487651825, 54.455849587917328, 308.0, 52.0 ],
-					"text" : "Santi canta un tema en la escena\nPote canta el 4° tema"
+					"patching_rect" : [ 619.47500616312027, 137.700012981891632, 313.0, 94.0 ],
+					"text" : "Mientras Emi finaliza de cantar:\n“y si el mundo no condenara el suicidio de **Hamlet**”"
 				}
 
 			}
@@ -2294,7 +2386,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.566681265830994, 445.23333752155304, 56.0, 22.0 ],
+					"patching_rect" : [ 302.566681265830994, 451.23333752155304, 56.0, 22.0 ],
 					"text" : "-72."
 				}
 
@@ -2307,7 +2399,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.916675090789795, 406.033335983753204, 101.0, 32.0 ],
+					"patching_rect" : [ 222.916675090789795, 411.033335983753204, 101.0, 32.0 ],
 					"text" : "-72 10000"
 				}
 
@@ -2319,7 +2411,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 222.916675090789795, 445.23333752155304, 63.0, 22.0 ],
+					"patching_rect" : [ 222.916675090789795, 451.23333752155304, 63.0, 22.0 ],
 					"text" : "line 0. 0."
 				}
 
@@ -2327,13 +2419,15 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubblepoint" : 0.0,
+					"bubbleside" : 0,
 					"fontsize" : 20.0,
 					"id" : "obj-55",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.316681265830994, 327.400169735272812, 178.0, 56.0 ],
+					"patching_rect" : [ 201.700012505054474, 330.033341348171234, 180.0, 71.0 ],
 					"text" : "Banda comienza a tocar"
 				}
 
@@ -2465,7 +2559,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.566681265830994, 604.033342301845551, 29.5, 22.0 ],
+					"patching_rect" : [ 501.566681265830994, 596.033342301845551, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -2593,8 +2687,30 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2314.833323299884796, 1053.550014704465866, 501.833340048789978, 337.150000363588333 ],
+					"patching_rect" : [ 2318.083326935768127, 1063.225020095705986, 478.833340048789978, 323.150000363588333 ],
 					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 20.0,
+					"hint" : "",
+					"id" : "obj-36",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2565.33333021402359, 1082.533359050750732, 29.333333492279053, 30.0 ],
+					"rounded" : 60.0,
+					"text" : "13",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
 			}
@@ -2635,7 +2751,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2523.499996960163116, 1120.366677105426788, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 2523.499996960163116, 1124.366677105426788, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "14",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2726,28 +2842,6 @@
 					"patching_rect" : [ 2152.166695058345795, 738.500001192092896, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "11",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"fontname" : "Arial Bold",
-					"fontsize" : 20.0,
-					"hint" : "",
-					"id" : "obj-36",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2523.499996960163116, 1071.300007671117783, 29.333333492279053, 30.0 ],
-					"rounded" : 60.0,
-					"text" : "13",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 				}
 
@@ -2855,7 +2949,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1014.450010657310486, 150.033337414264622, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 1002.49999988079071, 196.700012981891632, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "6",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2899,7 +2993,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 222.916675090789795, 338.400169735272812, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 167.583340406417847, 345.700014114379883, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2921,7 +3015,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 499.816681265830994, 118.533342778682709, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 615.50000387430191, 103.200018227100429, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2943,7 +3037,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 437.50000387430191, 320.648744114379951, 29.333333492279053, 30.0 ],
+					"patching_rect" : [ 454.566681265830994, 280.648744114379951, 29.333333492279053, 30.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -3727,7 +3821,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-151", 0 ],
+					"order" : 1,
+					"source" : [ "obj-215", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-214", 0 ],
+					"order" : 0,
 					"source" : [ "obj-215", 0 ]
 				}
 
@@ -3832,6 +3935,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -4235,70 +4347,70 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "01 - Huun-Huur-Tu - Saryglarlar.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "02 - Liberame.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FIESTA 1 - Shake Bam Bam-Lovumba.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FIESTA 2 - Discursos-Bad-Harris-Pitbul-Reversa-Trumpet_V2.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Intermezzo from Cavalleria Rusticana,  Pietro Mascagni.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tremor - Malambo.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Trompeta Tibetana.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "corte abrupto.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lluvia_loop.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ábrete corazon.mp3",
-				"bootpath" : "~/Desktop/28-3_Experiencia Hamlet",
+				"bootpath" : "~/Desktop/Experiencia Hamlet",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1

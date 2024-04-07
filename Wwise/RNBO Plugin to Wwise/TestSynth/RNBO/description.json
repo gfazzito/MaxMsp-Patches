@@ -1,0 +1,135 @@
+{
+  "parameters": [
+    {
+      "type": "ParameterTypeNumber",
+      "index": 0,
+      "name": "numberobj_01_value",
+      "paramId": "number_obj-33/value",
+      "minimum": 0,
+      "maximum": 1,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 222.46472687432086,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "displayorder": "-",
+      "sendinit": 0,
+      "initialized": true,
+      "debug": false,
+      "saveable": true,
+      "transmittable": true,
+      "visible": false,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined",
+      "serialId": "numberobj_a1_s01"
+    },
+    {
+      "type": "ParameterTypeNumber",
+      "index": 1,
+      "name": "numberobj_02_value",
+      "paramId": "number_obj-14/value",
+      "minimum": 0,
+      "maximum": 1,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 904.4751984069484,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "displayorder": "-",
+      "sendinit": 0,
+      "initialized": true,
+      "debug": false,
+      "saveable": true,
+      "transmittable": true,
+      "visible": false,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined",
+      "serialId": "numberobj_a1_s03"
+    },
+    {
+      "type": "ParameterTypeNumber",
+      "index": 2,
+      "name": "numberobj_03_value",
+      "paramId": "number_obj-32/value",
+      "minimum": 0,
+      "maximum": 1,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 2190.8017212439345,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "displayorder": "-",
+      "sendinit": 0,
+      "initialized": true,
+      "debug": false,
+      "saveable": true,
+      "transmittable": true,
+      "visible": false,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined",
+      "serialId": "numberobj_a1_s02"
+    }
+  ],
+  "numParameters": 3,
+  "numSignalInParameters": 0,
+  "numSignalOutParameters": 0,
+  "numInputChannels": 0,
+  "numOutputChannels": 2,
+  "numMidiInputPorts": 0,
+  "numMidiOutputPorts": 0,
+  "externalDataRefs": [],
+  "patcherSerial": 0,
+  "inports": [],
+  "outports": [
+    {
+      "tag": "out3",
+      "meta": ""
+    }
+  ],
+  "inlets": [],
+  "outlets": [
+    {
+      "type": "signal",
+      "index": 1,
+      "tag": "out1",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 2,
+      "tag": "out2",
+      "meta": ""
+    },
+    {
+      "type": "event",
+      "index": 3,
+      "tag": "out3",
+      "meta": ""
+    }
+  ],
+  "paramConversion": {
+    "applyStepsToNormalizedParameterValue": "function applyStepsToNormalizedParameterValue(normalizedValue, steps) {\r\n    if (steps == 1) {\r\n        if (normalizedValue > 0) {\r\n            normalizedValue = 1.;\r\n        }\r\n    } else {\r\n        let oneStep = 1. / (steps - 1);\r\n        let numberOfSteps = rnbo_fround(normalizedValue / oneStep * 1 / 1) * 1;\r\n        normalizedValue = numberOfSteps * oneStep;\r\n    }\r\n\r\n    return normalizedValue;\r\n}",
+    "convertToNormalizedParameterValue": "function convertToNormalizedParameterValue(index, value) {\r\n    switch (index) {\r\n    case 0:\r\n    case 1:\r\n    case 2:\r\n        {\r\n            value = (value < 0 ? 0 : (value > 1 ? 1 : value));\r\n            let normalizedValue = (value - 0) / (1 - 0);\r\n            return normalizedValue;\r\n        }\r\n    default:\r\n        return value;\r\n    }\r\n}",
+    "convertFromNormalizedParameterValue": "function convertFromNormalizedParameterValue(index, value) {\r\n    value = (value < 0 ? 0 : (value > 1 ? 1 : value));\r\n\r\n    switch (index) {\r\n    case 0:\r\n    case 1:\r\n    case 2:\r\n        {\r\n            value = (value < 0 ? 0 : (value > 1 ? 1 : value));\r\n\r\n            {\r\n                return 0 + value * (1 - 0);\r\n            }\r\n        }\r\n    default:\r\n        return value;\r\n    }\r\n}",
+    "getNumParameters": "function getNumParameters() {\r\n    return 3;\r\n}",
+    "constrainParameterValue": "function constrainParameterValue(index, value) {\r\n    var v = value;\r\n\r\n    switch (index) {\r\n    default:\r\n        return value;\r\n    }\r\n}",
+    "subpatches": {},
+    "isPolyphonic": false
+  },
+  "presetid": "rnbo",
+  "meta": {
+    "architecture": "x64",
+    "filename": "Patch example Wwise.maxpat",
+    "maxversion": "8.5.2",
+    "rnboversion": "1.0.2"
+  }
+}
