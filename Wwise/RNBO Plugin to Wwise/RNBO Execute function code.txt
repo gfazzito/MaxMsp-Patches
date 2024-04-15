@@ -1,0 +1,32 @@
+// void yourPluginSource::Execute(AkAudioBuffer* out_pBuffer)
+{
+
+    m_durationHandler.SetDuration(m_pParams->RTPC.fDuration);
+    m_durationHandler.ProduceBuffer(out_pBuffer);
+
+
+    //Process
+
+    rnboObject.prepareToProcess(48000, out_pBuffer->uValidFrames);
+
+    RNBO::SampleValue** outputs = new RNBO::SampleValue * [1];
+    outputs[0] = new double[out_pBuffer->uValidFrames];
+
+    rnboObject.process(nullptr, 0, outputs, 1, out_pBuffer->uValidFrames);
+
+    const AkUInt32 uNumChannels = out_pBuffer->NumChannels();
+
+    AkUInt16 uFramesProduced;
+    for (AkUInt32 i = 0; i < uNumChannels; ++i)
+    {
+        AkReal32* AK_RESTRICT pBuf = (AkReal32 * AK_RESTRICT)out_pBuffer->GetChannel(i);
+
+        uFramesProduced = 0;
+        while (uFramesProduced < out_pBuffer->uValidFrames)
+        {
+            // Generate output here
+            *pBuf++ = static_cast<AkReal32>(((outputs[0][uFramesProduced]) * 0.5f));
+            ++uFramesProduced;
+        }
+    }
+}

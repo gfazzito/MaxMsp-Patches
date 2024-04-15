@@ -1,0 +1,66 @@
+// Sine Tone Test
+//void yourPluginSource::Execute(AkAudioBuffer* out_pBuffer)
+{
+	// Duration Handling
+    m_durationHandler.SetDuration(m_pParams->RTPC.fDuration);
+    m_durationHandler.ProduceBuffer(out_pBuffer);
+
+    const AkUInt32 uNumChannels = out_pBuffer->NumChannels();
+
+    AkUInt16 uFramesProduced;
+
+    //CUSTOM CODE---------------------------------------------------------------
+
+    static float phase = 0.0f;  // Phase of the sine wave, static to maintain value between calls
+    float twoPi = 2.0f * 3.1415f;  // Constant for 2*pi
+    float freq = 440.0f;
+    float sampleRate = 48000;
+
+    for (AkUInt32 i = 0; i < uNumChannels; ++i)
+    {
+        AkReal32* AK_RESTRICT pBuf = (AkReal32* AK_RESTRICT)out_pBuffer->GetChannel(i);
+
+        uFramesProduced = 0;
+
+        while (uFramesProduced < out_pBuffer->uValidFrames)
+        {
+            // Generate output here
+            *pBuf++ = 0.7f * sin(phase);
+            phase += twoPi * freq / sampleRate;
+
+            // Wrap the phase to avoid precision issues
+            if (phase > twoPi)
+            {
+                phase -= twoPi;
+            }
+            ++uFramesProduced;
+        }
+    }
+/*
+Outer Loop (for (AkUInt32 i = 0; i < uNumChannels; ++i) { ... }):
+
+uNumChannels: Represents the number of audio channels in the buffer.
+out_pBuffer->GetChannel(i): Retrieves a pointer to the buffer for the i-th channel.
+pBuf: Is a pointer used to iterate through the buffer for the current channel.
+Inner Loop (while (uFramesProduced < out_pBuffer->uValidFrames) { ... }):
+
+uFramesProduced: Tracks the number of frames generated for the current channel.
+out_pBuffer->uValidFrames: Represents the total number of valid frames in the audio buffer.
+The loop continues until the required number of frames for the current channel is generated.
+Sine Wave Generation (*pBuf++ = 0.7f * sin(phase);):
+
+*pBuf++: Assigns the current value of the sine wave to the buffer and increments the buffer pointer for the next frame.
+0.7f * sin(phase): Generates a scaled sine wave sample (amplitude of 0.7) for the current phase.
+Phase Update (phase += twoPi * freq / sampleRate;):
+
+Updates the phase of the sine wave based on the desired frequency (freq) and the audio sample rate (sampleRate).
+This line advances the phase to generate the next sample.
+Phase Wrapping (if (phase > twoPi) { phase -= twoPi; }):
+
+Checks if the phase has exceeded 2*pi and wraps it to avoid precision issues.
+This is essential for maintaining the accuracy of the sine wave generation.
+
+Frame Counter (++uFramesProduced;):
+Increments the frame counter for the current channel.
+*/
+}
