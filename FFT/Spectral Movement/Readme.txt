@@ -1,4 +1,0 @@
-This patch expands on the tutorial made by [Hour Glass Tutorial](https://youtu.be/Eli51HS7gwU)
-
-Main patch is "Spectral Movement"
-Subpatches are "fft_playback" and "fft_record"
