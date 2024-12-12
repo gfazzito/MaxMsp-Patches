@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Pianoteq 6",
+	"origin" : "MetaPiano x64.vst3info",
+	"type" : "VST3",
+	"subtype" : "Instrument",
+	"embed" : 1,
+	"snapshot" : 	{
+		"pluginname" : "MetaPiano x64.vst3info",
+		"plugindisplayname" : "MetaPiano",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "632.VMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSNv3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYgYTR5AkaA4hKtfDTSoWPWokKDAUPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtfUSJASNRshY3DjKEIkKtfmX1YTZtnkPt3xcFoFNLkWRLYFU3EWX2fSYEwlM0YWSZkEcvkTNwnGNSEDQHslPR8lZ0bySigTPzrRTKUTZVISUznVQzYFVYw1bHcjdxk2aiEFMrolcUQ0YBwlZJc1arcCQyIzbX8TTZMFZ0.UVyMFNpYjcCMmKl01c3rDZgIkdRw1QP4BYzMWMo0VZiA0MOAyaikVStHjZtA0QOQjKsYmKW8Tb2QzXRcjSrgVSHoGZtfzQ1gCTJMkUv4zUuYWUL4hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+	}
+
+}

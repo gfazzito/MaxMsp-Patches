@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -11,33 +11,9 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 77.0, 1852.0, 969.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
 		"style" : "velvet",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 18.778300214188953,
@@ -46,7 +22,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1613.82977569103241, 2343.61700451374054, 142.0, 50.0 ],
+					"patching_rect" : [ 1602.0, 2326.0, 84.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 2001.671440243721008, 427.713810409124847, 84.0, 50.0 ],
@@ -89,6 +65,7 @@
 					"patching_rect" : [ 1596.312686058027793, 2385.868853519873483, 78.633337289094925, 78.633337289094925 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1932.583906322533949, 420.870826205679577, 63.433337062597275, 63.433337062597275 ],
+					"svg" : "",
 					"varname" : "toggle"
 				}
 
@@ -103,8 +80,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -112,33 +89,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-95",
@@ -508,15 +459,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-161"
 					}
 ,
 					"patching_rect" : [ 1753.687654990266992, 821.429555230138249, 138.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Sincronizacion_pulsos"
@@ -545,7 +494,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 829.272918499536217, 1756.7732667219218, 50.0, 22.0 ],
-					"text" : "742"
+					"text" : "4719"
 				}
 
 			}
@@ -679,7 +628,7 @@
 					"patching_rect" : [ 915.640599370809923, 1010.295983791697836, 29.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 489.355475900645956, 199.662954042686522, 29.5, 22.0 ],
-					"text" : "A"
+					"text" : "D"
 				}
 
 			}
@@ -797,7 +746,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1645.582414474260304, 175.762815696767916, 50.0, 22.0 ],
-					"text" : "set 2"
+					"text" : "set 3"
 				}
 
 			}
@@ -858,7 +807,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 845.335914175767812, 2486.387754440307617, 92.03125, 21.798828125 ],
+					"patching_rect" : [ 1068.00003182888031, 2487.333407461643219, 92.03125, 21.798828125 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1806.049138694688281, 371.71157040304729, 92.03125, 21.798828125 ],
 					"text" : "Mostrar plugin",
@@ -877,7 +826,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 752.929717870655168, 2486.387754440307617, 88.041015625, 21.798828125 ],
+					"patching_rect" : [ 975.333362400531769, 2487.333407461643219, 88.041015625, 21.798828125 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1806.049138694688281, 348.97539687636413, 88.041015625, 21.798828125 ],
 					"text" : "Cargar plugin",
@@ -896,7 +845,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 881.851539175767812, 2513.868853519873483, 70.0, 23.0 ],
+					"patching_rect" : [ 1104.666699588298798, 2514.666741609573364, 70.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -910,7 +859,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 787.450225683155168, 2513.868853519873483, 70.0, 23.0 ],
+					"patching_rect" : [ 1010.000030100345612, 2514.666741609573364, 70.0, 23.0 ],
 					"text" : "plug"
 				}
 
@@ -1045,87 +994,87 @@
 					"patching_rect" : [ 1505.600022435188293, -67.698134220065526, 255.0, 22.0 ],
 					"restore" : 					{
 						"attrui[2]" : [ "ignoreclick", 1 ],
-						"button" : [ 1.0 ],
+						"button" : [ 0.0 ],
 						"button[10]" : [ 0.0 ],
-						"button[11]" : [ 1.0 ],
-						"button[12]" : [ 1.0 ],
+						"button[11]" : [ 0.0 ],
+						"button[12]" : [ 0.0 ],
 						"button[15]" : [ 0.0 ],
 						"button[16]" : [ 0.0 ],
-						"button[1]" : [ 1.0 ],
+						"button[1]" : [ 0.0 ],
 						"button[2]" : [ 0.0 ],
 						"button[3]" : [ 0.0 ],
-						"button[4]" : [ 1.0 ],
-						"button[5]" : [ 1.0 ],
+						"button[4]" : [ 0.0 ],
+						"button[5]" : [ 0.0 ],
 						"button[6]" : [ 0.0 ],
-						"button[7]" : [ 1.0 ],
+						"button[7]" : [ 0.0 ],
 						"button[8]" : [ 0.0 ],
-						"button[9]" : [ 1.0 ],
-						"dial" : [ 1 ],
-						"dial[1]" : [ 4 ],
+						"button[9]" : [ 0.0 ],
+						"dial" : [ 0 ],
+						"dial[1]" : [ 0 ],
 						"dial[2]" : [ 0 ],
-						"dial[3]" : [ 1 ],
+						"dial[3]" : [ 0 ],
 						"dial[6]" : [ 0 ],
 						"dial[7]" : [ 0 ],
 						"dial[8]" : [ 0 ],
-						"incdec" : [ 0.0 ],
-						"kslider" : [ 51, 55, 72, 67, 74, 51, 75, 47, 84, 49 ],
-						"live.gain~[1]" : [ 0.399998992681503 ],
-						"nslider" : [ 53, 64 ],
+						"incdec" : [ 6.0 ],
+						"kslider" : [ -1 ],
+						"live.gain~[1]" : [ 0.0 ],
+						"nslider" : [ 60, 64 ],
 						"nslider[1]" : [ "<empty>" ],
-						"number" : [ 1 ],
+						"number" : [ 8 ],
 						"number[10]" : [ 1100 ],
-						"number[11]" : [ 742 ],
-						"number[13]" : [ 1.0 ],
-						"number[15]" : [ 3252 ],
-						"number[16]" : [ 53 ],
-						"number[1]" : [ 1 ],
+						"number[11]" : [ 0 ],
+						"number[13]" : [ 0.0 ],
+						"number[15]" : [ 2500 ],
+						"number[16]" : [ 12 ],
+						"number[1]" : [ 4 ],
 						"number[28]" : [ 1 ],
 						"number[29]" : [ 0 ],
 						"number[2]" : [ 0 ],
 						"number[30]" : [ 1000 ],
 						"number[31]" : [ 1000 ],
-						"number[32]" : [ 742 ],
-						"number[33]" : [ 1 ],
-						"number[34]" : [ 4 ],
-						"number[35]" : [ 6 ],
-						"number[36]" : [ 1 ],
+						"number[32]" : [ 0 ],
+						"number[33]" : [ 0 ],
+						"number[34]" : [ 2 ],
+						"number[35]" : [ 2 ],
+						"number[36]" : [ 0 ],
 						"number[37]" : [ 0 ],
 						"number[38]" : [ 1100 ],
 						"number[39]" : [ 1100 ],
 						"number[3]" : [ 0.0 ],
-						"number[40]" : [ 5 ],
+						"number[40]" : [ 2 ],
 						"number[41]" : [ 2 ],
 						"number[42]" : [ 0 ],
 						"number[43]" : [ 0 ],
 						"number[44]" : [ 0 ],
-						"number[45]" : [ 3 ],
+						"number[45]" : [ 0 ],
 						"number[46]" : [ 0 ],
-						"number[4]" : [ 500 ],
+						"number[4]" : [ 1000 ],
 						"number[55]" : [ 1100 ],
 						"number[56]" : [ 0 ],
-						"number[57]" : [ 1 ],
-						"number[5]" : [ 5 ],
-						"number[6]" : [ 1 ],
-						"number[7]" : [ 329 ],
+						"number[57]" : [ 0 ],
+						"number[5]" : [ 1 ],
+						"number[6]" : [ 0 ],
+						"number[7]" : [ 1000 ],
 						"number[8]" : [ 1100 ],
 						"number[9]" : [ 1100 ],
 						"pictslider[1]" : [ 1000, 1000 ],
-						"pictslider[2]" : [ 329, 500 ],
-						"radiogroup" : [ 1 ],
+						"pictslider[2]" : [ 1000, 1000 ],
+						"radiogroup" : [ 0 ],
 						"radiogroup[1]" : [ 0 ],
-						"radiogroup[2]" : [ 1 ],
+						"radiogroup[2]" : [ 0 ],
 						"radiogroup[3]" : [ 0 ],
 						"radiogroup[4]" : [ 0 ],
 						"radiogroup[5]" : [ 0 ],
 						"radiogroup[6]" : [ 0 ],
 						"rslider" : [ 1000.0, 1000.0 ],
 						"rslider[1]" : [ 1000.0, 1000.0 ],
-						"slider" : [ 742.0 ],
-						"slider[2]" : [ 2752 ],
+						"slider" : [ 1000.0 ],
+						"slider[2]" : [ 2000 ],
 						"slider[3]" : [ 0.0 ],
 						"slider[6]" : [ 1000.0 ],
 						"textbutton" : [ 0 ],
-						"textbutton[1]" : [ 1 ],
+						"textbutton[1]" : [ 0 ],
 						"textbutton[2]" : [ 1 ],
 						"textbutton[3]" : [ 0 ],
 						"textbutton[4]" : [ 0 ],
@@ -1133,9 +1082,9 @@
 						"textbutton[6]" : [ -1 ],
 						"toggle" : [ 0 ],
 						"toggle[1]" : [ 1 ],
-						"toggle[22]" : [ 1 ],
-						"toggle[23]" : [ 1 ],
-						"toggle[26]" : [ 1 ],
+						"toggle[22]" : [ 0 ],
+						"toggle[23]" : [ 0 ],
+						"toggle[26]" : [ 0 ],
 						"toggle[2]" : [ 0 ],
 						"toggle[6]" : [ 0 ],
 						"toggle[7]" : [ 0 ],
@@ -1146,20 +1095,20 @@
 								"filetype" : "C74Snapshot",
 								"version" : 2,
 								"minorversion" : 0,
-								"name" : "Pianoteq 6",
-								"origin" : "Pianoteq 6 (64-bit).dll",
-								"type" : "VST",
+								"name" : "MetaPiano",
+								"origin" : "MetaPiano x64.vst3info",
+								"type" : "VST3",
 								"subtype" : "Instrument",
 								"embed" : 1,
 								"snapshot" : 								{
-									"pluginname" : "Pianoteq 6 (64-bit).dll",
-									"plugindisplayname" : "Pianoteq 6",
-									"pluginsavedname" : "C:/Program Files/VSTPlugins/Pianoteq 6 (64-bit).dll",
+									"pluginname" : "MetaPiano x64.vst3info",
+									"plugindisplayname" : "MetaPiano",
+									"pluginsavedname" : "",
 									"pluginsaveduniqueid" : 0,
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "8943.CMlaKA....fQPMDZ....A.Ec1DG.FX......fLEckkla2EVdfHDHI4Fco0VXzUF..............HxrPImUKAB..H.VFQETiJB.......vE....PkVXt8FckEGH13hMt.yKx.SL4.SNwbyktVDDc0+YCeR0HsJ7svarjwFagwlH...cjQWSTg...LA...vTzUVZtcWX4AhPfjjazkVagQWY.....b....PSuQVXxQGcZ....PEZoMGHvIWYyUFcfTlcusVYyAxcgIWazglK.....PB...vD....SQWYo41cgkGHBARRtQWZsEFckA..........ke...bjTUUE...fA....AL.vMQkbqA..G7L.+KvGLElatkGHDElcoMGHs.hPrUWYyAxatARXfHDHI4FHFA.r.ID..sD..ME..sE..IFU.oVgb.jX..jV..jT..jR..jPTAjN..jL..TJ..DH..DF..TD..TBTAD...4LWLUNf.PGcPUJg..r.ovT.IA..oA..IB..sB..MC..sC..ID..sD..QEU.wE..QF..1A...KPqMEfy...4..Uo.Pl7.4QiLnc.dD.AdBjG0Rf6A3Q.LnHPhSIScTN.7iOTMCDSA3L.P0O...N..vQ.HnSvBzX..zV..zT..zR..zP..jNTAzL..zJ..zH..jF..TD..TB..YN4.vO6.vQCQEr.A..PVzO.LyKAdBr.k...EA..kA..ExT.gB..AC..gC..8C..cDU.4D..YE..40T.UF..9C.TcD.TAoR9..fy...EAPfmnD.AdRN.PEr.01T.UF..0EU.UE..0D..UD..0C..QC..sB.PNjJ..KPi..PaLEPS..jHcB.4DB.vBzB..D...4Lh.fOOD3dvBDC..zD..zF..zH..zJTAzL..jN..zP..zR..jTSAjV..jX..jZB9DjonxT.NC.RhGR.P0P.D3d9.vTo.Pf6kC...IQ6H3S.RD.AdBjEMQfm.XQ...jEMCU.VD.ApGr.IFU.oE..IE..oD..ED..gC..AC..gBU.AB..gA..AA..gvT.A..PhSM.3xK.LTL.XzM.vyM.3iMAtGr.kvT.AA..kA..EB..gB..EC..kC..EDU.gD..EE..gE..AF..cVfm.3P.PEO.LEjDYDU.5C.TYD.H5Cj7PC..RD...KPeA.PWQEPOA.PGA.P9..P1..Ps..Pj..PbLEPT..PM..P.D3d.0...UA..0A..YB..4B..YC..8CU.gD..AE..gE..AF..cVf6AzaCVGf3..UPhiPSAHO...N.PkK.LnHvBzY..zW..zU..zS..jQTAjO..TM..oKZ..r.0B..UB.PdRI..KPd..j2vB.vBTE..YP7LEr.4..PxiMTAKPV..PdLEPk..Ps..P0..P9..PEQEPMA.PUA.PbA.f2...vBDYSAzZ..HO..fK.DHJAA..P5xKSA3I.PXRPdyKTwyH.DzI.fTJLRCfHAvfh.oQzPEf7.vTAA.Ut.PfmbC.TYD.B5Dr.MF..wE..QE..sDU.QD..wC..MC..oB..EB.PlRJ.3CM..KPY..j4nB.EAzTvBTD..TB..ILw..r.AffOAjB..TD..TFSADH..DJ..zK..DN..DPTAzQ..zS..DV..DXSAzYAtGfo..Uv.PfmjC.AdBjHsAU.5C.CVGr.8Vfm.XQ.PER.TXGP1jNB5DfMAvfh.YNjPEr.cF.PRyG..KPeA.PXMEPPA.PHA.j9PC.vBDP..DN..oSl..r.ECU.kB..EB..5D.TA4Sm..r.kxT.EC..kC..ADU.kD..EE..kE..A1T.gFU.AF..kE..AE..gD..ED..kC..AyT.gB..8A..gA..AA..g.U.A.U.9D...IRh..r.gvT.AA..gA..AB..cB..ACU.cC..8C..YD..4D..YE..40T.YVf6ATaE1AfHAvf04C.GhAj7HQfm.HO..PN...M.XHQP1QK.HVKB5Dfc.vfh.YVl..fhA.i0.4Mj.PPk..OqHnS.xC..bC.TED.EBGr.YFU.4E..YE..4D..YD..4C..cyT.8B.PpSK.LDH.7CM..KPnPEPuLEP2..P+..PGQEPOA.PVA.PdQEPlInS.lE.H9Cjr0Pf5AnN.H3SrA.gIAoZ3LUNsDHJ.ND.S8C.ToF..jC.CJBjosyfh.XZ.LEr.4EU.YE.P1yO.jyO.LyK..KPOQEjkMSfm.KPWMEPdA.PlE3d.VF.TA4Y6LEf8..UPV1DSA3Y...jfgDU.VF.AdBX..vL.PEr.4E..YE..0D..UD..0yT.QC.PJiV..KPr..f4...vBDI..zF..DE..DCTAINg..r.A..PxyKB5Dr.w.U.QA..wA..QB..wB.Px0L..KPz..P7..PEA.PMA.PVQEPdA.jnQD.vBjY..TaB5DfbA..nAvf0AYVmDHJkIxT.VF.TkE.EBGO.PEN.LkL.XHQPlxP.nST.7yVTYTKSAnQ.P0O..fN.D3do...PhSQAdhNPQ0ONA.f3.PfmnC.S8C.B9Dr.UF..0E..U0T.wD.P5xK..KPEA.j9vD.3PD.7jC.vBDO..zL..zJ..jH..jF..jDTAjB..D.B5DPJ..PRPEPY..Ph..Pp..Px..P5..PBA.PJA.PRMEPaA.PhA.PpQnRPZzMOZEf3.vTt.vf1AKPhA.PZA.PRA.PKA.PCA.P6PEPy..Pq..PjLEjmPC..5C.TAKPq..PyLEP6..f7...vBzP..zR..zT..jVTAjX..jZAtGjtXzT.dB..XD...IO6H3S.xC.SAYPSQUNb..ft...PdSDSAXN..vM.DHJPVTT..XP.D3IPdCOAdBRIQEfEAPfmfD.SAYOKQUScE3d.1D.SAYPCQUTnMnH.FE...IURMnHRAE..RE.AtmT.HnSPd0H..KPhA.PZA.PSA.PKQEPCMEPKA.PSQEPaA.PhMEPpg3O.dE.AtWP..PO.b3E2...++B.PI2bUgfF..PM....F....z1ajUFahA.....D....GIWXtQFHSQWYo41cgkGHBA..........C....L.......fZP...bBA..XKz..........................L....P...............v.....................C....................L....P.....A....D........3O.....D..........rHcJ9L.....V.......pAA..vFD..faP...vAA..HGD...cP...1AA..fGD..fdP...7AA..3GD...fP...ABA..HHD..vfP...DBA..THD..fgP...GBA..fHD..PhP...JBA..rHD...iP...MBA..3HD..viP...PBA..DID..fjP...SBA..PID..PkP...VBA..bID...lP...YBA..nID..vlP...bBA..zID..fmP...eBA...JD..HnP...gBA..FJD..fnP..fhBA..LJD..3nP...jBA..RJD..PoP..fkBA..XJD..noP...mBA..dJD...pP..fnBA..jJD..XpP...pBA..pJD..vpP..fqBA..vJD..HqP...sBA..1JD..fqP..ftBA..7JD..3qP...vBA..BKD..PrP..fwBA..HKD..nrP...yBA..NKD...sP..fzBA..TKD..XsP...1BgE...fy2PxONeCI+37Mj7C16WxO1l7I+Xaxm7ykw0xOnn1K+Dkaw7CEaVyO742L+vmey7Ce9MyO742L+Pwl07CEaVyOKR7M+Pwl07STtEyO8P3J+7tj97SwzCzOESOP+HUdH8C4Q2zOxU2T+TkZY8Sm290OYGvX+jc.i8S1AL1OfKdZ+b.es8yA701O1GSb+b.es8i8wD2OOXPc+Pb938Cw4i2Ol5Pe+XpC88ioNz2OtLJf+XUzB9iUQK3O8JQg+zqDE9iYnc3Olg1g+f1zI9S6Tw3OsSEi+zNUL9yLt63Oy3ti+Li6N9SkfF4OUBZj+TInQ9SkfF4OD1Fk+PXaT9SjVc4OQZ0k+DoUW9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4O........vJD.....C....D........mPA...............................A....D.............v.C...AD.....C....H.......fZP...1BI....................v.....B.......nFD..fsPB........9C...3O......H.........RS.......9y.....A.......vIT...............v.....XA......nFD...aP...tAA...GD..fbP...zAA..XGD...dP...5AA..vGD..feP....BA..DHD..ffP...CBA..PHD..PgP...FBA..bHD...hP...IBA..nHD..vhP...LBA..zHD..fiP...OBA...ID..PjP...RBA..LID...kP...UBA..XID..vkP...XBA..jID..flP...aBA..vID..PmP...dBA..7ID...nP..ffBA..DJD..XnP...hBA..JJD..vnP..fiBA..PJD..HoP...kBA..VJD..foP..flBA..bJD..3oP...nBA..hJD..PpP..foBA..nJD..npP...qBA..tJD...qP..frBA..zJD..XqP...tBA..5JD..vqP..fuBA...KD..HrP...wBA..FKD..frP..fxBA..LKD..3rP...zBA..RKD..PsP..f0BA..XKDV.......f+B.........v...f+B...9C...3O.....A...............A...9C...3O...f+B....L...3O...f+.....D....P...f+.........3u.....C...9K....v.....C.............f+....9C....v...f+....9K..........C...9C...3O.....................C...9K..............9C...3u...P.C....L...3u...f.C....L....v.....C...AL........f.C...AL....v.....C........Hv...P.C....L...Hv...f.C........Dv...f.C..fBL....v...P.C...BL....v...P.C....L...Dv.....C...9K...Hv...P.C...BL...3u...f+B...BL...Hv...f.C...AL...Hv...f.C....v.....XA......nFD...aP...tAA...GD..fbP...zAA..XGD...dP...5AA..vGD..feP....BA..DHD..ffP...CBA..PHD..PgP...FBA..bHD...hP...IBA..nHD..vhP...LBA..zHD..fiP...OBA...ID..PjP...RBA..LID...kP...UBA..XID..vkP...XBA..jID..flP...aBA..vID..PmP...dBA..7ID...nP..ffBA..DJD..XnP...hBA..JJD..vnP..fiBA..PJD..HoP...kBA..VJD..foP..flBA..bJD..3oP...nBA..hJD..PpP..foBA..nJD..npP...qBA..tJD...qP..frBA..zJD..XqP...tBA..5JD..vqP..fuBA...KD..HrP...wBA..FKD..frP..fxBA..LKD..3rP...zBA..RKD..PsP..f0BA..XKDV....59Ie+Dvx88iZYu3OjiDh+3m2z8CVuA3OU0Df+TMPB9y6Qw1OkAsc+v0SL9y15+1OPdLi+.1Ws8iyop1OXxAZ+LZRD9yUow2OTb4h+3ERA9Cnv11OVcxb+L+PL9yhyp3ONI7c+nOr08CUlE3OIZ2e+H0S98iJOK3OJRrh+nXQp8iDoY1ODCPa+7.RC9Cvww2OVD0Y+nsNx8CZcx1OL3Sg+PG0q8irDn1Owqhf+.Iuy8ypvu2Ov8pg+nvix8CQrf1Om0Ai+PkeJ9CFSE3OZiKe+TI0C9yaiC2Ow0fc+fquF9y8lh1OY4Wg+vCuI9CO6W3O257f+v4768C.Ef2OZqcd+rsP48CVt21OT.Ug+7sMJ9SHwc3O6zCh+3x548i75M3OciGb+3ZpF9S6vv1OnvHh+.2em8CHKZ3OgVre+LAo48yWHE3ON4Ob+rvcD9CPKx2O9h+e+7j8K9CTjs2OVswg+.....f.....A....TE...PQwUWXrABck0FbkIWXsUlazo.UnUFHyQWXtQVXxQFHzUmao41Yr.xcnUlbkABcnUFHuMFcgYWYfj1bfPVZ1kFYkQFHo4FHwHCHkEWcgwFHyQWYvMmKL.......HKD..fzP..fkCA..HOD..n+P..fEDA..uPD..fDQ..PXDA..5QD..lHQ..fkDE..........D.......bODO....EA...XD.....+A........vA....DUlYgUGazA..........C....T........bP...DBA...ID...mP...1BU........Lv...P.C...9K..........................zLyL9C...3OC....H.......fZP...1BI........3O...f+.....v.....B.......nFD..fsPB........9C...3O..........v.....A.......vIT...................3OC....D........mPA...............A...............MyLy81LyL2S...................vu....+....9y.....C.......nFD...mP...1BM........3O...f+....9C..........L....f........pAA..XKj........................f+L....f........pAA..XKj........f+....9C........HBM....vC.......pAA..PGD..feP...DBA...ID...mP...jBA..nJD..PqP...vBA..HKD...sP...0BA..VKD..fsPO........CL...Dv.....C...9K..............9C...DP...n.A..fCD...RP...XAA..XFD...bP...7AA........3OC....L.......fZP...bBA..XKz........f+....9C...3O.....L..........A...............A....L....f..............9i..............9C.....C....H.............f+H........3O...f+.....v.....D.........fISljO962O+....9CA..................3O...f+.....v.....B.............3OB.........................POJb.PC....H.......fZP...1BI........3O...f+.........3u....+L....f........vAA...Kj........f+....9C.....A....D....P.....H....Pjb4Ahbu8VaE....H2au0FL...v.2LyPDD...3OMyLy9......88SMO...................v+DWmoND...3O...f+T........3O...f+L.....V.......pAA..vFD..faP...vAA..HGD...cP...1AA..fGD..fdP...7AA..3GD...fP...ABA..HHD..vfP...DBA..THD..fgP...GBA..fHD..PhP...JBA..rHD...iP...MBA..3HD..viP...PBA..DID..fjP...SBA..PID..PkP...VBA..bID...lP...YBA..nID..vlP...bBA..zID..fmP...eBA...JD..HnP...gBA..FJD..fnP..fhBA..LJD..3nP...jBA..RJD..PoP..fkBA..XJD..noP...mBA..dJD...pP..fnBA..jJD..XpP...pBA..pJD..vpP..fqBA..vJD..HqP...sBA..1JD..fqP..ftBA..7JD..3qP...vBA..BKD..PrP..fwBA..HKD..nrP...yBA..NKD...sP..fzBA..TKD..XsP...1BgE...vv0i3OeT3h+7nv08y0iB2OWOJb+fqGE9CtdT3OjBWe+Lb8H9yLyL2OHEtd+7QgK9CRgq2O6Qga+fqGE9S35Q0OlYlg+zLyL9C6Qg2OtdTf+vdT37iqGE3OlYlg+35QA9S35Q4OeT3Z+35QA9iqGE3OCWOZ+XlYF9SyLy3OlYlg+rGEt8CRgq2Ob8nn+Lb8n8iYlY3OeT3h+rGEt8CWOJ3OrGEd+vdTX9iBWO3OrGEl+XlYF9yv0i1OyLyj+vdT38iqGE3OjBWe+fT358y0iB2OCWOh+ziBW8iBWO3OOJbc+fqGE8yv0i3OZlYV+zLyL8iBWO3OyLyb+fqGE9iBWO3O...f+XlYl8Cov02OWOJb+7QgK9yGEt1OlYlg+....9CtdT3OrGEd+rGEt8iqGE3O35Qg+....9iYlY3OT35g+DWOJ9C...3Ow0ih+LyLy8SyLy3OJb8f+vdT38yv0i1O.....L....v........pAA..vID..fsPC........9C...3O...f+...........C....fE......fZP...rAA..3FD...bP...xAA..PGD..fcP...3AA..nGD...eP...9AA...HD..PfP...BBA..LHD...gP...EBA..XHD..vgP...HBA..jHD..fhP...KBA..vHD..PiP...NBA..7HD...jP...QBA..HID..vjP...TBA..TID..fkP...WBA..fID..PlP...ZBA..rID...mP...cBA..3ID..vmP...fBA..BJD..PnP..fgBA..HJD..nnP...iBA..NJD...oP..fjBA..TJD..XoP...lBA..ZJD..voP..fmBA..fJD..HpP...oBA..lJD..fpP..fpBA..rJD..3pP...rBA..xJD..PqP..fsBA..3JD..nqP...uBA..9JD...rP..fvBA..DKD..XrP...xBA..JKD..vrP..fyBA..PKD..HsP...0BA..VKD..fsPXA...PoYd3icUHlOSc8O9teIn4KVfCnum1oW8XCZ6zyplGcu+XJH9ndSe4KAhfdu2i6U9.jmB36eNMnu0wPN8rwI11i5NHZOXQfZ9.Q4f3qbTAQuvQKC9r5mY4y58fgOKjND9TnVE3ilaApuxRZu7lhO6x6nWLpu0INq8.uEn4ygG4ZOyL9g9ZBe52aZZHkOYamq9lbUD2SxprkOyB7i9FUyKvCZzqgugDhW9vWxiyi4h3fOV.Iz8b9qs5q1bboubZkF9pYlY5aeQMpuVjL2899W.3qlOleuuUmo8lBWO3Kdf7iu5gzT9vDOX3SGqwZOKe5T9tGV+xyeQQluerZR8Xz4HzyDOTUunMpr9Br4A2KHGKmuDNkX9HJ6f5a8mbbOZjbg8dU4p0CRdqguQEVj9pTo.y6samXOykSh8drSN2SBoXeOh7rP9j2vz06xUxhOt8zW95NXz4ibq1ROQwtB9Biqm5K.....C........9C...3O...f+L....v........pAA..vID..fsPC........9C...3O...f+.....v.....C.......nFD...mP...1BM........3O...f+....9C.....C....L.......fZP...bBA..XKz........f+....9C...3O.........9C...3OF........9Sb8nnOT35Q+....+SyLyjOH...............................................C....L.......fZP...bBA..XKz........f+....9C...3O.....L....v........pAA..vID..fsPC........9C...3O...f+.....v.....C.......nFD...mP...1BM........3O...f+....9C.....C....L.......fZP...bBA..XKz........f+....9C...3O.....D....P........bBM....P..........D...............bDah2y.....Q.......vFD...dP...5AA..HHD...hP...IBA..zHD...jP...SBA..fID...mP...eBA..FJD...oP...pBA...KD..fsPQ....j9n.9ieST3OTTCh+.C0I9CE0f3OTTCh+.C0I9CLTm3OvPch+PQMH9CneZ3ObA4f+nQU18SS8N2Ov03Y+PIfR8S20CzO.....D..........A....LyLy7iYlY5OA.........P.....yLyL+XlYl9S.............vKD.....N........7SyLybOMyLS9....7CA....B....L.....A....A....D....P.....A....D....v.....G...............N.....A.........MyLy8....9C.........+B..vID.....................................................C....................3.....D.........................................................................................L....................fC....P.........................................................................................P.....A........9C...Jv.....H....v.....A....T.....A....A....L....fYlY9OZlY1+....+C..D1v.....P....PA............vIL...rv...vBC...KbA.........7nv0yC...............PA..............................P..........P....P.....C.........TyLyzO...v+...zHD.....D....T........mv.....C...KL...rv...vBW....fBWOROWbaz3................T...............................D..........D.........v.....gqGM+Pzhr4ilYl4O...sBA..zJbC....E........CL...Lv...bBC..vIL...mvE...............................E...............................A..........A.........L....vLyLyub8nv935Qg8C...............PA.......PAC...EL...mv...bBC..vIbA..............................PA..............................P..........P..........C....fqGE+SOJb0OtdT3+................T........Tv...PAC..vIL...mv...bBW...............................T...............................D..........A....D....P.....C....zLyL8yiBWmu...v+...PFD....................."
+									"blob" : "632.VMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSNv3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYgYTR5AkaA4hKtfDTSoWPWokKDAUPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtfUSJASNRshY3DjKEIkKtfmX1YTZtnkPt3xcFoFNLkWRLYFU3EWX2fSYEwlM0YWSZkEcvkTNwnGNSEDQHslPR8lZ0bySigTPzrRTKUTZVISUznVQzYFVYw1bHcjdxk2aiEFMrolcUQ0YBwlZJc1arcCQyIzbX8TTZMFZ0.UVyMFNpYjcCMmKl01c3rDZgIkdRw1QP4BYzMWMo0VZiA0MOAyaikVStHjZtA0QOQjKsYmKW8Tb2QzXRcjSrgVSHoGZtfzQ1gCTJMkUv4zUuYWUL4hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 								}
 
 							}
@@ -1316,6 +1265,7 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 842.148104341931457, 454.158251161343969, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle[1]"
 				}
 
@@ -1690,8 +1640,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1699,33 +1649,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 943.0, 513.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-248",
@@ -1758,7 +1682,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 19.0, 135.546635159594189, 33.353642009951272, 33.353642009951272 ]
+									"patching_rect" : [ 19.0, 135.546635159594189, 33.353642009951272, 33.353642009951272 ],
+									"svg" : ""
 								}
 
 							}
@@ -2156,15 +2081,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-163"
 					}
 ,
 					"patching_rect" : [ 2144.5065069706543, 1635.206196413506177, 484.981078213622823, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Duraciones_Notas"
@@ -2614,8 +2537,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2623,33 +2546,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 430.0, 625.0, 1290.0, 797.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2997,15 +2894,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-165"
 					}
 ,
 					"patching_rect" : [ 2261.282621920475322, 585.552819207222683, 381.692227005958557, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Generador pulsos"
@@ -3867,7 +3762,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -86.062225621687787, 793.54232853616395, 67.0, 22.0 ],
-					"text" : "seed 10"
+					"text" : "seed 1"
 				}
 
 			}
@@ -4016,6 +3911,7 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~[1]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -4158,6 +4054,7 @@
 					"patching_rect" : [ -261.252797327324856, 96.206920863143921, 30.76231212958885, 30.76231212958885 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 505.296930738121546, 375.975019206406387, 49.962312415691144, 49.962312415691144 ],
+					"svg" : "",
 					"varname" : "toggle[7]"
 				}
 
@@ -4304,6 +4201,7 @@
 					"patching_rect" : [ 869.567237419515322, 611.664211845964701, 35.892969879076134, 35.892969879076134 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 505.296930738121546, 465.353730489897544, 50.0, 50.0 ],
+					"svg" : "",
 					"varname" : "toggle[26]"
 				}
 
@@ -4454,6 +4352,7 @@
 					"patching_rect" : [ 676.785828241693366, 368.467833798348352, 52.244942167079842, 52.244942167079842 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 832.204820833307622, 464.836196482497826, 50.0, 50.0 ],
+					"svg" : "",
 					"varname" : "toggle[23]"
 				}
 
@@ -4481,6 +4380,7 @@
 					"patching_rect" : [ 204.787746218097311, 86.52762565344716, 30.76231212958885, 30.76231212958885 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 833.296940513283062, 372.510564212828058, 50.0, 50.0 ],
+					"svg" : "",
 					"varname" : "toggle[22]"
 				}
 
@@ -4519,8 +4419,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -4528,33 +4428,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 573.0, 204.0, 886.0, 726.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4844,8 +4718,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -4853,33 +4727,7 @@
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 107.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-262",
@@ -5425,15 +5273,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-169"
 									}
 ,
 									"patching_rect" : [ 206.433333158493042, 591.0, 229.666666328907013, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p Generador_Dinámicas"
@@ -5965,15 +5811,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-167"
 					}
 ,
 					"patching_rect" : [ 1953.806505939493945, 2029.910037312242366, 400.400002062320482, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Generador_Acordes"
@@ -6156,7 +6000,7 @@
 					"patching_rect" : [ -339.75279774455737, 642.664211845964701, 201.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 229.097736422593812, 412.478559124533376, 206.333333492279053, 29.0 ],
-					"text" : "2 11 4 7 0 5 9"
+					"text" : "7 5 11 9 4 2 0"
 				}
 
 			}
@@ -6327,42 +6171,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 366.0, 575.0, 1253.0, 724.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 396.0, 179.0, 1253.0, 724.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontsize" : 17.25569589432051,
@@ -6554,7 +6372,7 @@
 									"fontsize" : 16.983194444079256,
 									"id" : "obj-172",
 									"maxclass" : "number",
-									"maximum" : 0,
+									"maximum" : 7,
 									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -6621,7 +6439,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 318.566562503576279, 332.323466241359711, 50.0, 22.0 ],
+									"patching_rect" : [ 318.566562503576279, 334.328125644922238, 50.0, 22.0 ],
 									"text" : "accum"
 								}
 
@@ -7005,6 +6823,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-406", 0 ],
+									"midpoints" : [ 391.899979025125504, 438.536583960056305, 306.483270764350891, 438.536583960056305, 306.483270764350891, 328.328125644922238, 328.066562503576279, 328.328125644922238 ],
 									"order" : 1,
 									"source" : [ "obj-544", 0 ]
 								}
@@ -7307,15 +7126,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-171"
 					}
 ,
 					"patching_rect" : [ 2256.997398919043007, 1304.329298200506628, 128.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Ritmos_Euclideanos"
@@ -7333,8 +7150,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -7342,33 +7159,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 669.0, 330.0, 1209.0, 554.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -7681,7 +7472,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 813.326285788404789, 1024.471659783428095, 152.425424367189351, 22.0 ],
-									"text" : "2 6 11 4 7 0 9"
+									"text" : "11 9 7 2 0 6 4"
 								}
 
 							}
@@ -7693,7 +7484,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 626.532926204796468, 1024.471659783428095, 152.425424367189351, 22.0 ],
-									"text" : "9 0 7 4 11 6 2"
+									"text" : "4 6 0 2 7 9 11"
 								}
 
 							}
@@ -7705,7 +7496,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 439.900161520651864, 1024.471659783428095, 165.0, 22.0 ],
-									"text" : "9 5 0 7 4 11 2"
+									"text" : "0 2 4 9 11 5 7"
 								}
 
 							}
@@ -7791,6 +7582,7 @@
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 401.375492366693834, 768.066668093204271, 30.76231212958885, 30.76231212958885 ],
+									"svg" : "",
 									"varname" : "toggle[23]"
 								}
 
@@ -7815,7 +7607,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 252.946207037579939, 1024.471659783428095, 165.0, 22.0 ],
-									"text" : "2 11 4 7 0 5 9"
+									"text" : "7 5 11 9 4 2 0"
 								}
 
 							}
@@ -7899,7 +7691,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 696.97612413367824, 679.283975748672447, 148.562685489654541, 22.0 ],
-									"text" : "1 6 2 4 0 3 5"
+									"text" : "4 3 6 5 2 1 0"
 								}
 
 							}
@@ -8605,15 +8397,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-173"
 					}
 ,
 					"patching_rect" : [ -194.925241169727883, 586.931437311926857, 980.825977255203725, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Generador_Escalas"
@@ -8643,8 +8433,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -8652,33 +8442,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 1029.0, 193.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -8758,7 +8522,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 365.162536956370332, 296.017228782177426, 50.0, 22.0 ],
-									"text" : "set 50"
+									"text" : "set 25"
 								}
 
 							}
@@ -9244,15 +9008,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-175"
 					}
 ,
 					"patching_rect" : [ 413.142222004974201, 1602.527723174618359, 137.0, 36.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Generador_Dinámicas"
@@ -9269,8 +9031,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -9278,33 +9040,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 1425.0, 585.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-248",
@@ -9337,7 +9073,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 19.0, 135.546635159594189, 33.353642009951272, 33.353642009951272 ]
+									"patching_rect" : [ 19.0, 135.546635159594189, 33.353642009951272, 33.353642009951272 ],
+									"svg" : ""
 								}
 
 							}
@@ -9447,7 +9184,7 @@
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 375.987814758958052, 198.251527524731955, 100.551364183425903, 20.826062684001954 ],
-									"size" : 7230.0
+									"size" : 4719.0
 								}
 
 							}
@@ -9735,15 +9472,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-177"
 					}
 ,
 					"patching_rect" : [ 763.126952716877213, 1602.527723174618359, 338.095694276655195, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Duraciones_Notas"
@@ -9760,8 +9495,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -9769,33 +9504,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 481.0, 342.0, 837.0, 797.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -9804,7 +9513,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 135.0, 80.511657538385407, 33.0, 33.0 ]
+									"patching_rect" : [ 135.0, 80.511657538385407, 33.0, 33.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -9923,7 +9633,7 @@
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 388.985539972782135, 198.939326224355682, 100.551364183425903, 20.826062684001954 ],
-									"size" : 742.0
+									"size" : 578.0
 								}
 
 							}
@@ -10164,15 +9874,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-179"
 					}
 ,
 					"patching_rect" : [ 1645.582414474260304, 579.368005002218865, 381.692227005958557, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Generador pulsos"
@@ -10187,7 +9895,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 268.567349482284044, 744.302179097782755, 22.432650517715956, 22.0 ],
-					"text" : "7"
+					"text" : "5"
 				}
 
 			}
@@ -10243,6 +9951,7 @@
 					"patching_rect" : [ 2329.664065585709068, 1054.607300924799347, 66.529486038684354, 66.529486038684354 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 611.18430826401891, 903.829880047980168, 66.529486038684354, 66.529486038684354 ],
+					"svg" : "",
 					"varname" : "toggle[6]"
 				}
 
@@ -10285,6 +9994,7 @@
 							"parameter_longname" : "incdec",
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "incdec",
 							"parameter_type" : 3
 						}
@@ -10305,7 +10015,7 @@
 					"patching_rect" : [ 2286.130812710699502, 1339.379488987847708, 183.754168696701527, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 756.082880542772045, 948.359366086664522, 159.363924212753773, 22.0 ],
-					"text" : "1"
+					"text" : "1 0 1 0 1 0 1 0"
 				}
 
 			}
@@ -10338,7 +10048,7 @@
 					"fontsize" : 27.773237628361962,
 					"id" : "obj-750",
 					"maxclass" : "number",
-					"maximum" : 1,
+					"maximum" : 8,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -10529,8 +10239,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.535988496614209, 2518.658543962917975, 276.0, 22.0 ],
-					"text" : "loadmess plug_vst \"C74_VST:/Pianoteq 6 (64-bit)\""
+					"patching_rect" : [ 485.535988496614209, 2518.658543962917975, 433.0, 22.0 ],
+					"text" : "loadmess plug_vst \"C:/Program Files/Common Files/VST3/MetaPiano x64.vst3\""
 				}
 
 			}
@@ -10628,6 +10338,7 @@
 					"patching_rect" : [ 1933.618864655555626, -197.498133933963231, 72.0, 72.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1837.620346858785069, 155.916764970019301, 61.788834125913354, 61.788834125913354 ],
+					"svg" : "",
 					"varname" : "toggle[2]"
 				}
 
@@ -10815,7 +10526,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 239.807618804007006, 132.166408668293059, 18.000000000000057, 60.0 ],
 					"size" : 2,
-					"value" : 1,
+					"value" : 0,
 					"varname" : "radiogroup"
 				}
 
@@ -10958,7 +10669,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 951.716734413619179, 125.487980661123743, 19.0, 89.0 ],
 					"size" : 3,
-					"value" : 1,
+					"value" : 0,
 					"varname" : "radiogroup[2]"
 				}
 
@@ -11053,63 +10764,63 @@
 					"presentation_rect" : [ 1635.488798386473491, 183.358017595299714, 175.213284545389001, 106.331935830894281 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 1430, 1070, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 1070, 5, "obj-183", "dial", "float", 4.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 4, 5, "obj-84", "number", "int", 1430, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 1000.0, 1000.0, 5, "obj-165", "number", "int", 1100, 5, "obj-166", "number", "int", 1100, 5, "obj-181", "slider", "float", 1275.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 1275, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 1.0, 5, "obj-79", "number", "int", 77, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 6, "obj-458", "kslider", "chord", 77, 25, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 1275, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 6, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 0, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.0, 5, "obj-212", "number", "int", 0, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 1, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 1000, 1000, 5, "obj-264", "number", "int", 1000, 5, "obj-262", "number", "int", 1000, 5, "obj-258", "number", "int", 0, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 0, 5, "obj-299", "dial", "float", 0.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 1000.0, 1000.0, 5, "obj-386", "number", "int", 1100, 5, "obj-385", "number", "int", 1100, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 0, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 0, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 2, 5, "obj-221", "toggle", "int", 1, 4, "obj-38", "nslider", "chord", 5, "obj-27", "nslider", "int", 77, 5, "obj-32", "dial", "float", 0.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 1430, 1070, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 1070, 5, "obj-183", "dial", "float", 4.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 4, 5, "obj-84", "number", "int", 1430, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 1000.0, 1000.0, 5, "obj-165", "number", "int", 1100, 5, "obj-166", "number", "int", 1100, 5, "obj-181", "slider", "float", 1275.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 1275, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 1.0, 5, "obj-79", "number", "int", 77, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 6, "obj-458", "kslider", "chord", 77, 25, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 1275, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 6, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 0, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.0, 5, "obj-212", "number", "int", 0, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 1, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 1000, 1000, 5, "obj-264", "number", "int", 1000, 5, "obj-262", "number", "int", 1000, 5, "obj-258", "number", "int", 0, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 0, 5, "obj-299", "dial", "float", 0.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 1000.0, 1000.0, 5, "obj-386", "number", "int", 1100, 5, "obj-385", "number", "int", 1100, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 0, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 0, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 2, 5, "obj-221", "toggle", "int", 1, 4, "obj-38", "nslider", "chord", 5, "obj-27", "nslider", "int", 77, 5, "obj-32", "dial", "float", 0.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 329, 500, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 500, 5, "obj-183", "dial", "float", 1.0, 5, "obj-215", "dial", "float", 4.0, 5, "obj-213", "number", "int", 5, 5, "obj-31", "number", "int", 1, 5, "obj-84", "number", "int", 329, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 1000.0, 1000.0, 5, "obj-165", "number", "int", 1100, 5, "obj-166", "number", "int", 1100, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 829, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 84, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 14, "obj-458", "kslider", "chord", 51, 55, 72, 67, 74, 51, 75, 47, 84, 49, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 829, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 6, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 0, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 2, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 1000, 1000, 5, "obj-264", "number", "int", 1000, 5, "obj-262", "number", "int", 1000, 5, "obj-258", "number", "int", 0, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 0, 5, "obj-299", "dial", "float", 0.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 1000.0, 1000.0, 5, "obj-386", "number", "int", 1100, 5, "obj-385", "number", "int", 1100, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 0, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 0, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 4, "obj-38", "nslider", "chord", 5, "obj-27", "nslider", "int", 84, 5, "obj-32", "dial", "float", 1.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 329, 500, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 500, 5, "obj-183", "dial", "float", 1.0, 5, "obj-215", "dial", "float", 4.0, 5, "obj-213", "number", "int", 5, 5, "obj-31", "number", "int", 1, 5, "obj-84", "number", "int", 329, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 1000.0, 1000.0, 5, "obj-165", "number", "int", 1100, 5, "obj-166", "number", "int", 1100, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 829, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 84, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 14, "obj-458", "kslider", "chord", 51, 55, 72, 67, 74, 51, 75, 47, 84, 49, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 829, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 6, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 0, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 2, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 1000, 1000, 5, "obj-264", "number", "int", 1000, 5, "obj-262", "number", "int", 1000, 5, "obj-258", "number", "int", 0, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 0, 5, "obj-299", "dial", "float", 0.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 1000.0, 1000.0, 5, "obj-386", "number", "int", 1100, 5, "obj-385", "number", "int", 1100, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 0, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 0, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 4, "obj-38", "nslider", "chord", 5, "obj-27", "nslider", "int", 84, 5, "obj-32", "dial", "float", 1.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 319, 480, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 480, 5, "obj-183", "dial", "float", 4.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 4, 5, "obj-84", "number", "int", 319, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 3895, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 10.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 87, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 16, "obj-458", "kslider", "chord", 80, 77, 82, 80, 84, 73, 87, 80, 89, 74, 91, 84, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 782, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 6, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 3, 5, "obj-121", "number", "int", 0, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 2, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 4, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 1000, 1000, 5, "obj-264", "number", "int", 1000, 5, "obj-262", "number", "int", 1000, 5, "obj-258", "number", "int", 0, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 0, 5, "obj-299", "dial", "float", 0.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 1000.0, 1000.0, 5, "obj-386", "number", "int", 1100, 5, "obj-385", "number", "int", 1100, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 0, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 0, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 3, 5, "obj-221", "toggle", "int", 1, 4, "obj-38", "nslider", "chord", 5, "obj-27", "nslider", "int", 87, 5, "obj-32", "dial", "float", 2.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 319, 480, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 480, 5, "obj-183", "dial", "float", 4.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 4, 5, "obj-84", "number", "int", 319, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 3895, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 10.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 87, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 16, "obj-458", "kslider", "chord", 80, 77, 82, 80, 84, 73, 87, 80, 89, 74, 91, 84, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 782, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 6, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 3, 5, "obj-121", "number", "int", 0, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 2, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 4, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 1000, 1000, 5, "obj-264", "number", "int", 1000, 5, "obj-262", "number", "int", 1000, 5, "obj-258", "number", "int", 0, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 0, 5, "obj-299", "dial", "float", 0.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 1000.0, 1000.0, 5, "obj-386", "number", "int", 1100, 5, "obj-385", "number", "int", 1100, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 0, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 0, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 3, 5, "obj-221", "toggle", "int", 1, 4, "obj-38", "nslider", "chord", 5, "obj-27", "nslider", "int", 87, 5, "obj-32", "dial", "float", 2.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 4,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 319, 480, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 480, 5, "obj-183", "dial", "float", 4.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 4, 5, "obj-84", "number", "int", 319, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 8056, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 1.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 80, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 38, "obj-458", "kslider", "chord", 46, 62, 47, 47, 48, 48, 50, 55, 51, 47, 52, 48, 53, 55, 55, 47, 56, 48, 57, 55, 58, 59, 60, 55, 71, 68, 74, 74, 78, 72, 80, 78, 82, 72, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 665, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 5, 5, "obj-59", "number", "int", 6, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 6, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 1.0, 5, "obj-214", "number", "int", 2, 6, "obj-267", "pictslider", "list", 1500, 790, 5, "obj-264", "number", "int", 790, 5, "obj-262", "number", "int", 1500, 5, "obj-258", "number", "int", 2290, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 1.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 3288.844939897899621, 5318.392099490955843, 5, "obj-386", "number", "int", 3388, 5, "obj-385", "number", "int", 5418, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 4166, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 0, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 50, 64, 53, 64, 57, 64, 60, 64, 5, "obj-27", "nslider", "int", 80, 5, "obj-32", "dial", "float", 2.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 319, 480, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 480, 5, "obj-183", "dial", "float", 4.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 4, 5, "obj-84", "number", "int", 319, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 8056, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 1.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 80, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 38, "obj-458", "kslider", "chord", 46, 62, 47, 47, 48, 48, 50, 55, 51, 47, 52, 48, 53, 55, 55, 47, 56, 48, 57, 55, 58, 59, 60, 55, 71, 68, 74, 74, 78, 72, 80, 78, 82, 72, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 665, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 5, 5, "obj-59", "number", "int", 6, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 6, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 1.0, 5, "obj-214", "number", "int", 2, 6, "obj-267", "pictslider", "list", 1500, 790, 5, "obj-264", "number", "int", 790, 5, "obj-262", "number", "int", 1500, 5, "obj-258", "number", "int", 2290, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 1.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 3288.844939897899621, 5318.392099490955843, 5, "obj-386", "number", "int", 3388, 5, "obj-385", "number", "int", 5418, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 4166, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 0, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 50, 64, 53, 64, 57, 64, 60, 64, 5, "obj-27", "nslider", "int", 80, 5, "obj-32", "dial", "float", 2.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 5,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 1039, 130, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 130, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 1039, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 9525, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 3.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 37, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 52, "obj-458", "kslider", "chord", 27, 54, 29, 51, 33, 50, 37, 49, 39, 54, 41, 52, 45, 50, 49, 59, 51, 65, 54, 61, 56, 54, 59, 50, 64, 49, 66, 36, 67, 47, 70, 47, 71, 49, 72, 45, 73, 50, 74, 47, 75, 45, 77, 50, 78, 45, 81, 50, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 1014, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 3, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 0, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 1, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 2.0, 5, "obj-214", "number", "int", 3, 6, "obj-267", "pictslider", "list", 1550, 300, 5, "obj-264", "number", "int", 300, 5, "obj-262", "number", "int", 1550, 5, "obj-258", "number", "int", 861, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 1.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 3288.844939897899621, 5318.392099490955843, 5, "obj-386", "number", "int", 3388, 5, "obj-385", "number", "int", 5418, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 3633, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 1, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 67, 64, 70, 64, 74, 64, 5, "obj-27", "nslider", "int", 37, 5, "obj-32", "dial", "float", 1.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 1039, 130, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 130, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 1039, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 9525, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 3.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 37, 5, "obj-751", "number", "int", 1, 5, "obj-750", "number", "int", 1, 5, "obj-401", "incdec", "float", 0.0, 52, "obj-458", "kslider", "chord", 27, 54, 29, 51, 33, 50, 37, 49, 39, 54, 41, 52, 45, 50, 49, 59, 51, 65, 54, 61, 56, 54, 59, 50, 64, 49, 66, 36, 67, 47, 70, 47, 71, 49, 72, 45, 73, 50, 74, 47, 75, 45, 77, 50, 78, 45, 81, 50, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 1014, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 3, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 0, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 1, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 2.0, 5, "obj-214", "number", "int", 3, 6, "obj-267", "pictslider", "list", 1550, 300, 5, "obj-264", "number", "int", 300, 5, "obj-262", "number", "int", 1550, 5, "obj-258", "number", "int", 861, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 1.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 3288.844939897899621, 5318.392099490955843, 5, "obj-386", "number", "int", 3388, 5, "obj-385", "number", "int", 5418, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 3633, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 1, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 67, 64, 70, 64, 74, 64, 5, "obj-27", "nslider", "int", 37, 5, "obj-32", "dial", "float", 1.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 6,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 1, 6, "obj-68", "pictslider", "list", 519, 50, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 50, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 519, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 9011, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 6.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 54, 5, "obj-751", "number", "int", 7, 5, "obj-750", "number", "int", 3, 5, "obj-401", "incdec", "float", 0.0, 60, "obj-458", "kslider", "chord", 28, 101, 29, 96, 32, 104, 33, 87, 35, 82, 36, 90, 39, 95, 40, 105, 42, 104, 45, 103, 46, 98, 47, 107, 48, 94, 50, 96, 54, 100, 56, 107, 57, 104, 58, 92, 59, 100, 61, 104, 63, 106, 88, 106, 93, 100, 96, 100, 97, 108, 100, 108, 102, 108, 105, 108, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 547, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 5, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 2, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 3.0, 5, "obj-214", "number", "int", 4, 6, "obj-267", "pictslider", "list", 519, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 519, 5, "obj-258", "number", "int", 547, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 3.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1443.80206754057599, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1543, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 100, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 1, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 85, 64, 89, 64, 92, 64, 95, 64, 5, "obj-27", "nslider", "int", 54, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 1, 6, "obj-68", "pictslider", "list", 519, 50, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 50, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 519, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 9011, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 6.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 54, 5, "obj-751", "number", "int", 7, 5, "obj-750", "number", "int", 3, 5, "obj-401", "incdec", "float", 0.0, 60, "obj-458", "kslider", "chord", 28, 101, 29, 96, 32, 104, 33, 87, 35, 82, 36, 90, 39, 95, 40, 105, 42, 104, 45, 103, 46, 98, 47, 107, 48, 94, 50, 96, 54, 100, 56, 107, 57, 104, 58, 92, 59, 100, 61, 104, 63, 106, 88, 106, 93, 100, 96, 100, 97, 108, 100, 108, 102, 108, 105, 108, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 547, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 5, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 2, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 3.0, 5, "obj-214", "number", "int", 4, 6, "obj-267", "pictslider", "list", 519, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 519, 5, "obj-258", "number", "int", 547, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 3.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1443.80206754057599, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1543, 5, "obj-384", "slider", "float", 1000.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 1100, 5, "obj-380", "number", "int", 100, 5, "obj-409", "dial", "float", 0.0, 5, "obj-408", "number", "int", 1, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 85, 64, 89, 64, 92, 64, 95, 64, 5, "obj-27", "nslider", "int", 54, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 7,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 499, 320, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 320, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 499, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 5697, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 6.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 40, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 3, 5, "obj-401", "incdec", "float", 0.0, 34, "obj-458", "kslider", "chord", 22, 97, 26, 97, 30, 97, 34, 81, 37, 81, 41, 81, 44, 81, 50, 100, 53, 100, 55, 103, 57, 100, 58, 103, 60, 100, 62, 103, 65, 103, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 652, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 1, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 3, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 0, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 6, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 1, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 229, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 229, 5, "obj-258", "number", "int", 180, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 3.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1443.80206754057599, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1543, 5, "obj-384", "slider", "float", 407.022369384765625, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 507, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 32, 64, 35, 64, 39, 64, 42, 64, 5, "obj-27", "nslider", "int", 40, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 499, 320, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 320, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 499, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 829.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 5697, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 6.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 40, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 3, 5, "obj-401", "incdec", "float", 0.0, 34, "obj-458", "kslider", "chord", 22, 97, 26, 97, 30, 97, 34, 81, 37, 81, 41, 81, 44, 81, 50, 100, 53, 100, 55, 103, 57, 100, 58, 103, 60, 100, 62, 103, 65, 103, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 652, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 1, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 5, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 3, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 0, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 6, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 1, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 229, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 229, 5, "obj-258", "number", "int", 180, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 3.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1443.80206754057599, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1543, 5, "obj-384", "slider", "float", 407.022369384765625, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 507, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 32, 64, 35, 64, 39, 64, 42, 64, 5, "obj-27", "nslider", "int", 40, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 8,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 469, 90, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 90, 5, "obj-183", "dial", "float", 5.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 5, 5, "obj-84", "number", "int", 469, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 475.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 475, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 1.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 86, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 3, 5, "obj-401", "incdec", "float", 0.0, 30, "obj-458", "kslider", "chord", 29, 100, 41, 100, 45, 100, 46, 105, 49, 100, 54, 97, 56, 105, 58, 97, 61, 97, 65, 97, 86, 120, 91, 125, 96, 119, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 475, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 1, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 0, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 6, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 5, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 229, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 229, 5, "obj-258", "number", "int", 222, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 3.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1443.80206754057599, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1543, 5, "obj-384", "slider", "float", 407.022369384765625, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 507, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 41, 64, 45, 64, 49, 64, 5, "obj-27", "nslider", "int", 86, 5, "obj-32", "dial", "float", 4.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 469, 90, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 90, 5, "obj-183", "dial", "float", 5.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 5, 5, "obj-84", "number", "int", 469, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 475.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 475, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 1.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 86, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 3, 5, "obj-401", "incdec", "float", 0.0, 30, "obj-458", "kslider", "chord", 29, 100, 41, 100, 45, 100, 46, 105, 49, 100, 54, 97, 56, 105, 58, 97, 61, 97, 65, 97, 86, 120, 91, 125, 96, 119, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 475, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 1, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 0, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 6, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 5, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 229, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 229, 5, "obj-258", "number", "int", 222, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 3.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1443.80206754057599, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1543, 5, "obj-384", "slider", "float", 407.022369384765625, 5, "obj-383", "radiogroup", "int", 0, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 507, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 41, 64, 45, 64, 49, 64, 5, "obj-27", "nslider", "int", 86, 5, "obj-32", "dial", "float", 4.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 9,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 329, 50, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 50, 5, "obj-183", "dial", "float", 5.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 5, 5, "obj-84", "number", "int", 329, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 379.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 379, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 7.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 100, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 6, 5, "obj-401", "incdec", "float", 0.0, 24, "obj-458", "kslider", "chord", 23, 81, 27, 81, 31, 81, 34, 80, 43, 86, 44, 80, 50, 86, 53, 86, 93, 118, 100, 124, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 379, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 0, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 0, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 0, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 229, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 229, 5, "obj-258", "number", "int", 185, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 2.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1812.810642012040717, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1912, 5, "obj-384", "slider", "float", 407.022369384765625, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 251, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 23, 64, 27, 64, 31, 64, 5, "obj-27", "nslider", "int", 100, 5, "obj-32", "dial", "float", 4.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 329, 50, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 50, 5, "obj-183", "dial", "float", 5.0, 5, "obj-215", "dial", "float", 0.0, 5, "obj-213", "number", "int", 1, 5, "obj-31", "number", "int", 5, 5, "obj-84", "number", "int", 329, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 379.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 1100, 5, "obj-211", "number", "int", 379, 5, "obj-237", "radiogroup", "int", 0, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 7.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 100, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 6, 5, "obj-401", "incdec", "float", 0.0, 24, "obj-458", "kslider", "chord", 23, 81, 27, 81, 31, 81, 34, 80, 43, 86, 44, 80, 50, 86, 53, 86, 93, 118, 100, 124, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 379, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 0, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 0, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 0, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 0, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 229, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 229, 5, "obj-258", "number", "int", 185, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 2.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1812.810642012040717, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1912, 5, "obj-384", "slider", "float", 407.022369384765625, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 251, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 23, 64, 27, 64, 31, 64, 5, "obj-27", "nslider", "int", 100, 5, "obj-32", "dial", "float", 4.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 10,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 130, 50, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 50, 5, "obj-183", "dial", "float", 5.0, 5, "obj-215", "dial", "float", 1.0, 5, "obj-213", "number", "int", 2, 5, "obj-31", "number", "int", 5, 5, "obj-84", "number", "int", 130, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 158.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 158, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 7.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 96, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 6, 5, "obj-401", "incdec", "float", 0.0, 26, "obj-458", "kslider", "chord", 65, 120, 66, 121, 69, 120, 73, 120, 74, 126, 75, 126, 76, 121, 77, 126, 81, 119, 91, 47, 96, 55, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 158, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 4, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 0, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 5, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 6, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 2.0, 5, "obj-214", "number", "int", 3, 6, "obj-267", "pictslider", "list", 3634, 1758, 5, "obj-264", "number", "int", 1758, 5, "obj-262", "number", "int", 3634, 5, "obj-258", "number", "int", 1920, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 4.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1812.810642012040717, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1912, 5, "obj-384", "slider", "float", 1920.0, 5, "obj-383", "radiogroup", "int", 1, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 1920, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 67, 64, 71, 64, 75, 64, 5, "obj-27", "nslider", "int", 96, 5, "obj-32", "dial", "float", 1.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 130, 50, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 50, 5, "obj-183", "dial", "float", 5.0, 5, "obj-215", "dial", "float", 1.0, 5, "obj-213", "number", "int", 2, 5, "obj-31", "number", "int", 5, 5, "obj-84", "number", "int", 130, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 3590.886806086485194, 5735.132920495928374, 5, "obj-165", "number", "int", 3690, 5, "obj-166", "number", "int", 5835, 5, "obj-181", "slider", "float", 158.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 158, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 7.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 96, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 6, 5, "obj-401", "incdec", "float", 0.0, 26, "obj-458", "kslider", "chord", 65, 120, 66, 121, 69, 120, 73, 120, 74, 126, 75, 126, 76, 121, 77, 126, 81, 119, 91, 47, 96, 55, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 158, 5, "obj-638", "number", "int", 4, 5, "obj-1", "umenu", "int", 4, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 0, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 2, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 5, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 6, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 2.0, 5, "obj-214", "number", "int", 3, 6, "obj-267", "pictslider", "list", 3634, 1758, 5, "obj-264", "number", "int", 1758, 5, "obj-262", "number", "int", 3634, 5, "obj-258", "number", "int", 1920, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 4.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1812.810642012040717, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1912, 5, "obj-384", "slider", "float", 1920.0, 5, "obj-383", "radiogroup", "int", 1, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 1920, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 67, 64, 71, 64, 75, 64, 5, "obj-27", "nslider", "int", 96, 5, "obj-32", "dial", "float", 1.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 11,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 1, 6, "obj-68", "pictslider", "list", 1110, 200, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 200, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 1110, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 2967.56861195994361, 4351.350766227936219, 5, "obj-165", "number", "int", 3067, 5, "obj-166", "number", "int", 4451, 5, "obj-181", "slider", "float", 782.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 5737, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 53, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 6, 5, "obj-401", "incdec", "float", 0.0, 28, "obj-458", "kslider", "chord", 22, 105, 23, 126, 25, 100, 26, 106, 31, 101, 36, 121, 37, 95, 42, 126, 50, 95, 51, 95, 53, 97, 91, 126, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 527, 5, "obj-638", "number", "int", 12, 5, "obj-1", "umenu", "int", 6, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 2, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 1, 5, "obj-123", "number", "int", 2, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 2, 5, "obj-238", "umenu", "int", 3, 5, "obj-294", "number", "int", 5, 5, "obj-112", "number", "int", 3, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 0, 5, "obj-218", "dial", "float", 3.0, 5, "obj-214", "number", "int", 4, 6, "obj-267", "pictslider", "list", 594, 290, 5, "obj-264", "number", "int", 290, 5, "obj-262", "number", "int", 594, 5, "obj-258", "number", "int", 527, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 4.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1812.810642012040717, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1912, 5, "obj-384", "slider", "float", 527.0, 5, "obj-383", "radiogroup", "int", 1, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 527, 5, "obj-409", "dial", "float", 1.0, 5, "obj-408", "number", "int", 2, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 0, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 92, 64, 95, 64, 99, 64, 102, 64, 5, "obj-27", "nslider", "int", 53, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 1, 6, "obj-68", "pictslider", "list", 1110, 200, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 200, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 1110, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 2967.56861195994361, 4351.350766227936219, 5, "obj-165", "number", "int", 3067, 5, "obj-166", "number", "int", 4451, 5, "obj-181", "slider", "float", 782.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 5737, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 53, 5, "obj-751", "number", "int", 10, 5, "obj-750", "number", "int", 6, 5, "obj-401", "incdec", "float", 0.0, 28, "obj-458", "kslider", "chord", 22, 105, 23, 126, 25, 100, 26, 106, 31, 101, 36, 121, 37, 95, 42, 126, 50, 95, 51, 95, 53, 97, 91, 126, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 527, 5, "obj-638", "number", "int", 12, 5, "obj-1", "umenu", "int", 6, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 2, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 1, 5, "obj-123", "number", "int", 2, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 2, 5, "obj-238", "umenu", "int", 3, 5, "obj-294", "number", "int", 5, 5, "obj-112", "number", "int", 3, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 0, 5, "obj-218", "dial", "float", 3.0, 5, "obj-214", "number", "int", 4, 6, "obj-267", "pictslider", "list", 594, 290, 5, "obj-264", "number", "int", 290, 5, "obj-262", "number", "int", 594, 5, "obj-258", "number", "int", 527, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 4.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 0.0, 1812.810642012040717, 5, "obj-386", "number", "int", 100, 5, "obj-385", "number", "int", 1912, 5, "obj-384", "slider", "float", 527.0, 5, "obj-383", "radiogroup", "int", 1, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 527, 5, "obj-409", "dial", "float", 1.0, 5, "obj-408", "number", "int", 2, 5, "obj-404", "radiogroup", "int", 0, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 0, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 92, 64, 95, 64, 99, 64, 102, 64, 5, "obj-27", "nslider", "int", 53, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 12,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 1, 6, "obj-68", "pictslider", "list", 1110, 200, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 200, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 1110, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 2967.56861195994361, 4351.350766227936219, 5, "obj-165", "number", "int", 3067, 5, "obj-166", "number", "int", 4451, 5, "obj-181", "slider", "float", 782.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 4053, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 38, 5, "obj-751", "number", "int", 7, 5, "obj-750", "number", "int", 3, 5, "obj-401", "incdec", "float", 3.0, 48, "obj-458", "kslider", "chord", 30, 110, 38, 102, 40, 113, 41, 118, 42, 100, 47, 115, 50, 109, 52, 118, 56, 100, 64, 123, 66, 122, 67, 123, 70, 122, 71, 123, 76, 122, 79, 124, 82, 121, 83, 111, 86, 121, 89, 121, 90, 111, 93, 121, 5, "obj-543", "toggle", "int", 1, 5, "obj-252", "number", "int", 944, 5, "obj-638", "number", "int", 12, 5, "obj-1", "umenu", "int", 6, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 2, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 1, 5, "obj-123", "number", "int", 2, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 3, 5, "obj-238", "umenu", "int", 3, 5, "obj-294", "number", "int", 7, 5, "obj-112", "number", "int", 3, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 0, 5, "obj-218", "dial", "float", 2.0, 5, "obj-214", "number", "int", 3, 6, "obj-267", "pictslider", "list", 594, 290, 5, "obj-264", "number", "int", 290, 5, "obj-262", "number", "int", 594, 5, "obj-258", "number", "int", 944, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 4.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 2643.079934572836464, 5272.266027682022468, 5, "obj-386", "number", "int", 2743, 5, "obj-385", "number", "int", 5372, 5, "obj-384", "slider", "float", 944.0, 5, "obj-383", "radiogroup", "int", 1, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 944, 5, "obj-409", "dial", "float", 1.0, 5, "obj-408", "number", "int", 2, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 3, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 82, 64, 86, 64, 89, 64, 93, 64, 5, "obj-27", "nslider", "int", 38, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 1, 6, "obj-68", "pictslider", "list", 1110, 200, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 200, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 1110, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 2967.56861195994361, 4351.350766227936219, 5, "obj-165", "number", "int", 3067, 5, "obj-166", "number", "int", 4451, 5, "obj-181", "slider", "float", 782.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 4053, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 38, 5, "obj-751", "number", "int", 7, 5, "obj-750", "number", "int", 3, 5, "obj-401", "incdec", "float", 3.0, 48, "obj-458", "kslider", "chord", 30, 110, 38, 102, 40, 113, 41, 118, 42, 100, 47, 115, 50, 109, 52, 118, 56, 100, 64, 123, 66, 122, 67, 123, 70, 122, 71, 123, 76, 122, 79, 124, 82, 121, 83, 111, 86, 121, 89, 121, 90, 111, 93, 121, 5, "obj-543", "toggle", "int", 1, 5, "obj-252", "number", "int", 944, 5, "obj-638", "number", "int", 12, 5, "obj-1", "umenu", "int", 6, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 2, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 1, 5, "obj-123", "number", "int", 2, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 3, 5, "obj-238", "umenu", "int", 3, 5, "obj-294", "number", "int", 7, 5, "obj-112", "number", "int", 3, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 0, 5, "obj-218", "dial", "float", 2.0, 5, "obj-214", "number", "int", 3, 6, "obj-267", "pictslider", "list", 594, 290, 5, "obj-264", "number", "int", 290, 5, "obj-262", "number", "int", 594, 5, "obj-258", "number", "int", 944, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 4.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 2643.079934572836464, 5272.266027682022468, 5, "obj-386", "number", "int", 2743, 5, "obj-385", "number", "int", 5372, 5, "obj-384", "slider", "float", 944.0, 5, "obj-383", "radiogroup", "int", 1, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 944, 5, "obj-409", "dial", "float", 1.0, 5, "obj-408", "number", "int", 2, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 3, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 82, 64, 86, 64, 89, 64, 93, 64, 5, "obj-27", "nslider", "int", 38, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 13,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 6370, 3910, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 3910, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 6370, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 2967.56861195994361, 4351.350766227936219, 5, "obj-165", "number", "int", 3067, 5, "obj-166", "number", "int", 4451, 5, "obj-181", "slider", "float", 4712.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 4712, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 45, 5, "obj-751", "number", "int", 12, 5, "obj-750", "number", "int", 5, 5, "obj-401", "incdec", "float", 0.0, 46, "obj-458", "kslider", "chord", 33, 115, 42, 105, 45, 101, 50, 95, 56, 100, 60, 100, 63, 100, 66, 100, 68, 109, 71, 109, 75, 109, 83, 97, 87, 103, 88, 100, 90, 97, 91, 103, 92, 100, 94, 103, 95, 100, 97, 103, 99, 100, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 4712, 5, "obj-638", "number", "int", 12, 5, "obj-1", "umenu", "int", 6, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 2, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 1, 5, "obj-123", "number", "int", 2, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 2, 5, "obj-294", "number", "int", 8, 5, "obj-112", "number", "int", 2, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 0, 5, "obj-218", "dial", "float", 1.0, 5, "obj-214", "number", "int", 2, 6, "obj-267", "pictslider", "list", 500, 490, 5, "obj-264", "number", "int", 490, 5, "obj-262", "number", "int", 500, 5, "obj-258", "number", "int", 960, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 3.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 2643.079934572836464, 5272.266027682022468, 5, "obj-386", "number", "int", 2743, 5, "obj-385", "number", "int", 5372, 5, "obj-384", "slider", "float", 960.0, 5, "obj-383", "radiogroup", "int", 1, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 960, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 6, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 88, 64, 92, 64, 95, 64, 99, 64, 5, "obj-27", "nslider", "int", 45, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 6370, 3910, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 3910, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 2.0, 5, "obj-213", "number", "int", 3, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 6370, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 2967.56861195994361, 4351.350766227936219, 5, "obj-165", "number", "int", 3067, 5, "obj-166", "number", "int", 4451, 5, "obj-181", "slider", "float", 4712.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 4712, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 45, 5, "obj-751", "number", "int", 12, 5, "obj-750", "number", "int", 5, 5, "obj-401", "incdec", "float", 0.0, 46, "obj-458", "kslider", "chord", 33, 115, 42, 105, 45, 101, 50, 95, 56, 100, 60, 100, 63, 100, 66, 100, 68, 109, 71, 109, 75, 109, 83, 97, 87, 103, 88, 100, 90, 97, 91, 103, 92, 100, 94, 103, 95, 100, 97, 103, 99, 100, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 4712, 5, "obj-638", "number", "int", 12, 5, "obj-1", "umenu", "int", 6, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 2, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 1, 5, "obj-123", "number", "int", 2, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 2, 5, "obj-294", "number", "int", 8, 5, "obj-112", "number", "int", 2, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 0, 5, "obj-218", "dial", "float", 1.0, 5, "obj-214", "number", "int", 2, 6, "obj-267", "pictslider", "list", 500, 490, 5, "obj-264", "number", "int", 490, 5, "obj-262", "number", "int", 500, 5, "obj-258", "number", "int", 960, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 3.0, 5, "obj-296", "radiogroup", "int", 0, 6, "obj-387", "rslider", "list", 2643.079934572836464, 5272.266027682022468, 5, "obj-386", "number", "int", 2743, 5, "obj-385", "number", "int", 5372, 5, "obj-384", "slider", "float", 960.0, 5, "obj-383", "radiogroup", "int", 1, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 960, 5, "obj-409", "dial", "float", 3.0, 5, "obj-408", "number", "int", 4, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 6, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 88, 64, 92, 64, 95, 64, 99, 64, 5, "obj-27", "nslider", "int", 45, 5, "obj-32", "dial", "float", 3.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 14,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 230, 185, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 185, 5, "obj-183", "dial", "float", 5.0, 5, "obj-215", "dial", "float", 1.0, 5, "obj-213", "number", "int", 2, 5, "obj-31", "number", "int", 5, 5, "obj-84", "number", "int", 230, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 2967.56861195994361, 4351.350766227936219, 5, "obj-165", "number", "int", 3067, 5, "obj-166", "number", "int", 4451, 5, "obj-181", "slider", "float", 316.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 316, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 96, 5, "obj-751", "number", "int", 12, 5, "obj-750", "number", "int", 5, 5, "obj-401", "incdec", "float", 0.0, 42, "obj-458", "kslider", "chord", 26, 75, 30, 75, 33, 75, 36, 75, 39, 30, 43, 30, 46, 30, 49, 30, 50, 72, 54, 72, 56, 73, 58, 72, 60, 73, 63, 73, 64, 104, 66, 73, 96, 53, 98, 46, 102, 48, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 316, 5, "obj-638", "number", "int", 12, 5, "obj-1", "umenu", "int", 6, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 2, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 1, 5, "obj-123", "number", "int", 1, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 2, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 11, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 0, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 3500, 570, 5, "obj-264", "number", "int", 570, 5, "obj-262", "number", "int", 3500, 5, "obj-258", "number", "int", 927, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 2.0, 5, "obj-296", "radiogroup", "int", 1, 6, "obj-387", "rslider", "list", 2504.701719146037249, 5226.139955873089093, 5, "obj-386", "number", "int", 2604, 5, "obj-385", "number", "int", 5326, 5, "obj-384", "slider", "float", 3526.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 2944, 5, "obj-409", "dial", "float", 2.0, 5, "obj-408", "number", "int", 3, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 26, 64, 30, 64, 33, 64, 36, 64, 5, "obj-27", "nslider", "int", 96, 5, "obj-32", "dial", "float", 1.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 230, 185, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 185, 5, "obj-183", "dial", "float", 5.0, 5, "obj-215", "dial", "float", 1.0, 5, "obj-213", "number", "int", 2, 5, "obj-31", "number", "int", 5, 5, "obj-84", "number", "int", 230, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 2967.56861195994361, 4351.350766227936219, 5, "obj-165", "number", "int", 3067, 5, "obj-166", "number", "int", 4451, 5, "obj-181", "slider", "float", 316.0, 5, "obj-194", "radiogroup", "int", 1, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 316, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 0, 5, "obj-247", "dial", "float", 0.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 96, 5, "obj-751", "number", "int", 12, 5, "obj-750", "number", "int", 5, 5, "obj-401", "incdec", "float", 0.0, 42, "obj-458", "kslider", "chord", 26, 75, 30, 75, 33, 75, 36, 75, 39, 30, 43, 30, 46, 30, 49, 30, 50, 72, 54, 72, 56, 73, 58, 72, 60, 73, 63, 73, 64, 104, 66, 73, 96, 53, 98, 46, 102, 48, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 316, 5, "obj-638", "number", "int", 12, 5, "obj-1", "umenu", "int", 6, 5, "obj-59", "number", "int", 3, 5, "obj-648", "toggle", "int", 0, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 2, 5, "obj-43", "toggle", "int", 0, 5, "obj-105", "number", "int", 0, 5, "obj-121", "number", "int", 2, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 1, 5, "obj-123", "number", "int", 1, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 4, 5, "obj-227", "number", "int", 2, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 11, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 0, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 3500, 570, 5, "obj-264", "number", "int", 570, 5, "obj-262", "number", "int", 3500, 5, "obj-258", "number", "int", 927, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 2.0, 5, "obj-296", "radiogroup", "int", 1, 6, "obj-387", "rslider", "list", 2504.701719146037249, 5226.139955873089093, 5, "obj-386", "number", "int", 2604, 5, "obj-385", "number", "int", 5326, 5, "obj-384", "slider", "float", 3526.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 2944, 5, "obj-409", "dial", "float", 2.0, 5, "obj-408", "number", "int", 3, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 1, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 12, "obj-38", "nslider", "chord", 26, 64, 30, 64, 33, 64, 36, 64, 5, "obj-27", "nslider", "int", 96, 5, "obj-32", "dial", "float", 1.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
 , 						{
 							"number" : 15,
-							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 7050, 50, 5, "obj-24", "number", "int", 0, 5, "obj-16", "flonum", "float", 0.0, 5, "obj-36", "number", "int", 50, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 4.0, 5, "obj-213", "number", "int", 5, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 7050, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 107.752159806091896, 5900.0, 5, "obj-165", "number", "int", 207, 5, "obj-166", "number", "int", 6000, 5, "obj-181", "slider", "float", 597.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 1592, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 1, 5, "obj-247", "dial", "float", 3.0, 5, "obj-311", "flonum", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 56, 5, "obj-751", "number", "int", 11, 5, "obj-750", "number", "int", 5, 5, "obj-401", "incdec", "float", 0.0, 60, "obj-458", "kslider", "chord", 22, 27, 26, 29, 27, 30, 28, 80, 29, 27, 30, 30, 33, 30, 49, 76, 51, 101, 52, 53, 53, 76, 55, 73, 56, 74, 57, 76, 58, 124, 62, 73, 63, 24, 65, 73, 68, 99, 70, 50, 72, 103, 73, 79, 75, 99, 77, 127, 78, 76, 80, 127, 83, 127, 84, 121, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 329, 5, "obj-638", "number", "int", 7, 5, "obj-1", "umenu", "int", 5, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 3, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 2, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 4, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 6090, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 6090, 5, "obj-258", "number", "int", 792, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 0.0, 5, "obj-296", "radiogroup", "int", 1, 6, "obj-387", "rslider", "list", 152.272056890449591, 5687.400673962420115, 5, "obj-386", "number", "int", 252, 5, "obj-385", "number", "int", 5787, 5, "obj-384", "slider", "float", 3526.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 657, 5, "obj-409", "dial", "float", 4.0, 5, "obj-408", "number", "int", 5, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 27, 64, 30, 64, 33, 64, 5, "obj-27", "nslider", "int", 56, 5, "obj-32", "dial", "float", 2.0, 5, "obj-54", "toggle", "int", 0 ]
+							"data" : [ 5, "obj-86", "textbutton", "mode", 1, 5, "obj-86", "textbutton", "int", 0, 6, "obj-68", "pictslider", "list", 7050, 50, 5, "obj-24", "number", "int", 0, 5, "obj-16", "number", "float", 0.0, 5, "obj-36", "number", "int", 50, 5, "obj-183", "dial", "float", 0.0, 5, "obj-215", "dial", "float", 4.0, 5, "obj-213", "number", "int", 5, 5, "obj-31", "number", "int", 0, 5, "obj-84", "number", "int", 7050, 5, "obj-148", "umenu", "int", 1, 6, "obj-149", "rslider", "list", 107.752159806091896, 5900.0, 5, "obj-165", "number", "int", 207, 5, "obj-166", "number", "int", 6000, 5, "obj-181", "slider", "float", 597.0, 5, "obj-194", "radiogroup", "int", 2, 5, "obj-203", "number", "int", 300, 5, "obj-211", "number", "int", 1592, 5, "obj-237", "radiogroup", "int", 1, 5, "obj-241", "radiogroup", "int", 1, 5, "obj-247", "dial", "float", 3.0, 5, "obj-311", "number", "float", 1.0, 5, "obj-379", "slider", "float", 0.0, 5, "obj-79", "number", "int", 56, 5, "obj-751", "number", "int", 11, 5, "obj-750", "number", "int", 5, 5, "obj-401", "incdec", "float", 0.0, 60, "obj-458", "kslider", "chord", 22, 27, 26, 29, 27, 30, 28, 80, 29, 27, 30, 30, 33, 30, 49, 76, 51, 101, 52, 53, 53, 76, 55, 73, 56, 74, 57, 76, 58, 124, 62, 73, 63, 24, 65, 73, 68, 99, 70, 50, 72, 103, 73, 79, 75, 99, 77, 127, 78, 76, 80, 127, 83, 127, 84, 121, 5, "obj-543", "toggle", "int", 0, 5, "obj-252", "number", "int", 329, 5, "obj-638", "number", "int", 7, 5, "obj-1", "umenu", "int", 5, 5, "obj-59", "number", "int", 4, 5, "obj-648", "toggle", "int", 1, 5, "obj-649", "toggle", "int", 1, 5, "obj-40", "number", "int", 3, 5, "obj-43", "toggle", "int", 1, 5, "obj-105", "number", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-131", "number", "int", 3, 5, "obj-124", "toggle", "int", 0, 5, "obj-123", "number", "int", 0, 5, "obj-173", "textbutton", "mode", 1, 5, "obj-173", "textbutton", "int", 1, 5, "obj-188", "textbutton", "mode", 1, 5, "obj-188", "textbutton", "int", 1, 5, "obj-191", "live.gain~", "float", 0.399998992681503, 5, "obj-212", "number", "int", 2, 5, "obj-227", "number", "int", 0, 5, "obj-238", "umenu", "int", 0, 5, "obj-294", "number", "int", 4, 5, "obj-112", "number", "int", 0, 5, "obj-60", "textbutton", "mode", 1, 5, "obj-60", "textbutton", "int", 1, 5, "obj-55", "attrui", "attr", "ignoreclick", 5, "obj-55", "attrui", "int", 1, 5, "obj-218", "dial", "float", 0.0, 5, "obj-214", "number", "int", 1, 6, "obj-267", "pictslider", "list", 6090, 50, 5, "obj-264", "number", "int", 50, 5, "obj-262", "number", "int", 6090, 5, "obj-258", "number", "int", 792, 5, "obj-245", "textbutton", "mode", 1, 5, "obj-245", "textbutton", "int", 1, 5, "obj-299", "dial", "float", 0.0, 5, "obj-296", "radiogroup", "int", 1, 6, "obj-387", "rslider", "list", 152.272056890449591, 5687.400673962420115, 5, "obj-386", "number", "int", 252, 5, "obj-385", "number", "int", 5787, 5, "obj-384", "slider", "float", 3526.0, 5, "obj-383", "radiogroup", "int", 2, 5, "obj-382", "number", "int", 507, 5, "obj-380", "number", "int", 657, 5, "obj-409", "dial", "float", 4.0, 5, "obj-408", "number", "int", 5, 5, "obj-404", "radiogroup", "int", 1, 5, "obj-106", "radiogroup", "int", 0, 5, "obj-209", "number", "int", 1, 5, "obj-221", "toggle", "int", 1, 10, "obj-38", "nslider", "chord", 27, 64, 30, 64, 33, 64, 5, "obj-27", "nslider", "int", 56, 5, "obj-32", "dial", "float", 2.0, 5, "obj-54", "toggle", "int", 0 ]
 						}
  ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -11262,7 +10973,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 430.170098585020014, 2316.879171721378952, 124.390245676040649, 22.0 ],
-					"text" : "midievent 144 53 0"
+					"text" : "midievent 144 86 0"
 				}
 
 			}
@@ -11303,7 +11014,7 @@
 					"patching_rect" : [ 460.142222004974201, 1660.292781412081467, 90.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 739.639295856622084, 160.036592185403322, 81.0, 55.0 ],
-					"text" : "p"
+					"text" : "pp"
 				}
 
 			}
@@ -11722,6 +11433,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "vst~[2]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "vst~[1]",
 							"parameter_type" : 3
 						}
@@ -11743,14 +11455,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "Pianoteq 6 (64-bit).dll",
-							"plugindisplayname" : "Pianoteq 6",
-							"pluginsavedname" : "C:/Program Files/VSTPlugins/Pianoteq 6 (64-bit).dll",
+							"pluginname" : "MetaPiano x64.vst3info",
+							"plugindisplayname" : "MetaPiano",
+							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "8943.CMlaKA....fQPMDZ....A.Ec1DG.FX......fLEckkla2EVdfHDHI4Fco0VXzUF..............HxrPImUKAB..H.VFQETiJB.......vE....PkVXt8FckEGH13hMt.yKx.SL4.SNwbyktVDDc0+YCeR0HsJ7svarjwFagwlH...cjQWSTg...LA...vTzUVZtcWX4AhPfjjazkVagQWY.....b....PSuQVXxQGcZ....PEZoMGHvIWYyUFcfTlcusVYyAxcgIWazglK.....PB...vD....SQWYo41cgkGHBARRtQWZsEFckA..........ke...bjTUUE...fA....AL.vMQkbqA..G7L.+KvGLElatkGHDElcoMGHs.hPrUWYyAxatARXfHDHI4FHFA.r.ID..sD..ME..sE..IFU.oVgb.jX..jV..jT..jR..jPTAjN..jL..TJ..DH..DF..TD..TBTAD...4LWLUNf.PGcPUJg..r.ovT.IA..oA..IB..sB..MC..sC..ID..sD..QEU.wE..QF..1A...KPqMEfy...4..Uo.Pl7.4QiLnc.dD.AdBjG0Rf6A3Q.LnHPhSIScTN.7iOTMCDSA3L.P0O...N..vQ.HnSvBzX..zV..zT..zR..zP..jNTAzL..zJ..zH..jF..TD..TB..YN4.vO6.vQCQEr.A..PVzO.LyKAdBr.k...EA..kA..ExT.gB..AC..gC..8C..cDU.4D..YE..40T.UF..9C.TcD.TAoR9..fy...EAPfmnD.AdRN.PEr.01T.UF..0EU.UE..0D..UD..0C..QC..sB.PNjJ..KPi..PaLEPS..jHcB.4DB.vBzB..D...4Lh.fOOD3dvBDC..zD..zF..zH..zJTAzL..jN..zP..zR..jTSAjV..jX..jZB9DjonxT.NC.RhGR.P0P.D3d9.vTo.Pf6kC...IQ6H3S.RD.AdBjEMQfm.XQ...jEMCU.VD.ApGr.IFU.oE..IE..oD..ED..gC..AC..gBU.AB..gA..AA..gvT.A..PhSM.3xK.LTL.XzM.vyM.3iMAtGr.kvT.AA..kA..EB..gB..EC..kC..EDU.gD..EE..gE..AF..cVfm.3P.PEO.LEjDYDU.5C.TYD.H5Cj7PC..RD...KPeA.PWQEPOA.PGA.P9..P1..Ps..Pj..PbLEPT..PM..P.D3d.0...UA..0A..YB..4B..YC..8CU.gD..AE..gE..AF..cVf6AzaCVGf3..UPhiPSAHO...N.PkK.LnHvBzY..zW..zU..zS..jQTAjO..TM..oKZ..r.0B..UB.PdRI..KPd..j2vB.vBTE..YP7LEr.4..PxiMTAKPV..PdLEPk..Ps..P0..P9..PEQEPMA.PUA.PbA.f2...vBDYSAzZ..HO..fK.DHJAA..P5xKSA3I.PXRPdyKTwyH.DzI.fTJLRCfHAvfh.oQzPEf7.vTAA.Ut.PfmbC.TYD.B5Dr.MF..wE..QE..sDU.QD..wC..MC..oB..EB.PlRJ.3CM..KPY..j4nB.EAzTvBTD..TB..ILw..r.AffOAjB..TD..TFSADH..DJ..zK..DN..DPTAzQ..zS..DV..DXSAzYAtGfo..Uv.PfmjC.AdBjHsAU.5C.CVGr.8Vfm.XQ.PER.TXGP1jNB5DfMAvfh.YNjPEr.cF.PRyG..KPeA.PXMEPPA.PHA.j9PC.vBDP..DN..oSl..r.ECU.kB..EB..5D.TA4Sm..r.kxT.EC..kC..ADU.kD..EE..kE..A1T.gFU.AF..kE..AE..gD..ED..kC..AyT.gB..8A..gA..AA..g.U.A.U.9D...IRh..r.gvT.AA..gA..AB..cB..ACU.cC..8C..YD..4D..YE..40T.YVf6ATaE1AfHAvf04C.GhAj7HQfm.HO..PN...M.XHQP1QK.HVKB5Dfc.vfh.YVl..fhA.i0.4Mj.PPk..OqHnS.xC..bC.TED.EBGr.YFU.4E..YE..4D..YD..4C..cyT.8B.PpSK.LDH.7CM..KPnPEPuLEP2..P+..PGQEPOA.PVA.PdQEPlInS.lE.H9Cjr0Pf5AnN.H3SrA.gIAoZ3LUNsDHJ.ND.S8C.ToF..jC.CJBjosyfh.XZ.LEr.4EU.YE.P1yO.jyO.LyK..KPOQEjkMSfm.KPWMEPdA.PlE3d.VF.TA4Y6LEf8..UPV1DSA3Y...jfgDU.VF.AdBX..vL.PEr.4E..YE..0D..UD..0yT.QC.PJiV..KPr..f4...vBDI..zF..DE..DCTAINg..r.A..PxyKB5Dr.w.U.QA..wA..QB..wB.Px0L..KPz..P7..PEA.PMA.PVQEPdA.jnQD.vBjY..TaB5DfbA..nAvf0AYVmDHJkIxT.VF.TkE.EBGO.PEN.LkL.XHQPlxP.nST.7yVTYTKSAnQ.P0O..fN.D3do...PhSQAdhNPQ0ONA.f3.PfmnC.S8C.B9Dr.UF..0E..U0T.wD.P5xK..KPEA.j9vD.3PD.7jC.vBDO..zL..zJ..jH..jF..jDTAjB..D.B5DPJ..PRPEPY..Ph..Pp..Px..P5..PBA.PJA.PRMEPaA.PhA.PpQnRPZzMOZEf3.vTt.vf1AKPhA.PZA.PRA.PKA.PCA.P6PEPy..Pq..PjLEjmPC..5C.TAKPq..PyLEP6..f7...vBzP..zR..zT..jVTAjX..jZAtGjtXzT.dB..XD...IO6H3S.xC.SAYPSQUNb..ft...PdSDSAXN..vM.DHJPVTT..XP.D3IPdCOAdBRIQEfEAPfmfD.SAYOKQUScE3d.1D.SAYPCQUTnMnH.FE...IURMnHRAE..RE.AtmT.HnSPd0H..KPhA.PZA.PSA.PKQEPCMEPKA.PSQEPaA.PhMEPpg3O.dE.AtWP..PO.b3E2...++B.PI2bUgfF..PM....F....z1ajUFahA.....D....GIWXtQFHSQWYo41cgkGHBA..........C....L.......fZP...bBA..XKz..........................L....P...............v.....................C....................L....P.....A....D........3O.....D..........rHcJ9L.....V.......pAA..vFD..faP...vAA..HGD...cP...1AA..fGD..fdP...7AA..3GD...fP...ABA..HHD..vfP...DBA..THD..fgP...GBA..fHD..PhP...JBA..rHD...iP...MBA..3HD..viP...PBA..DID..fjP...SBA..PID..PkP...VBA..bID...lP...YBA..nID..vlP...bBA..zID..fmP...eBA...JD..HnP...gBA..FJD..fnP..fhBA..LJD..3nP...jBA..RJD..PoP..fkBA..XJD..noP...mBA..dJD...pP..fnBA..jJD..XpP...pBA..pJD..vpP..fqBA..vJD..HqP...sBA..1JD..fqP..ftBA..7JD..3qP...vBA..BKD..PrP..fwBA..HKD..nrP...yBA..NKD...sP..fzBA..TKD..XsP...1BgE...fy2PxONeCI+37Mj7C16WxO1l7I+Xaxm7ykw0xOnn1K+Dkaw7CEaVyO742L+vmey7Ce9MyO742L+Pwl07CEaVyOKR7M+Pwl07STtEyO8P3J+7tj97SwzCzOESOP+HUdH8C4Q2zOxU2T+TkZY8Sm290OYGvX+jc.i8S1AL1OfKdZ+b.es8yA701O1GSb+b.es8i8wD2OOXPc+Pb938Cw4i2Ol5Pe+XpC88ioNz2OtLJf+XUzB9iUQK3O8JQg+zqDE9iYnc3Olg1g+f1zI9S6Tw3OsSEi+zNUL9yLt63Oy3ti+Li6N9SkfF4OUBZj+TInQ9SkfF4OD1Fk+PXaT9SjVc4OQZ0k+DoUW9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4O........vJD.....C....D........mPA...............................A....D.............v.C...AD.....C....H.......fZP...1BI....................v.....B.......nFD..fsPB........9C...3O......H.........RS.......9y.....A.......vIT...............v.....XA......nFD...aP...tAA...GD..fbP...zAA..XGD...dP...5AA..vGD..feP....BA..DHD..ffP...CBA..PHD..PgP...FBA..bHD...hP...IBA..nHD..vhP...LBA..zHD..fiP...OBA...ID..PjP...RBA..LID...kP...UBA..XID..vkP...XBA..jID..flP...aBA..vID..PmP...dBA..7ID...nP..ffBA..DJD..XnP...hBA..JJD..vnP..fiBA..PJD..HoP...kBA..VJD..foP..flBA..bJD..3oP...nBA..hJD..PpP..foBA..nJD..npP...qBA..tJD...qP..frBA..zJD..XqP...tBA..5JD..vqP..fuBA...KD..HrP...wBA..FKD..frP..fxBA..LKD..3rP...zBA..RKD..PsP..f0BA..XKDV.......f+B.........v...f+B...9C...3O.....A...............A...9C...3O...f+B....L...3O...f+.....D....P...f+.........3u.....C...9K....v.....C.............f+....9C....v...f+....9K..........C...9C...3O.....................C...9K..............9C...3u...P.C....L...3u...f.C....L....v.....C...AL........f.C...AL....v.....C........Hv...P.C....L...Hv...f.C........Dv...f.C..fBL....v...P.C...BL....v...P.C....L...Dv.....C...9K...Hv...P.C...BL...3u...f+B...BL...Hv...f.C...AL...Hv...f.C....v.....XA......nFD...aP...tAA...GD..fbP...zAA..XGD...dP...5AA..vGD..feP....BA..DHD..ffP...CBA..PHD..PgP...FBA..bHD...hP...IBA..nHD..vhP...LBA..zHD..fiP...OBA...ID..PjP...RBA..LID...kP...UBA..XID..vkP...XBA..jID..flP...aBA..vID..PmP...dBA..7ID...nP..ffBA..DJD..XnP...hBA..JJD..vnP..fiBA..PJD..HoP...kBA..VJD..foP..flBA..bJD..3oP...nBA..hJD..PpP..foBA..nJD..npP...qBA..tJD...qP..frBA..zJD..XqP...tBA..5JD..vqP..fuBA...KD..HrP...wBA..FKD..frP..fxBA..LKD..3rP...zBA..RKD..PsP..f0BA..XKDV....59Ie+Dvx88iZYu3OjiDh+3m2z8CVuA3OU0Df+TMPB9y6Qw1OkAsc+v0SL9y15+1OPdLi+.1Ws8iyop1OXxAZ+LZRD9yUow2OTb4h+3ERA9Cnv11OVcxb+L+PL9yhyp3ONI7c+nOr08CUlE3OIZ2e+H0S98iJOK3OJRrh+nXQp8iDoY1ODCPa+7.RC9Cvww2OVD0Y+nsNx8CZcx1OL3Sg+PG0q8irDn1Owqhf+.Iuy8ypvu2Ov8pg+nvix8CQrf1Om0Ai+PkeJ9CFSE3OZiKe+TI0C9yaiC2Ow0fc+fquF9y8lh1OY4Wg+vCuI9CO6W3O257f+v4768C.Ef2OZqcd+rsP48CVt21OT.Ug+7sMJ9SHwc3O6zCh+3x548i75M3OciGb+3ZpF9S6vv1OnvHh+.2em8CHKZ3OgVre+LAo48yWHE3ON4Ob+rvcD9CPKx2O9h+e+7j8K9CTjs2OVswg+.....f.....A....TE...PQwUWXrABck0FbkIWXsUlazo.UnUFHyQWXtQVXxQFHzUmao41Yr.xcnUlbkABcnUFHuMFcgYWYfj1bfPVZ1kFYkQFHo4FHwHCHkEWcgwFHyQWYvMmKL.......HKD..fzP..fkCA..HOD..n+P..fEDA..uPD..fDQ..PXDA..5QD..lHQ..fkDE..........D.......bODO....EA...XD.....+A........vA....DUlYgUGazA..........C....T........bP...DBA...ID...mP...1BU........Lv...P.C...9K..........................zLyL9C...3OC....H.......fZP...1BI........3O...f+.....v.....B.......nFD..fsPB........9C...3O..........v.....A.......vIT...................3OC....D........mPA...............A...............MyLy81LyL2S...................vu....+....9y.....C.......nFD...mP...1BM........3O...f+....9C..........L....f........pAA..XKj........................f+L....f........pAA..XKj........f+....9C........HBM....vC.......pAA..PGD..feP...DBA...ID...mP...jBA..nJD..PqP...vBA..HKD...sP...0BA..VKD..fsPO........CL...Dv.....C...9K..............9C...DP...n.A..fCD...RP...XAA..XFD...bP...7AA........3OC....L.......fZP...bBA..XKz........f+....9C...3O.....L..........A...............A....L....f..............9i..............9C.....C....H.............f+H........3O...f+.....v.....D.........fISljO962O+....9CA..................3O...f+.....v.....B.............3OB.........................POJb.PC....H.......fZP...1BI........3O...f+.........3u....+L....f........vAA...Kj........f+....9C.....A....D....P.....H....Pjb4Ahbu8VaE....H2au0FL...v.2LyPDD...3OMyLy9......88SMO...................v+DWmoND...3O...f+T........3O...f+L.....V.......pAA..vFD..faP...vAA..HGD...cP...1AA..fGD..fdP...7AA..3GD...fP...ABA..HHD..vfP...DBA..THD..fgP...GBA..fHD..PhP...JBA..rHD...iP...MBA..3HD..viP...PBA..DID..fjP...SBA..PID..PkP...VBA..bID...lP...YBA..nID..vlP...bBA..zID..fmP...eBA...JD..HnP...gBA..FJD..fnP..fhBA..LJD..3nP...jBA..RJD..PoP..fkBA..XJD..noP...mBA..dJD...pP..fnBA..jJD..XpP...pBA..pJD..vpP..fqBA..vJD..HqP...sBA..1JD..fqP..ftBA..7JD..3qP...vBA..BKD..PrP..fwBA..HKD..nrP...yBA..NKD...sP..fzBA..TKD..XsP...1BgE...vv0i3OeT3h+7nv08y0iB2OWOJb+fqGE9CtdT3OjBWe+Lb8H9yLyL2OHEtd+7QgK9CRgq2O6Qga+fqGE9S35Q0OlYlg+zLyL9C6Qg2OtdTf+vdT37iqGE3OlYlg+35QA9S35Q4OeT3Z+35QA9iqGE3OCWOZ+XlYF9SyLy3OlYlg+rGEt8CRgq2Ob8nn+Lb8n8iYlY3OeT3h+rGEt8CWOJ3OrGEd+vdTX9iBWO3OrGEl+XlYF9yv0i1OyLyj+vdT38iqGE3OjBWe+fT358y0iB2OCWOh+ziBW8iBWO3OOJbc+fqGE8yv0i3OZlYV+zLyL8iBWO3OyLyb+fqGE9iBWO3O...f+XlYl8Cov02OWOJb+7QgK9yGEt1OlYlg+....9CtdT3OrGEd+rGEt8iqGE3O35Qg+....9iYlY3OT35g+DWOJ9C...3Ow0ih+LyLy8SyLy3OJb8f+vdT38yv0i1O.....L....v........pAA..vID..fsPC........9C...3O...f+...........C....fE......fZP...rAA..3FD...bP...xAA..PGD..fcP...3AA..nGD...eP...9AA...HD..PfP...BBA..LHD...gP...EBA..XHD..vgP...HBA..jHD..fhP...KBA..vHD..PiP...NBA..7HD...jP...QBA..HID..vjP...TBA..TID..fkP...WBA..fID..PlP...ZBA..rID...mP...cBA..3ID..vmP...fBA..BJD..PnP..fgBA..HJD..nnP...iBA..NJD...oP..fjBA..TJD..XoP...lBA..ZJD..voP..fmBA..fJD..HpP...oBA..lJD..fpP..fpBA..rJD..3pP...rBA..xJD..PqP..fsBA..3JD..nqP...uBA..9JD...rP..fvBA..DKD..XrP...xBA..JKD..vrP..fyBA..PKD..HsP...0BA..VKD..fsPXA...PoYd3icUHlOSc8O9teIn4KVfCnum1oW8XCZ6zyplGcu+XJH9ndSe4KAhfdu2i6U9.jmB36eNMnu0wPN8rwI11i5NHZOXQfZ9.Q4f3qbTAQuvQKC9r5mY4y58fgOKjND9TnVE3ilaApuxRZu7lhO6x6nWLpu0INq8.uEn4ygG4ZOyL9g9ZBe52aZZHkOYamq9lbUD2SxprkOyB7i9FUyKvCZzqgugDhW9vWxiyi4h3fOV.Iz8b9qs5q1bboubZkF9pYlY5aeQMpuVjL2899W.3qlOleuuUmo8lBWO3Kdf7iu5gzT9vDOX3SGqwZOKe5T9tGV+xyeQQluerZR8Xz4HzyDOTUunMpr9Br4A2KHGKmuDNkX9HJ6f5a8mbbOZjbg8dU4p0CRdqguQEVj9pTo.y6samXOykSh8drSN2SBoXeOh7rP9j2vz06xUxhOt8zW95NXz4ibq1ROQwtB9Biqm5K.....C........9C...3O...f+L....v........pAA..vID..fsPC........9C...3O...f+.....v.....C.......nFD...mP...1BM........3O...f+....9C.....C....L.......fZP...bBA..XKz........f+....9C...3O.........9C...3OF........9Sb8nnOT35Q+....+SyLyjOH...............................................C....L.......fZP...bBA..XKz........f+....9C...3O.....L....v........pAA..vID..fsPC........9C...3O...f+.....v.....C.......nFD...mP...1BM........3O...f+....9C.....C....L.......fZP...bBA..XKz........f+....9C...3O.....D....P........bBM....P..........D...............bDah2y.....Q.......vFD...dP...5AA..HHD...hP...IBA..zHD...jP...SBA..fID...mP...eBA..FJD...oP...pBA...KD..fsPQ....j9n.9ieST3OTTCh+.C0I9CE0f3OTTCh+.C0I9CLTm3OvPch+PQMH9CneZ3ObA4f+nQU18SS8N2Ov03Y+PIfR8S20CzO.....D..........A....LyLy7iYlY5OA.........P.....yLyL+XlYl9S.............vKD.....N........7SyLybOMyLS9....7CA....B....L.....A....A....D....P.....A....D....v.....G...............N.....A.........MyLy8....9C.........+B..vID.....................................................C....................3.....D.........................................................................................L....................fC....P.........................................................................................P.....A........9C...Jv.....H....v.....A....T.....A....A....L....fYlY9OZlY1+....+C..D1v.....P....PA............vIL...rv...vBC...KbA.........7nv0yC...............PA..............................P..........P....P.....C.........TyLyzO...v+...zHD.....D....T........mv.....C...KL...rv...vBW....fBWOROWbaz3................T...............................D..........D.........v.....gqGM+Pzhr4ilYl4O...sBA..zJbC....E........CL...Lv...bBC..vIL...mvE...............................E...............................A..........A.........L....vLyLyub8nv935Qg8C...............PA.......PAC...EL...mv...bBC..vIbA..............................PA..............................P..........P..........C....fqGE+SOJb0OtdT3+................T........Tv...PAC..vIL...mv...bBW...............................T...............................D..........A....D....P.....C....zLyL8yiBWmu...v+...PFD....................."
+							"blob" : "632.VMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSNv3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYgYTR5AkaA4hKtfDTSoWPWokKDAUPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtfUSJASNRshY3DjKEIkKtfmX1YTZtnkPt3xcFoFNLkWRLYFU3EWX2fSYEwlM0YWSZkEcvkTNwnGNSEDQHslPR8lZ0bySigTPzrRTKUTZVISUznVQzYFVYw1bHcjdxk2aiEFMrolcUQ0YBwlZJc1arcCQyIzbX8TTZMFZ0.UVyMFNpYjcCMmKl01c3rDZgIkdRw1QP4BYzMWMo0VZiA0MOAyaikVStHjZtA0QOQjKsYmKW8Tb2QzXRcjSrgVSHoGZtfzQ1gCTJMkUv4zUuYWUL4hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -11760,27 +11472,27 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "Pianoteq 6",
-									"origin" : "Pianoteq 6 (64-bit).dll",
-									"type" : "VST",
+									"origin" : "MetaPiano x64.vst3info",
+									"type" : "VST3",
 									"subtype" : "Instrument",
 									"embed" : 1,
 									"snapshot" : 									{
-										"pluginname" : "Pianoteq 6 (64-bit).dll",
-										"plugindisplayname" : "Pianoteq 6",
-										"pluginsavedname" : "C:/Program Files/VSTPlugins/Pianoteq 6 (64-bit).dll",
+										"pluginname" : "MetaPiano x64.vst3info",
+										"plugindisplayname" : "MetaPiano",
+										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "8943.CMlaKA....fQPMDZ....A.Ec1DG.FX......fLEckkla2EVdfHDHI4Fco0VXzUF..............HxrPImUKAB..H.VFQETiJB.......vE....PkVXt8FckEGH13hMt.yKx.SL4.SNwbyktVDDc0+YCeR0HsJ7svarjwFagwlH...cjQWSTg...LA...vTzUVZtcWX4AhPfjjazkVagQWY.....b....PSuQVXxQGcZ....PEZoMGHvIWYyUFcfTlcusVYyAxcgIWazglK.....PB...vD....SQWYo41cgkGHBARRtQWZsEFckA..........ke...bjTUUE...fA....AL.vMQkbqA..G7L.+KvGLElatkGHDElcoMGHs.hPrUWYyAxatARXfHDHI4FHFA.r.ID..sD..ME..sE..IFU.oVgb.jX..jV..jT..jR..jPTAjN..jL..TJ..DH..DF..TD..TBTAD...4LWLUNf.PGcPUJg..r.ovT.IA..oA..IB..sB..MC..sC..ID..sD..QEU.wE..QF..1A...KPqMEfy...4..Uo.Pl7.4QiLnc.dD.AdBjG0Rf6A3Q.LnHPhSIScTN.7iOTMCDSA3L.P0O...N..vQ.HnSvBzX..zV..zT..zR..zP..jNTAzL..zJ..zH..jF..TD..TB..YN4.vO6.vQCQEr.A..PVzO.LyKAdBr.k...EA..kA..ExT.gB..AC..gC..8C..cDU.4D..YE..40T.UF..9C.TcD.TAoR9..fy...EAPfmnD.AdRN.PEr.01T.UF..0EU.UE..0D..UD..0C..QC..sB.PNjJ..KPi..PaLEPS..jHcB.4DB.vBzB..D...4Lh.fOOD3dvBDC..zD..zF..zH..zJTAzL..jN..zP..zR..jTSAjV..jX..jZB9DjonxT.NC.RhGR.P0P.D3d9.vTo.Pf6kC...IQ6H3S.RD.AdBjEMQfm.XQ...jEMCU.VD.ApGr.IFU.oE..IE..oD..ED..gC..AC..gBU.AB..gA..AA..gvT.A..PhSM.3xK.LTL.XzM.vyM.3iMAtGr.kvT.AA..kA..EB..gB..EC..kC..EDU.gD..EE..gE..AF..cVfm.3P.PEO.LEjDYDU.5C.TYD.H5Cj7PC..RD...KPeA.PWQEPOA.PGA.P9..P1..Ps..Pj..PbLEPT..PM..P.D3d.0...UA..0A..YB..4B..YC..8CU.gD..AE..gE..AF..cVf6AzaCVGf3..UPhiPSAHO...N.PkK.LnHvBzY..zW..zU..zS..jQTAjO..TM..oKZ..r.0B..UB.PdRI..KPd..j2vB.vBTE..YP7LEr.4..PxiMTAKPV..PdLEPk..Ps..P0..P9..PEQEPMA.PUA.PbA.f2...vBDYSAzZ..HO..fK.DHJAA..P5xKSA3I.PXRPdyKTwyH.DzI.fTJLRCfHAvfh.oQzPEf7.vTAA.Ut.PfmbC.TYD.B5Dr.MF..wE..QE..sDU.QD..wC..MC..oB..EB.PlRJ.3CM..KPY..j4nB.EAzTvBTD..TB..ILw..r.AffOAjB..TD..TFSADH..DJ..zK..DN..DPTAzQ..zS..DV..DXSAzYAtGfo..Uv.PfmjC.AdBjHsAU.5C.CVGr.8Vfm.XQ.PER.TXGP1jNB5DfMAvfh.YNjPEr.cF.PRyG..KPeA.PXMEPPA.PHA.j9PC.vBDP..DN..oSl..r.ECU.kB..EB..5D.TA4Sm..r.kxT.EC..kC..ADU.kD..EE..kE..A1T.gFU.AF..kE..AE..gD..ED..kC..AyT.gB..8A..gA..AA..g.U.A.U.9D...IRh..r.gvT.AA..gA..AB..cB..ACU.cC..8C..YD..4D..YE..40T.YVf6ATaE1AfHAvf04C.GhAj7HQfm.HO..PN...M.XHQP1QK.HVKB5Dfc.vfh.YVl..fhA.i0.4Mj.PPk..OqHnS.xC..bC.TED.EBGr.YFU.4E..YE..4D..YD..4C..cyT.8B.PpSK.LDH.7CM..KPnPEPuLEP2..P+..PGQEPOA.PVA.PdQEPlInS.lE.H9Cjr0Pf5AnN.H3SrA.gIAoZ3LUNsDHJ.ND.S8C.ToF..jC.CJBjosyfh.XZ.LEr.4EU.YE.P1yO.jyO.LyK..KPOQEjkMSfm.KPWMEPdA.PlE3d.VF.TA4Y6LEf8..UPV1DSA3Y...jfgDU.VF.AdBX..vL.PEr.4E..YE..0D..UD..0yT.QC.PJiV..KPr..f4...vBDI..zF..DE..DCTAINg..r.A..PxyKB5Dr.w.U.QA..wA..QB..wB.Px0L..KPz..P7..PEA.PMA.PVQEPdA.jnQD.vBjY..TaB5DfbA..nAvf0AYVmDHJkIxT.VF.TkE.EBGO.PEN.LkL.XHQPlxP.nST.7yVTYTKSAnQ.P0O..fN.D3do...PhSQAdhNPQ0ONA.f3.PfmnC.S8C.B9Dr.UF..0E..U0T.wD.P5xK..KPEA.j9vD.3PD.7jC.vBDO..zL..zJ..jH..jF..jDTAjB..D.B5DPJ..PRPEPY..Ph..Pp..Px..P5..PBA.PJA.PRMEPaA.PhA.PpQnRPZzMOZEf3.vTt.vf1AKPhA.PZA.PRA.PKA.PCA.P6PEPy..Pq..PjLEjmPC..5C.TAKPq..PyLEP6..f7...vBzP..zR..zT..jVTAjX..jZAtGjtXzT.dB..XD...IO6H3S.xC.SAYPSQUNb..ft...PdSDSAXN..vM.DHJPVTT..XP.D3IPdCOAdBRIQEfEAPfmfD.SAYOKQUScE3d.1D.SAYPCQUTnMnH.FE...IURMnHRAE..RE.AtmT.HnSPd0H..KPhA.PZA.PSA.PKQEPCMEPKA.PSQEPaA.PhMEPpg3O.dE.AtWP..PO.b3E2...++B.PI2bUgfF..PM....F....z1ajUFahA.....D....GIWXtQFHSQWYo41cgkGHBA..........C....L.......fZP...bBA..XKz..........................L....P...............v.....................C....................L....P.....A....D........3O.....D..........rHcJ9L.....V.......pAA..vFD..faP...vAA..HGD...cP...1AA..fGD..fdP...7AA..3GD...fP...ABA..HHD..vfP...DBA..THD..fgP...GBA..fHD..PhP...JBA..rHD...iP...MBA..3HD..viP...PBA..DID..fjP...SBA..PID..PkP...VBA..bID...lP...YBA..nID..vlP...bBA..zID..fmP...eBA...JD..HnP...gBA..FJD..fnP..fhBA..LJD..3nP...jBA..RJD..PoP..fkBA..XJD..noP...mBA..dJD...pP..fnBA..jJD..XpP...pBA..pJD..vpP..fqBA..vJD..HqP...sBA..1JD..fqP..ftBA..7JD..3qP...vBA..BKD..PrP..fwBA..HKD..nrP...yBA..NKD...sP..fzBA..TKD..XsP...1BgE...fy2PxONeCI+37Mj7C16WxO1l7I+Xaxm7ykw0xOnn1K+Dkaw7CEaVyO742L+vmey7Ce9MyO742L+Pwl07CEaVyOKR7M+Pwl07STtEyO8P3J+7tj97SwzCzOESOP+HUdH8C4Q2zOxU2T+TkZY8Sm290OYGvX+jc.i8S1AL1OfKdZ+b.es8yA701O1GSb+b.es8i8wD2OOXPc+Pb938Cw4i2Ol5Pe+XpC88ioNz2OtLJf+XUzB9iUQK3O8JQg+zqDE9iYnc3Olg1g+f1zI9S6Tw3OsSEi+zNUL9yLt63Oy3ti+Li6N9SkfF4OUBZj+TInQ9SkfF4OD1Fk+PXaT9SjVc4OQZ0k+DoUW9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4Oq0kl+rVWZ9yZco4O........vJD.....C....D........mPA...............................A....D.............v.C...AD.....C....H.......fZP...1BI....................v.....B.......nFD..fsPB........9C...3O......H.........RS.......9y.....A.......vIT...............v.....XA......nFD...aP...tAA...GD..fbP...zAA..XGD...dP...5AA..vGD..feP....BA..DHD..ffP...CBA..PHD..PgP...FBA..bHD...hP...IBA..nHD..vhP...LBA..zHD..fiP...OBA...ID..PjP...RBA..LID...kP...UBA..XID..vkP...XBA..jID..flP...aBA..vID..PmP...dBA..7ID...nP..ffBA..DJD..XnP...hBA..JJD..vnP..fiBA..PJD..HoP...kBA..VJD..foP..flBA..bJD..3oP...nBA..hJD..PpP..foBA..nJD..npP...qBA..tJD...qP..frBA..zJD..XqP...tBA..5JD..vqP..fuBA...KD..HrP...wBA..FKD..frP..fxBA..LKD..3rP...zBA..RKD..PsP..f0BA..XKDV.......f+B.........v...f+B...9C...3O.....A...............A...9C...3O...f+B....L...3O...f+.....D....P...f+.........3u.....C...9K....v.....C.............f+....9C....v...f+....9K..........C...9C...3O.....................C...9K..............9C...3u...P.C....L...3u...f.C....L....v.....C...AL........f.C...AL....v.....C........Hv...P.C....L...Hv...f.C........Dv...f.C..fBL....v...P.C...BL....v...P.C....L...Dv.....C...9K...Hv...P.C...BL...3u...f+B...BL...Hv...f.C...AL...Hv...f.C....v.....XA......nFD...aP...tAA...GD..fbP...zAA..XGD...dP...5AA..vGD..feP....BA..DHD..ffP...CBA..PHD..PgP...FBA..bHD...hP...IBA..nHD..vhP...LBA..zHD..fiP...OBA...ID..PjP...RBA..LID...kP...UBA..XID..vkP...XBA..jID..flP...aBA..vID..PmP...dBA..7ID...nP..ffBA..DJD..XnP...hBA..JJD..vnP..fiBA..PJD..HoP...kBA..VJD..foP..flBA..bJD..3oP...nBA..hJD..PpP..foBA..nJD..npP...qBA..tJD...qP..frBA..zJD..XqP...tBA..5JD..vqP..fuBA...KD..HrP...wBA..FKD..frP..fxBA..LKD..3rP...zBA..RKD..PsP..f0BA..XKDV....59Ie+Dvx88iZYu3OjiDh+3m2z8CVuA3OU0Df+TMPB9y6Qw1OkAsc+v0SL9y15+1OPdLi+.1Ws8iyop1OXxAZ+LZRD9yUow2OTb4h+3ERA9Cnv11OVcxb+L+PL9yhyp3ONI7c+nOr08CUlE3OIZ2e+H0S98iJOK3OJRrh+nXQp8iDoY1ODCPa+7.RC9Cvww2OVD0Y+nsNx8CZcx1OL3Sg+PG0q8irDn1Owqhf+.Iuy8ypvu2Ov8pg+nvix8CQrf1Om0Ai+PkeJ9CFSE3OZiKe+TI0C9yaiC2Ow0fc+fquF9y8lh1OY4Wg+vCuI9CO6W3O257f+v4768C.Ef2OZqcd+rsP48CVt21OT.Ug+7sMJ9SHwc3O6zCh+3x548i75M3OciGb+3ZpF9S6vv1OnvHh+.2em8CHKZ3OgVre+LAo48yWHE3ON4Ob+rvcD9CPKx2O9h+e+7j8K9CTjs2OVswg+.....f.....A....TE...PQwUWXrABck0FbkIWXsUlazo.UnUFHyQWXtQVXxQFHzUmao41Yr.xcnUlbkABcnUFHuMFcgYWYfj1bfPVZ1kFYkQFHo4FHwHCHkEWcgwFHyQWYvMmKL.......HKD..fzP..fkCA..HOD..n+P..fEDA..uPD..fDQ..PXDA..5QD..lHQ..fkDE..........D.......bODO....EA...XD.....+A........vA....DUlYgUGazA..........C....T........bP...DBA...ID...mP...1BU........Lv...P.C...9K..........................zLyL9C...3OC....H.......fZP...1BI........3O...f+.....v.....B.......nFD..fsPB........9C...3O..........v.....A.......vIT...................3OC....D........mPA...............A...............MyLy81LyL2S...................vu....+....9y.....C.......nFD...mP...1BM........3O...f+....9C..........L....f........pAA..XKj........................f+L....f........pAA..XKj........f+....9C........HBM....vC.......pAA..PGD..feP...DBA...ID...mP...jBA..nJD..PqP...vBA..HKD...sP...0BA..VKD..fsPO........CL...Dv.....C...9K..............9C...DP...n.A..fCD...RP...XAA..XFD...bP...7AA........3OC....L.......fZP...bBA..XKz........f+....9C...3O.....L..........A...............A....L....f..............9i..............9C.....C....H.............f+H........3O...f+.....v.....D.........fISljO962O+....9CA..................3O...f+.....v.....B.............3OB.........................POJb.PC....H.......fZP...1BI........3O...f+.........3u....+L....f........vAA...Kj........f+....9C.....A....D....P.....H....Pjb4Ahbu8VaE....H2au0FL...v.2LyPDD...3OMyLy9......88SMO...................v+DWmoND...3O...f+T........3O...f+L.....V.......pAA..vFD..faP...vAA..HGD...cP...1AA..fGD..fdP...7AA..3GD...fP...ABA..HHD..vfP...DBA..THD..fgP...GBA..fHD..PhP...JBA..rHD...iP...MBA..3HD..viP...PBA..DID..fjP...SBA..PID..PkP...VBA..bID...lP...YBA..nID..vlP...bBA..zID..fmP...eBA...JD..HnP...gBA..FJD..fnP..fhBA..LJD..3nP...jBA..RJD..PoP..fkBA..XJD..noP...mBA..dJD...pP..fnBA..jJD..XpP...pBA..pJD..vpP..fqBA..vJD..HqP...sBA..1JD..fqP..ftBA..7JD..3qP...vBA..BKD..PrP..fwBA..HKD..nrP...yBA..NKD...sP..fzBA..TKD..XsP...1BgE...vv0i3OeT3h+7nv08y0iB2OWOJb+fqGE9CtdT3OjBWe+Lb8H9yLyL2OHEtd+7QgK9CRgq2O6Qga+fqGE9S35Q0OlYlg+zLyL9C6Qg2OtdTf+vdT37iqGE3OlYlg+35QA9S35Q4OeT3Z+35QA9iqGE3OCWOZ+XlYF9SyLy3OlYlg+rGEt8CRgq2Ob8nn+Lb8n8iYlY3OeT3h+rGEt8CWOJ3OrGEd+vdTX9iBWO3OrGEl+XlYF9yv0i1OyLyj+vdT38iqGE3OjBWe+fT358y0iB2OCWOh+ziBW8iBWO3OOJbc+fqGE8yv0i3OZlYV+zLyL8iBWO3OyLyb+fqGE9iBWO3O...f+XlYl8Cov02OWOJb+7QgK9yGEt1OlYlg+....9CtdT3OrGEd+rGEt8iqGE3O35Qg+....9iYlY3OT35g+DWOJ9C...3Ow0ih+LyLy8SyLy3OJb8f+vdT38yv0i1O.....L....v........pAA..vID..fsPC........9C...3O...f+...........C....fE......fZP...rAA..3FD...bP...xAA..PGD..fcP...3AA..nGD...eP...9AA...HD..PfP...BBA..LHD...gP...EBA..XHD..vgP...HBA..jHD..fhP...KBA..vHD..PiP...NBA..7HD...jP...QBA..HID..vjP...TBA..TID..fkP...WBA..fID..PlP...ZBA..rID...mP...cBA..3ID..vmP...fBA..BJD..PnP..fgBA..HJD..nnP...iBA..NJD...oP..fjBA..TJD..XoP...lBA..ZJD..voP..fmBA..fJD..HpP...oBA..lJD..fpP..fpBA..rJD..3pP...rBA..xJD..PqP..fsBA..3JD..nqP...uBA..9JD...rP..fvBA..DKD..XrP...xBA..JKD..vrP..fyBA..PKD..HsP...0BA..VKD..fsPXA...PoYd3icUHlOSc8O9teIn4KVfCnum1oW8XCZ6zyplGcu+XJH9ndSe4KAhfdu2i6U9.jmB36eNMnu0wPN8rwI11i5NHZOXQfZ9.Q4f3qbTAQuvQKC9r5mY4y58fgOKjND9TnVE3ilaApuxRZu7lhO6x6nWLpu0INq8.uEn4ygG4ZOyL9g9ZBe52aZZHkOYamq9lbUD2SxprkOyB7i9FUyKvCZzqgugDhW9vWxiyi4h3fOV.Iz8b9qs5q1bboubZkF9pYlY5aeQMpuVjL2899W.3qlOleuuUmo8lBWO3Kdf7iu5gzT9vDOX3SGqwZOKe5T9tGV+xyeQQluerZR8Xz4HzyDOTUunMpr9Br4A2KHGKmuDNkX9HJ6f5a8mbbOZjbg8dU4p0CRdqguQEVj9pTo.y6samXOykSh8drSN2SBoXeOh7rP9j2vz06xUxhOt8zW95NXz4ibq1ROQwtB9Biqm5K.....C........9C...3O...f+L....v........pAA..vID..fsPC........9C...3O...f+.....v.....C.......nFD...mP...1BM........3O...f+....9C.....C....L.......fZP...bBA..XKz........f+....9C...3O.........9C...3OF........9Sb8nnOT35Q+....+SyLyjOH...............................................C....L.......fZP...bBA..XKz........f+....9C...3O.....L....v........pAA..vID..fsPC........9C...3O...f+.....v.....C.......nFD...mP...1BM........3O...f+....9C.....C....L.......fZP...bBA..XKz........f+....9C...3O.....D....P........bBM....P..........D...............bDah2y.....Q.......vFD...dP...5AA..HHD...hP...IBA..zHD...jP...SBA..fID...mP...eBA..FJD...oP...pBA...KD..fsPQ....j9n.9ieST3OTTCh+.C0I9CE0f3OTTCh+.C0I9CLTm3OvPch+PQMH9CneZ3ObA4f+nQU18SS8N2Ov03Y+PIfR8S20CzO.....D..........A....LyLy7iYlY5OA.........P.....yLyL+XlYl9S.............vKD.....N........7SyLybOMyLS9....7CA....B....L.....A....A....D....P.....A....D....v.....G...............N.....A.........MyLy8....9C.........+B..vID.....................................................C....................3.....D.........................................................................................L....................fC....P.........................................................................................P.....A........9C...Jv.....H....v.....A....T.....A....A....L....fYlY9OZlY1+....+C..D1v.....P....PA............vIL...rv...vBC...KbA.........7nv0yC...............PA..............................P..........P....P.....C.........TyLyzO...v+...zHD.....D....T........mv.....C...KL...rv...vBW....fBWOROWbaz3................T...............................D..........D.........v.....gqGM+Pzhr4ilYl4O...sBA..zJbC....E........CL...Lv...bBC..vIL...mvE...............................E...............................A..........A.........L....vLyLyub8nv935Qg8C...............PA.......PAC...EL...mv...bBC..vIbA..............................PA..............................P..........P..........C....fqGE+SOJb0OtdT3+................T........Tv...PAC..vIL...mv...bBW...............................T...............................D..........A....D....P.....C....zLyL8yiBWmu...v+...PFD....................."
+										"blob" : "632.VMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSNv3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYgYTR5AkaA4hKtfDTSoWPWokKDAUPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtfUSJASNRshY3DjKEIkKtfmX1YTZtnkPt3xcFoFNLkWRLYFU3EWX2fSYEwlM0YWSZkEcvkTNwnGNSEDQHslPR8lZ0bySigTPzrRTKUTZVISUznVQzYFVYw1bHcjdxk2aiEFMrolcUQ0YBwlZJc1arcCQyIzbX8TTZMFZ0.UVyMFNpYjcCMmKl01c3rDZgIkdRw1QP4BYzMWMo0VZiA0MOAyaikVStHjZtA0QOQjKsYmKW8Tb2QzXRcjSrgVSHoGZtfzQ1gCTJMkUv4zUuYWUL4hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 									}
 ,
 									"fileref" : 									{
 										"name" : "Pianoteq 6",
 										"filename" : "Pianoteq 6.maxsnap",
-										"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
+										"filepath" : "D:/PROYECTOS/Max-Msp/Propios/MaxMsp-Patches/MIDI/Random Piano/data",
 										"filepos" : -1,
-										"snapshotfileid" : "210d9f6b9943ccd3012ce0d892d88472"
+										"snapshotfileid" : "381ec04df5a7ae075750245bed312434"
 									}
 
 								}
@@ -14584,6 +14296,7 @@
 
 			}
  ],
+		"originid" : "pat-159",
 		"parameters" : 		{
 			"obj-138" : [ "vst~[2]", "vst~[1]", 0 ],
 			"obj-191" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
@@ -14597,21 +14310,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Acordes.txt",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/MIDI/Random Piano/data",
+				"bootpath" : "D:/PROYECTOS/Max-Msp/Propios/MaxMsp-Patches/MIDI/Random Piano/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Escalas_Generales.txt",
-				"bootpath" : "G:/Max-Msp/Propios/MaxMsp-Patches/MIDI/Random Piano/data",
+				"bootpath" : "D:/PROYECTOS/Max-Msp/Propios/MaxMsp-Patches/MIDI/Random Piano/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Pianoteq 6.maxsnap",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
+				"bootpath" : "D:/PROYECTOS/Max-Msp/Propios/MaxMsp-Patches/MIDI/Random Piano/data",
+				"patcherrelativepath" : "../data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
@@ -14947,8 +14661,8 @@
 			}
  ],
 		"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-		"bgcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
-		"editing_bgcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+		"bgcolor" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+		"editing_bgcolor" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
 		"saved_attribute_attributes" : 		{
 			"editing_bgcolor" : 			{
 				"expression" : "themecolor.live_contrast_frame"
