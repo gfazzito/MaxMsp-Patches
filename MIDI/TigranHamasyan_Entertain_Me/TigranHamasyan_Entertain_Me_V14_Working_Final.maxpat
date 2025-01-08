@@ -14,6 +14,61 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 19.045481481481485,
+					"id" : "obj-55",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1184.745707631111145, 1654.0, 210.0, 32.0 ],
+					"style" : "helpfile_label",
+					"text" : "Load your plugin here"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 35.499451252363045,
+					"id" : "obj-44",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1212.042309999465942, 669.491494297981262, 281.0, 88.0 ],
+					"text" : "Up to 7 repetiton + 11 beats"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bubble_bgcolor" : [ 0.407843137254902, 0.317647058823529, 0.317647058823529, 1.0 ],
+					"fontsize" : 36.665980603813615,
+					"id" : "obj-40",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1339.875, 115.1875, 139.0, 49.0 ],
+					"text" : "On / Off",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 42.80051566654182,
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1420.061048865318298, 759.491494297981262, 348.677950263023376, 56.0 ],
+					"text" : "UP TO 256 BARS"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-169",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -172,7 +227,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 338.000010073184967, 1303.333372175693512, 41.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "12 24"
 				}
 
@@ -187,7 +241,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 286.500001430511475, 1303.5, 40.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"text" : "11 23"
 				}
 
@@ -410,7 +463,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1465.0, 1049.0, 301.0, 75.0 ],
+					"patching_rect" : [ 1254.6875, 1049.187536716461182, 301.0, 75.0 ],
 					"text" : "1 - n° repetitions, set notes selector & equal conditional\n2 - max count & note trigger selector\n3 - set notes\n4 - reset count next clock\n5 - change gate"
 				}
 
@@ -463,7 +516,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1325.600019752979279, 963.200014352798462, 50.0, 22.0 ]
+					"patching_rect" : [ 1114.0625, 963.250036716461182, 50.0, 22.0 ]
 				}
 
 			}
@@ -474,7 +527,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "bang", "bang", "int" ],
-					"patching_rect" : [ 1519.200022637844086, 1004.000014960765839, 114.666670083999634, 22.0 ],
+					"patching_rect" : [ 1307.8125, 1005.437536716461182, 114.666670083999634, 22.0 ],
 					"text" : "t 1 b b 5"
 				}
 
@@ -486,7 +539,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1380.000020563602448, 963.200014352798462, 42.0, 22.0 ],
+					"patching_rect" : [ 1168.75, 963.250036716461182, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -498,7 +551,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1245.600018560886383, 659.200009822845459, 142.0, 62.0 ],
+					"patching_rect" : [ 1020.600015759468079, 788.800012052059174, 142.0, 62.0 ],
 					"text" : "1 - set notes\n2 - reset count next clock\n3 - change gate\n4 - Set max ZZ"
 				}
 
@@ -510,7 +563,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1403.200020909309387, 914.400013625621796, 34.0, 22.0 ],
+					"patching_rect" : [ 1192.1875, 914.812536716461182, 34.0, 22.0 ],
 					"text" : "sel 5"
 				}
 
@@ -534,7 +587,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "bang", "bang", "int" ],
-					"patching_rect" : [ 1380.000020563602448, 1004.000014960765839, 118.800000727176666, 22.0 ],
+					"patching_rect" : [ 1168.75, 1005.437536716461182, 118.800000727176666, 22.0 ],
 					"text" : "t 2 b b 6"
 				}
 
@@ -572,7 +625,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 1403.200020909309387, 878.400013089179993, 48.800000727176666, 22.0 ],
+					"patching_rect" : [ 1192.1875, 878.875036716461182, 48.800000727176666, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -585,7 +638,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1325.600019752979279, 885.600013196468353, 50.0, 22.0 ]
+					"patching_rect" : [ 1114.0625, 886.687536716461182, 50.0, 22.0 ]
 				}
 
 			}
@@ -596,7 +649,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 1403.200020909309387, 847.200012624263763, 177.400010883808136, 22.0 ],
+					"patching_rect" : [ 1192.1875, 847.625036716461182, 177.400010883808136, 22.0 ],
 					"text" : "counter 1 5"
 				}
 
@@ -610,21 +663,21 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1446.533354381720301, 1232.000036716461182, 97.0, 23.0 ],
+					"patching_rect" : [ 1235.9375, 1232.000036716461182, 97.0, 23.0 ],
 					"text" : "11 2 4 11 12 16"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 56.163433493027156,
+					"fontsize" : 93.073984166172323,
 					"id" : "obj-283",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 968.000014424324036, 522.400007784366608, 114.000003397464752, 73.0 ]
+					"patching_rect" : [ 837.800028592348099, 535.9375, 179.274980664253235, 116.0 ]
 				}
 
 			}
@@ -796,7 +849,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1848.000055074691772, 713.333354592323303, 738.0, 22.0 ],
+					"patching_rect" : [ 1852.54228675365448, 710.169458508491516, 738.0, 22.0 ],
 					"text" : "loadmess read \"D:/PROYECTOS/Max-Msp/Propios/MaxMsp-Patches/MIDI/TigranHamasyan_Entertain_Me/Images/Time signatures.png\""
 				}
 
@@ -820,13 +873,13 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bubble_bgcolor" : [ 0.407843137254902, 0.317647058823529, 0.317647058823529, 1.0 ],
-					"fontsize" : 36.665980603813615,
+					"fontsize" : 25.134140938644457,
 					"id" : "obj-145",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 994.0, 131.250004053115845, 139.0, 49.0 ],
-					"text" : "DEBUG",
+					"patching_rect" : [ 978.696598798036575, 208.166673064231873, 154.237280964851379, 35.0 ],
+					"text" : "Step by step",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -839,7 +892,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 989.63334584236145, 188.833338618278503, 205.33333945274353, 205.33333945274353 ]
+					"patching_rect" : [ 989.830462455749512, 253.912442266941071, 131.969553649425507, 131.969553649425507 ]
 				}
 
 			}
@@ -892,7 +945,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2078.666728615760803, 80.000002384185791, 103.0, 35.0 ],
+					"patching_rect" : [ 2083.050750613212585, 76.271182894706726, 103.0, 35.0 ],
 					"text" : "TOTAL",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -900,14 +953,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 54.922927426927934,
+					"fontsize" : 93.105686143334367,
 					"id" : "obj-117",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1515.200022578239441, 532.800007939338684, 133.0, 72.0 ]
+					"patching_rect" : [ 1432.8125, 535.9375, 214.0625, 116.0 ]
 				}
 
 			}
@@ -1019,14 +1072,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 28.208418367346933,
+					"fontsize" : 79.482515425935759,
 					"id" : "obj-21",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1297.600019335746765, 556.000008285045624, 90.0, 41.0 ]
+					"patching_rect" : [ 1294.915194034576416, 543.9375, 115.254231929779053, 100.0 ]
 				}
 
 			}
@@ -1300,7 +1353,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2270.666734337806702, 172.000005125999451, 29.0, 35.0 ],
+					"patching_rect" : [ 2285.0, 165.0, 29.0, 35.0 ],
 					"text" : "A",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1327,7 +1380,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1706.0, 1155.400017201900482, 234.0, 618.0 ]
+					"patching_rect" : [ 1433.609116315841675, 928.813516139984131, 234.0, 618.0 ]
 				}
 
 			}
@@ -1365,7 +1418,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 186.0, 1627.0, 124.390245676040649, 22.0 ],
-					"text" : "midievent 144 42 0"
+					"text" : "midievent 144 44 0"
 				}
 
 			}
@@ -1401,7 +1454,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 1475.5, 50.0, 22.0 ],
-					"text" : "42"
+					"text" : "44"
 				}
 
 			}
@@ -1469,7 +1522,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1964.0, 1155.400017201900482, 234.0, 618.0 ]
+					"patching_rect" : [ 1565.8125, 928.813516139984131, 234.0, 618.0 ]
 				}
 
 			}
@@ -1483,7 +1536,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 199.20000296831131, 1374.333372831344604, 58.29999703168869, 23.0 ],
-					"text" : "9 21"
+					"text" : "11 23"
 				}
 
 			}
@@ -1506,7 +1559,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2286.66673481464386, 112.000003337860107, 103.0, 35.0 ],
+					"patching_rect" : [ 2313.559214472770691, 108.474571228027344, 103.0, 35.0 ],
 					"text" : "LEVELS",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1519,7 +1572,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1886.666722893714905, 389.33334493637085, 29.0, 35.0 ],
+					"patching_rect" : [ 1893.0, 383.0, 29.0, 35.0 ],
 					"text" : "D",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1532,7 +1585,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1930.66672420501709, 317.333342790603638, 29.0, 35.0 ],
+					"patching_rect" : [ 1950.0, 312.0, 29.0, 35.0 ],
 					"text" : "C",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1545,7 +1598,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2084.000062108039856, 245.333340644836426, 29.0, 35.0 ],
+					"patching_rect" : [ 2103.0, 239.0, 29.0, 35.0 ],
 					"text" : "B",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1559,7 +1612,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1824.000054359436035, 749.333355665206909, 1317.333417773246765, 320.83765334234613 ],
+					"patching_rect" : [ 1828.813474297523499, 745.762677192687988, 1317.333417773246765, 320.83765334234613 ],
 					"pic" : "Time signatures.png",
 					"xoffset" : -0.800000011920929,
 					"yoffset" : 0.533333420753479
@@ -1586,10 +1639,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1824.000054359436035, 48.000001430511475, 1317.333372592926025, 632.000018835067749 ],
+					"patching_rect" : [ 1828.813474297523499, 44.067794561386108, 1317.333372592926025, 632.000018835067749 ],
 					"pic" : "D:/PROYECTOS/Max-Msp/Propios/MaxMsp-Patches/MIDI/TigranHamasyan_Entertain_Me/Images/Tigran Example.png",
-					"xoffset" : -11.903010010719299,
-					"yoffset" : 0.266666650772095
+					"xoffset" : 0.046141743659973,
+					"yoffset" : -1.038418173789978
 				}
 
 			}
@@ -1600,7 +1653,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1824.000054359436035, 689.333353877067566, 683.0, 22.0 ],
+					"patching_rect" : [ 1828.813474297523499, 686.440646052360535, 683.0, 22.0 ],
 					"text" : "read \"D:/PROYECTOS/Max-Msp/Propios/MaxMsp-Patches/MIDI/TigranHamasyan_Entertain_Me/Images/Time signatures.png\""
 				}
 
@@ -1612,7 +1665,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1824.000054359436035, 17.333333849906921, 681.0, 22.0 ],
+					"patching_rect" : [ 1828.813474297523499, 13.559321403503418, 681.0, 22.0 ],
 					"text" : "read \"D:/PROYECTOS/Max-Msp/Propios/MaxMsp-Patches/MIDI/TigranHamasyan_Entertain_Me/Images/Tigran Example.png\""
 				}
 
@@ -1707,7 +1760,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1425.333375811576843, 4.00000011920929, 390.666678309440613, 98.0 ],
+					"patching_rect" : [ 1405.084680438041687, 3.389830350875854, 390.666678309440613, 98.0 ],
 					"style" : "helpfile_label",
 					"text" : "1- Drag and Drop images in path:\nProjectPath\\Images\n2 - Then assign the corresponding path to the loadmess"
 				}
@@ -1828,7 +1881,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 613.133354306221008, 1420.0, 50.0, 22.0 ],
-					"text" : "57"
+					"text" : "61"
 				}
 
 			}
@@ -1839,8 +1892,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 785.133354306221008, 1659.0, 433.0, 22.0 ],
-					"text" : "loadmess plug_vst \"C:/Program Files/Common Files/VST3/MetaPiano x64.vst3\""
+					"patching_rect" : [ 785.133354306221008, 1659.0, 384.0, 22.0 ],
+					"text" : "loadmess plug_vst \"C:/Program Files/Common Files/VST3/Musio.vst3\""
 				}
 
 			}
@@ -1852,7 +1905,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 645.133354306221008, 1547.0, 124.390245676040649, 22.0 ],
-					"text" : "midievent 144 57 0"
+					"text" : "midievent 144 61 0"
 				}
 
 			}
@@ -1937,14 +1990,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "MetaPiano x64.vst3info",
-							"plugindisplayname" : "MetaPiano",
+							"pluginname" : "Musio.vst3",
+							"plugindisplayname" : "Musio",
 							"pluginsavedname" : "",
 							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "632.VMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSNv3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYgYTR5AkaA4hKtfDTSoWPWokKDAUPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtfUSJASNRshY3DjKEIkKtfmX1YTZtnkPt3xcFoFNLkWRLYFU3EWX2fSYEwlM0YWSZkEcvkTNwnGNSEDQHslPR8lZ0bySigTPzrRTKUTZVISUznVQzYFVYw1bHcjdxk2aiEFMrolcUQ0YBwlZJc1arcCQyIzbX8TTZMFZ0.UVyMFNpYjcCMmKl01c3rDZgIkdRw1QP4BYzMWMo0VZiA0MOAyaikVStHjZtA0QOQjKsYmKW8Tb2QzXRcjSrgVSHoGZtfzQ1gCTJMkUv4zUuYWUL4hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							"blob" : "3393.VMjLgfSC...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCM1.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.UZvjFRyQTZHU2LC8DTUwlXrgCahMWQrgkbUYTTmE0UXYlZFkENHglXqk0UYgWRwbkZUECVmsVaHYFVWgkbUcUV3fjPLQGVo0TLXkVSxfjPH8FMFIFLQICToASZHMGQogTcyLzSPUEahwFNrI1bEwFVxUkQQcVTWgkYpYTV3fDZhsVVWkEdIEyUpUjUgY2ZrEVaIIDRwTjQgASUV8DZtj1RyfjPH8FMFIFLQICToASZHMGQogTcyLzSPUEahwFNrI1bEwFVxUkQQcVTWgkYpYTV3fDZhsVVWkEdIEyUpkzUjglKnM1Y2Y0XqASZHcGRBgzazXjXvDkLPkFLogzbDkFR0MyPOAUUrIFa3vlXyUDaXIWUFE0YQcEVlolQYgCRRk0LA0lXq0jLh8FNrEFZtf1XmcmUisFLogzcHIDRuQiQhASTx.UZvjFR2QTZHU2LC8DTUwlXrgCahMWQrgkbUYTTmE0UXYlZFkENHIjXqEkUXIGNqMVc2wFRlg0UXIWUWkENHIDSzAUdLQCRBgzazXjXvDkLPkFLogzcDkFR0MyPOUmZpEVdQ0lXv.iUYQWTs8zMpoVX4EUahACLVkEcQcDRuQSLhoWRWM1bUwVX5sFQYgCRngELpMjSnkUdMAiXC4zYEMTS3wzTNMCSC0TZqkFSqUTZMg1YokkLHECS3gjPHgWUFE1ZEEiXqsFQYgCRRkUdDYUSpMVZMcVUrgUdTMkSpUkUXECTowDZUMUVqUjUYo1X40jLDkFVmkjPH0TQwHldUwlXVgiQgcTQVoEcvjFR1MiTMYGQSwzLhkFS1QUdLcGTo0TdXkFSn4hTS8VTVo0PmYEVzQiUYIGLogzcHIDRMU0QisVTV8DZtjFRlcCUioWPWMldvjFR1gjPHA0ZFMVZmwFTqQiQYQDNwLFcMUUVyslQUUGMVkUdvjFR3gjPHA0ZFMVZmwFTqQiQYUUPxP0ZvXkVTgCagsVSW8DZHkFRlwDLgIGNVMELQcUVpASZHYGRBgzT3XTX0EkUOglKogjYLcTX0EkLSgWTVkEdvjFR3gDZOciKUkEdYESX3AiUXg1cVkEQEYzXmEjTZoFLogDdUw1XqkTaXU1XWkkdIIDRwTjQgASUV8DZtj1R4IVZMglKRoEcAc0X50jdXgCRR4zcHg2R4X2PTsVRskUcIcUXmkjQgsVTTgkdEYDRuEkUOgFRWkULUwlXngyZXQSPWgUdM0FRlg0UXIWUWkENHIESn4hTZQWPWMldMoGV3fjTKcGR3sTN1MDUqkTaYUWRWE1YIYTXqEEUXoWQFgzaQY0SngzUYESUrIFZ3TTVq0jUXQSRBgTLEYTXvTkUOglKosTLlkGSn4hTZQWPWMldMoGV3fjTKcGR3sTN1MDUqkTaYUWRWE1YIYTXqEEUXoWQFgzaQY0SngzUYESUrIFZ3TTVmAiQh8FMwjEZtf1XmcmUisFLogjcyHjS2gTZHYlZrElcUczXC0jUOgldRwDZ2f1S23RUYgWVwDFdvXEVncmUYQTQFM1YAIkVpASZHgWUrM1ZI0FVkEEahQSRBgTLEYTXvTkUOgFQogjYpwVX1U0QiMTSV8DZ5IESncCZOciKUkEdYESX3AiUXg1cVkEQEYzXmEjTZoFLogzZmcjX3UULhk2ZwDFcIIDRwTjQgASUV8DZDkFRloFagYWUGM1PMY0SnQzTLg1Mn8zMtTUV3kULggGLVgEZ2YUVDUjQicVPRokZvjFR1UkQYc1cwbUL3XTXn4BZic1cVM1ZvjFR1MiTMYmXCwDdTkFRloFagYWUGM1PMY0SnQzTLg1Mn8zM2HkTz0zQigWUWE1ZzXzX4XWdKkDMwHldIc0XyUEagoWUpEVaqwVXqkTUXk1br8zM2H0TvzzUZUWVTokbUw1S2biPTIWUxj0azDCU5UjQisFMC4hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1954,19 +2007,19 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "MetaPiano",
-									"origin" : "MetaPiano x64.vst3info",
+									"origin" : "Musio.vst3",
 									"type" : "VST3",
 									"subtype" : "Instrument",
 									"embed" : 1,
 									"snapshot" : 									{
-										"pluginname" : "MetaPiano x64.vst3info",
-										"plugindisplayname" : "MetaPiano",
+										"pluginname" : "Musio.vst3",
+										"plugindisplayname" : "Musio",
 										"pluginsavedname" : "",
 										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "632.VMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSNv3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYgYTR5AkaA4hKtfDTSoWPWokKDAUPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtfUSJASNRshY3DjKEIkKtfmX1YTZtnkPt3xcFoFNLkWRLYFU3EWX2fSYEwlM0YWSZkEcvkTNwnGNSEDQHslPR8lZ0bySigTPzrRTKUTZVISUznVQzYFVYw1bHcjdxk2aiEFMrolcUQ0YBwlZJc1arcCQyIzbX8TTZMFZ0.UVyMFNpYjcCMmKl01c3rDZgIkdRw1QP4BYzMWMo0VZiA0MOAyaikVStHjZtA0QOQjKsYmKW8Tb2QzXRcjSrgVSHoGZtfzQ1gCTJMkUv4zUuYWUL4hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+										"blob" : "3393.VMjLgfSC...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCM1.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.UZvjFRyQTZHU2LC8DTUwlXrgCahMWQrgkbUYTTmE0UXYlZFkENHglXqk0UYgWRwbkZUECVmsVaHYFVWgkbUcUV3fjPLQGVo0TLXkVSxfjPH8FMFIFLQICToASZHMGQogTcyLzSPUEahwFNrI1bEwFVxUkQQcVTWgkYpYTV3fDZhsVVWkEdIEyUpUjUgY2ZrEVaIIDRwTjQgASUV8DZtj1RyfjPH8FMFIFLQICToASZHMGQogTcyLzSPUEahwFNrI1bEwFVxUkQQcVTWgkYpYTV3fDZhsVVWkEdIEyUpkzUjglKnM1Y2Y0XqASZHcGRBgzazXjXvDkLPkFLogzbDkFR0MyPOAUUrIFa3vlXyUDaXIWUFE0YQcEVlolQYgCRRk0LA0lXq0jLh8FNrEFZtf1XmcmUisFLogzcHIDRuQiQhASTx.UZvjFR2QTZHU2LC8DTUwlXrgCahMWQrgkbUYTTmE0UXYlZFkENHIjXqEkUXIGNqMVc2wFRlg0UXIWUWkENHIDSzAUdLQCRBgzazXjXvDkLPkFLogzcDkFR0MyPOUmZpEVdQ0lXv.iUYQWTs8zMpoVX4EUahACLVkEcQcDRuQSLhoWRWM1bUwVX5sFQYgCRngELpMjSnkUdMAiXC4zYEMTS3wzTNMCSC0TZqkFSqUTZMg1YokkLHECS3gjPHgWUFE1ZEEiXqsFQYgCRRkUdDYUSpMVZMcVUrgUdTMkSpUkUXECTowDZUMUVqUjUYo1X40jLDkFVmkjPH0TQwHldUwlXVgiQgcTQVoEcvjFR1MiTMYGQSwzLhkFS1QUdLcGTo0TdXkFSn4hTS8VTVo0PmYEVzQiUYIGLogzcHIDRMU0QisVTV8DZtjFRlcCUioWPWMldvjFR1gjPHA0ZFMVZmwFTqQiQYQDNwLFcMUUVyslQUUGMVkUdvjFR3gjPHA0ZFMVZmwFTqQiQYUUPxP0ZvXkVTgCagsVSW8DZHkFRlwDLgIGNVMELQcUVpASZHYGRBgzT3XTX0EkUOglKogjYLcTX0EkLSgWTVkEdvjFR3gDZOciKUkEdYESX3AiUXg1cVkEQEYzXmEjTZoFLogDdUw1XqkTaXU1XWkkdIIDRwTjQgASUV8DZtj1R4IVZMglKRoEcAc0X50jdXgCRR4zcHg2R4X2PTsVRskUcIcUXmkjQgsVTTgkdEYDRuEkUOgFRWkULUwlXngyZXQSPWgUdM0FRlg0UXIWUWkENHIESn4hTZQWPWMldMoGV3fjTKcGR3sTN1MDUqkTaYUWRWE1YIYTXqEEUXoWQFgzaQY0SngzUYESUrIFZ3TTVq0jUXQSRBgTLEYTXvTkUOglKosTLlkGSn4hTZQWPWMldMoGV3fjTKcGR3sTN1MDUqkTaYUWRWE1YIYTXqEEUXoWQFgzaQY0SngzUYESUrIFZ3TTVmAiQh8FMwjEZtf1XmcmUisFLogjcyHjS2gTZHYlZrElcUczXC0jUOgldRwDZ2f1S23RUYgWVwDFdvXEVncmUYQTQFM1YAIkVpASZHgWUrM1ZI0FVkEEahQSRBgTLEYTXvTkUOgFQogjYpwVX1U0QiMTSV8DZ5IESncCZOciKUkEdYESX3AiUXg1cVkEQEYzXmEjTZoFLogzZmcjX3UULhk2ZwDFcIIDRwTjQgASUV8DZDkFRloFagYWUGM1PMY0SnQzTLg1Mn8zMtTUV3kULggGLVgEZ2YUVDUjQicVPRokZvjFR1UkQYc1cwbUL3XTXn4BZic1cVM1ZvjFR1MiTMYmXCwDdTkFRloFagYWUGM1PMY0SnQzTLg1Mn8zM2HkTz0zQigWUWE1ZzXzX4XWdKkDMwHldIc0XyUEagoWUpEVaqwVXqkTUXk1br8zM2H0TvzzUZUWVTokbUw1S2biPTIWUxj0azDCU5UjQisFMC4hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 									}
 ,
 									"fileref" : 									{
@@ -1974,7 +2027,7 @@
 										"filename" : "MetaPiano.maxsnap",
 										"filepath" : "~/Documents/Max 9/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "3905b08737d3fc8239245c43b7487bae"
+										"snapshotfileid" : "8a2f664b8f1e4d44ec32d9df33d82772"
 									}
 
 								}
@@ -2117,7 +2170,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.666667222976685, 19.666674345731735, 333.999994575977325, 333.999994575977325 ],
+					"patching_rect" : [ 1303.583330273628235, 178.50000524520874, 212.5, 212.5 ],
 					"svg" : ""
 				}
 
@@ -3096,7 +3149,7 @@
 				"patchline" : 				{
 					"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 					"destination" : [ "obj-169", 0 ],
-					"order" : 6,
+					"order" : 7,
 					"source" : [ "obj-274", 0 ]
 				}
 
@@ -3238,7 +3291,7 @@
 				"patchline" : 				{
 					"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 					"destination" : [ "obj-87", 0 ],
-					"order" : 7,
+					"order" : 6,
 					"source" : [ "obj-274", 0 ]
 				}
 
@@ -3340,7 +3393,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-334", 0 ],
-					"midpoints" : [ 1389.500020563602448, 1036.600014567375183, 1312.20001894235611, 1036.600014567375183, 1312.20001894235611, 952.000014245510101, 1389.500020563602448, 952.000014245510101 ],
+					"midpoints" : [ 1178.25, 1037.025038659572601, 1101.187498033046722, 1037.025038659572601, 1101.187498033046722, 952.42503833770752, 1178.25, 952.42503833770752 ],
 					"order" : 0,
 					"source" : [ "obj-290", 0 ]
 				}
@@ -3737,7 +3790,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-334", 0 ],
-					"midpoints" : [ 1528.700022637844086, 1045.400028884410858, 1298.200037002563477, 1045.400028884410858, 1298.200037002563477, 945.200014233589172, 1389.500020563602448, 945.200014233589172 ],
+					"midpoints" : [ 1317.3125, 1045.825052976608276, 1087.187516093254089, 1045.825052976608276, 1087.187516093254089, 945.625038325786591, 1178.25, 945.625038325786591 ],
 					"order" : 0,
 					"source" : [ "obj-335", 0 ]
 				}
