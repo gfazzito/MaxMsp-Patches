@@ -10,9 +10,21 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 412.0, 192.0, 1192.0, 758.0 ],
+		"rect" : [ 601.0, 206.0, 1192.0, 758.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 15.054545454545453,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.0, 304.0, 121.0, 24.0 ],
+					"text" : "Change duration"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "button",
@@ -101,7 +113,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 160.0, 414.0, 34.0, 34.0 ]
+					"patching_rect" : [ 160.0, 411.0, 57.0, 57.0 ]
 				}
 
 			}
@@ -124,7 +136,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 247.0, 313.0, 50.0, 22.0 ]
+					"patching_rect" : [ 247.0, 339.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -998,7 +1010,7 @@
 
 							}
  ],
-						"originid" : "pat-20"
+						"originid" : "pat-12"
 					}
 ,
 					"patching_rect" : [ 102.0, 473.0, 135.0, 22.0 ],
@@ -1018,7 +1030,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 64.0, 369.0, 24.0, 24.0 ]
+					"patching_rect" : [ 64.0, 386.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1030,7 +1042,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 101.515158534049988, 312.121233701705933, 42.424245357513428, 42.424245357513428 ],
+					"patching_rect" : [ 102.0, 329.0, 42.424245357513428, 42.424245357513428 ],
 					"svg" : ""
 				}
 
@@ -1042,7 +1054,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 102.0, 368.0, 63.0, 22.0 ],
+					"patching_rect" : [ 102.0, 385.0, 63.0, 22.0 ],
 					"text" : "metro 500"
 				}
 
@@ -1124,7 +1136,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 197.0, 337.0, 713.0, 784.0 ],
+						"rect" : [ 408.0, 315.0, 713.0, 784.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1349,7 +1361,7 @@
 
 							}
  ],
-						"originid" : "pat-22"
+						"originid" : "pat-14"
 					}
 ,
 					"patching_rect" : [ 126.0, 190.0, 129.0, 22.0 ],
@@ -1629,7 +1641,7 @@
 
 							}
  ],
-						"originid" : "pat-24"
+						"originid" : "pat-16"
 					}
 ,
 					"patching_rect" : [ 126.0, 88.0, 86.0, 22.0 ],
@@ -1764,7 +1776,7 @@
 
 			}
  ],
-		"originid" : "pat-18",
+		"originid" : "pat-10",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
