@@ -14,6 +14,19 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 22.386648265402354,
+					"id" : "obj-77",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1102.0, 363.0, 267.0, 58.0 ],
+					"text" : "TODO: Add more types of variations to the signals"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -54,7 +67,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 223.0, 300.0, 42.0, 22.0 ],
+					"patching_rect" : [ 377.0, 348.0, 42.0, 22.0 ],
 					"text" : "gate 3"
 				}
 
@@ -704,7 +717,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 336.0, 367.0, 22.0 ],
+					"patching_rect" : [ 346.0, 322.0, 367.0, 22.0 ],
 					"text" : "pak f f"
 				}
 
