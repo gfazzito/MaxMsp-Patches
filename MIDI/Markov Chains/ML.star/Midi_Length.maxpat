@@ -10,29 +10,54 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1187.0, 379.0, 640.0, 480.0 ],
+		"rect" : [ 366.0, 406.0, 640.0, 480.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 218.0, 189.0, 190.0, 48.0 ],
+					"presentation_linecount" : 3,
+					"text" : "Velocidad termina el timer y manda la duración de la nota (en samples). El resto activa el timer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 218.0, 252.0, 153.0, 34.0 ],
+					"text" : "Timer cuenta la duración de samples para voz"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 30.166970135854925,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 11.0, 283.0, 41.0 ],
-					"text" : "Para usar en [~Poly]"
+					"patching_rect" : [ 207.0, 12.0, 332.0, 41.0 ],
+					"text" : "Para usar con [~Poly]"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 99.0, 190.0, 34.0 ],
-					"text" : "- Primero entra el note on (64)\n- Luego el note off (0)"
+					"patching_rect" : [ 218.0, 110.0, 190.0, 48.0 ],
+					"text" : "Separar entre:\n- Velocidad 0 (salida izquierda)\n- El resto (salida derecha)"
 				}
 
 			}
@@ -43,8 +68,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 148.0, 150.0, 34.0 ],
-					"text" : "Se activa sólo con un bang (no con números)"
+					"patching_rect" : [ 17.0, 135.0, 140.0, 34.0 ],
+					"text" : "Timer se activa sólo con  bangs (no con números)"
 				}
 
 			}
@@ -56,7 +81,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 67.0, 153.0, 24.0, 24.0 ]
+					"patching_rect" : [ 184.0, 140.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -66,7 +91,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 257.0, 35.0, 22.0 ],
+					"patching_rect" : [ 159.0, 258.0, 35.0, 22.0 ],
 					"text" : "out 1"
 				}
 
@@ -79,7 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 67.0, 187.0, 61.0, 50.0 ],
+					"patching_rect" : [ 117.0, 188.0, 61.0, 50.0 ],
 					"text" : "timer @format samples"
 				}
 
@@ -91,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 109.0, 105.0, 34.0, 22.0 ],
+					"patching_rect" : [ 159.0, 106.0, 44.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -103,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 61.0, 64.0, 67.0, 22.0 ],
+					"patching_rect" : [ 111.0, 65.0, 67.0, 22.0 ],
 					"text" : "unpack 0 0"
 				}
 
@@ -115,7 +140,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.0, 24.0, 28.0, 22.0 ],
+					"patching_rect" : [ 111.0, 25.0, 28.0, 22.0 ],
 					"text" : "in 1"
 				}
 
@@ -164,7 +189,7 @@
 
 			}
  ],
-		"originid" : "pat-30"
+		"originid" : "pat-8"
 	}
 
 }
