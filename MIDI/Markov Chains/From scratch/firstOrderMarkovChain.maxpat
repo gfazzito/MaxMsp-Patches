@@ -19,7 +19,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.5, 323.333356380462646, 50.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "On / Off"
 				}
 
@@ -75,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 96.0, 119.0, 20.0 ],
+					"patching_rect" : [ 7.0, 50.0, 119.0, 20.0 ],
 					"text" : "Reading a MIDI File"
 				}
 
@@ -87,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 768.0, 38.0, 139.0, 40.0 ],
+					"patching_rect" : [ 535.0, 38.0, 139.0, 40.0 ],
 					"text" : "More info:"
 				}
 
@@ -111,7 +110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 11.0, 220.0, 40.0 ],
+					"patching_rect" : [ 3.0, 0.0, 220.0, 40.0 ],
 					"text" : "Melody Analysis"
 				}
 
@@ -134,7 +133,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.0, 640.0, 49.0, 22.0 ],
+					"patching_rect" : [ 102.0, 613.0, 164.0, 22.0 ],
 					"text" : "noteout"
 				}
 
@@ -222,7 +221,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 7.600000113248825, 332.800004959106445, 167.200002491474152, 75.0 ],
-									"presentation_linecount" : 9,
 									"text" : "Searches for the index and a random element from it. Here, the index is the current note and the element is the next note to go"
 								}
 
@@ -258,7 +256,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 260.800003886222839, 456.400006890296936, 105.0, 34.0 ],
-									"presentation_linecount" : 2,
 									"text" : "random of the lenght"
 								}
 
@@ -274,7 +271,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 285.600004255771637, 281.600004196166992, 128.800001919269562, 40.0 ],
-									"presentation_linecount" : 2,
 									"text" : "int to retrive an index and its data"
 								}
 
@@ -825,7 +821,7 @@
 
 							}
  ],
-						"originid" : "pat-210"
+						"originid" : "pat-8"
 					}
 ,
 					"patching_rect" : [ 102.0, 473.0, 135.0, 22.0 ],
@@ -929,7 +925,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 768.0, 106.0, 595.0, 36.0 ],
+					"patching_rect" : [ 535.0, 106.0, 595.0, 36.0 ],
 					"text" : ";\r\nmax launchbrowser http://www.algorithmiccomposer.com/2010/05/algorithmic-composition-tutorial-markov.html"
 				}
 
@@ -1156,7 +1152,7 @@
 
 							}
  ],
-						"originid" : "pat-65"
+						"originid" : "pat-10"
 					}
 ,
 					"patching_rect" : [ 126.0, 190.0, 129.0, 22.0 ],
@@ -1196,7 +1192,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 204.5, 207.0, 69.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"text" : "start 65536"
 								}
 
@@ -1426,7 +1421,7 @@
 
 							}
  ],
-						"originid" : "pat-63"
+						"originid" : "pat-12"
 					}
 ,
 					"patching_rect" : [ 126.0, 88.0, 86.0, 22.0 ],
@@ -1561,7 +1556,7 @@
 
 			}
  ],
-		"originid" : "pat-61",
+		"originid" : "pat-6",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
