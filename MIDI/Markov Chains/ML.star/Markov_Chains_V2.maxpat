@@ -427,7 +427,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 518.400007724761963, 92.0, 20.0 ],
+					"patching_rect" : [ 34.5, 517.0, 92.0, 20.0 ],
 					"text" : "replacement for"
 				}
 
@@ -439,7 +439,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 53.400000274181366, 546.400008141994476, 55.0, 22.0 ],
+					"patching_rect" : [ 53.0, 550.0, 55.0, 22.0 ],
 					"text" : "stripnote"
 				}
 
@@ -896,7 +896,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 98.399995684623718, 1186.666702032089233, 50.0, 22.0 ],
-					"text" : "72"
+					"text" : "55"
 				}
 
 			}
@@ -908,7 +908,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 401.0, 386.0, 123.0, 22.0 ],
-					"text" : "midievent 153 36 127"
+					"text" : "midievent 144 59 0"
 				}
 
 			}
@@ -1007,7 +1007,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 211.733332395553589, 1664.000049591064453, 76.0, 264.0 ],
+					"patching_rect" : [ 212.0, 1664.000049591064453, 76.0, 264.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1061.306762046338008, 454.666680216789246, 94.0, 321.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1124,7 +1124,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.733328700065613, 1301.333372116088867, 124.390245676040649, 22.0 ],
-					"text" : "midievent 144 72 0"
+					"text" : "midievent 144 55 0"
 				}
 
 			}
@@ -1290,14 +1290,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "Musio.vst3info",
-							"plugindisplayname" : "Musio",
+							"pluginname" : "MetaPiano x64.vst3",
+							"plugindisplayname" : "MetaPiano",
 							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1040712158,
+							"pluginsaveduniqueid" : 0,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "394.VMjLgDX....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HSLw3hUMoFSmMCRt3hKt7zJlcUXxEDZisVRxH1a3vVX3fjTLQmKogjYTwVXogiQY8FMwjENHIUUTkEUKMCR38TNtHzSPcmUi01ZrE1TQcEV5UEaOcCUUo0TQcEV5UULKkicSMELMckV0kEUZIWUFgjQqYTXqkUUYgWSWoUczX0Sn4RZKY2LRwDZyLzSIQSLhoWRWM1bUwVX5UkZg01ZrE1ZIUEVoMWLKkic4sTSUIiXugCaQ81cVkUN1k2RPcmUi01ZrE1TQcEV5UEaO4hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO.."
+							"blob" : "632.VMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSNv3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYgYTR5AkaA4hKtfDTSoWPWokKDAUPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtfUSJASNRshY3DjKEIkKtfmX1YTZtnkPt3xcFoFNLkWRLYFU3EWX2fSYEwlM0YWSZkEcvkTNwnGNSEDQHslPR8lZ0bySigTPzrRTKUTZVISUznVQzYFVYw1bHcjdxk2aiEFMrolcUQ0YBwlZJc1arcCQyIzbX8TTZMFZ0.UVyMFNpYjcCMmKl01c3rDZgIkdRw1QP4BYzMWMo0VZiA0MOAyaikVStHjZtA0QOQjKsYmKW8Tb2QzXRcjSrgVSHoGZtfzQ1gCTJMkUv4zUuYWUL4hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 						}
 ,
 						"snapshotlist" : 						{
@@ -1307,19 +1307,19 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "Pianoteq 6",
-									"origin" : "Musio.vst3info",
+									"origin" : "MetaPiano x64.vst3",
 									"type" : "VST3",
 									"subtype" : "Instrument",
 									"embed" : 1,
 									"snapshot" : 									{
-										"pluginname" : "Musio.vst3info",
-										"plugindisplayname" : "Musio",
+										"pluginname" : "MetaPiano x64.vst3",
+										"plugindisplayname" : "MetaPiano",
 										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1040712158,
+										"pluginsaveduniqueid" : 0,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "394.VMjLgDX....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HSLw3hUMoFSmMCRt3hKt7zJlcUXxEDZisVRxH1a3vVX3fjTLQmKogjYTwVXogiQY8FMwjENHIUUTkEUKMCR38TNtHzSPcmUi01ZrE1TQcEV5UEaOcCUUo0TQcEV5UULKkicSMELMckV0kEUZIWUFgjQqYTXqkUUYgWSWoUczX0Sn4RZKY2LRwDZyLzSIQSLhoWRWM1bUwVX5UkZg01ZrE1ZIUEVoMWLKkic4sTSUIiXugCaQ81cVkUN1k2RPcmUi01ZrE1TQcEV5UEaO4hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO.."
+										"blob" : "632.VMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSNv3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjYgYTR5AkaA4hKtfDTSoWPWokKDAUPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtfUSJASNRshY3DjKEIkKtfmX1YTZtnkPt3xcFoFNLkWRLYFU3EWX2fSYEwlM0YWSZkEcvkTNwnGNSEDQHslPR8lZ0bySigTPzrRTKUTZVISUznVQzYFVYw1bHcjdxk2aiEFMrolcUQ0YBwlZJc1arcCQyIzbX8TTZMFZ0.UVyMFNpYjcCMmKl01c3rDZgIkdRw1QP4BYzMWMo0VZiA0MOAyaikVStHjZtA0QOQjKsYmKW8Tb2QzXRcjSrgVSHoGZtfzQ1gCTJMkUv4zUuYWUL4hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 									}
 ,
 									"fileref" : 									{
@@ -1327,7 +1327,7 @@
 										"filename" : "Pianoteq 6.maxsnap",
 										"filepath" : "~/Documents/Max 9/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "3e5114b6b002d166af7ecff8942149e9"
+										"snapshotfileid" : "245da2052fde1ac183c1b9c6757c4d71"
 									}
 
 								}
@@ -1450,7 +1450,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 384.0, 354.0, 157.599995732307434, 22.0 ],
+					"patching_rect" : [ 383.977778447998901, 354.433323962074269, 157.599995732307434, 22.0 ],
 					"text" : "midiparse"
 				}
 
@@ -1526,7 +1526,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1363.33337676525116, 904.933335304260254, 50.0, 22.0 ],
-					"text" : "5460"
+					"text" : "64080"
 				}
 
 			}
@@ -2788,7 +2788,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 201.316664218902588, 512.26666796207428, 34.0, 22.0 ],
+					"patching_rect" : [ 280.0, 516.0, 55.0000039935112, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -2800,7 +2800,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 234.566664218902588, 477.26666796207428, 29.5, 22.0 ],
+					"patching_rect" : [ 280.0, 477.26666796207428, 29.5, 22.0 ],
 					"text" : "> 0"
 				}
 
@@ -2892,7 +2892,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.066664218902588, 512.26666796207428, 34.0, 22.0 ],
+					"patching_rect" : [ 161.0, 516.0, 34.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -2904,7 +2904,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 176.066664218902588, 438.833324474674214, 59.25, 22.0 ],
+					"patching_rect" : [ 176.0, 438.833324474674214, 159.0000039935112, 22.0 ],
 					"text" : "unpack"
 				}
 
@@ -2916,7 +2916,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 176.066664218902588, 354.433323962074269, 92.5, 22.0 ],
+					"patching_rect" : [ 175.977778447998901, 354.433323962074269, 92.5, 22.0 ],
 					"text" : "midiparse"
 				}
 
@@ -3991,7 +3991,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-23", 1 ]
 				}
 
@@ -3999,7 +3999,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-23", 1 ]
 				}
 
@@ -4190,6 +4190,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.552941176470588, 0.803921568627451, 0.12156862745098, 1.0 ],
 					"destination" : [ "obj-213", 0 ],
 					"order" : 3,
 					"source" : [ "obj-41", 0 ]
