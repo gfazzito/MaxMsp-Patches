@@ -9,8 +9,247 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 2134.0, 1281.0 ],
+        "rect": [ 134.0, 85.0, 1779.0, 1265.0 ],
         "boxes": [
+            {
+                "box": {
+                    "code": "inlets = 2;\r\noutlets = 1;\r\n// V5\r\nconst ChordsMatrix = new Array(inlets);\r\nvar isNoteScaled = true; \r\n\r\n/******* INIT *******/\r\n\nfunction loadbang() {\n    for (var i = 0; i < inlets; i++) {  // Initialize based on number of inlets\r\n        ChordsMatrix[i] = new Array(0);\r\n        post(\"ChordsMatrix[\"+i+\"]:\");\n    }\r\n    post(\"\\n\");\r\n    post(ChordsMatrix.length,\"\\n\");\n    //post(\"ChordsMatrix initialized with \" + inlets + \" rows\", \"\\n\");\n} \r\n\r\n/******* CHORD FUNCTIONS *******/\r\n\r\nfunction addNoteToChordAndSort(newNote){\r\n    ChordsMatrix[inlet].push(newNote);\r\n    ChordsMatrix[inlet].sort();\r\n    post(\"Chord: \" + inlet + \", note: \" + ChordsMatrix[inlet], \"\\n\");\r\n} \r\n\r\nfunction removeNoteFromChordAndSort(noteToRemove){\r\n    if (ChordsMatrix[inlet].length == 0) return; // Return if array is empty\r\n    \r\n    let noteRemoved = noteToRemove;\r\n    let indexToRemove = ChordsMatrix[inlet].indexOf(noteRemoved); // Get index of Note\r\n    \r\n    if (indexToRemove < 0){\r\n        post(noteToRemove, \"is not in the chord:\", ChordsMatrix[inlet], \"\\n\");\r\n    return;\r\n    }\r\n    ChordsMatrix[inlet].splice(indexToRemove, 1);\r\n    ChordsMatrix[inlet].sort();\r\n    //post(\"Chord: \" + inlet + \", note removed: \" + noteRemoved + \", Notes: \" + ChordsMatrix[inlet], \"\\n\");\r\n    post(\"Chord n°: \" + ChordsMatrix[inlet], \"\\n\");\r\n}\r\n\r\nfunction outputChords(){\r\n    for (i=0; i < inlets; i++){\r\n        outlet(i, ChordsMatrix[i]);\r\n    }\r\n}\r\n\r\nfunction outputChordLength(){\r\n    for (i=0; i<inlets; i++){\r\n        outlet(i, ChordsMatrix[i].length);\r\n    }\r\n}\r\n\r\nfunction setChordIndex(index, chordNotesAmount, indexAmount){\r\n    return index * (chordNotesAmount - 1) / (indexAmount - 1);   \r\n}\r\n\r\nfunction SanityCheck(){\r\n  if (ChordsMatrix[0] == undefined){  //DEBUG\r\n  post(\"APRETAR [LOADBANG]\", \"\\n\");\r\n  return;\r\n  }\r\n}\r\n\r\nfunction list(note, velocity) {\r\n    \r\n    if (ChordsMatrix[0] == undefined){  //DEBUG\r\n        post(\"APRETAR [LOADBANG]\", \"\\n\");\r\n        return;\r\n    }   \r\n     \r\n    if (velocity > 0) {\r\n        //post(\"Inlet: \" + inlet + \", note: \" + note + \", velocity: \" + velocity, \"\\n\");\r\n        addNoteToChordAndSort(note);\r\n    } else { removeNoteFromChordAndSort(note);}\r\n}\r\n\r\n/******* SCALE FUNCTIONS *******/\r\n\r\nfunction lerp(startValue, endValue, interpFactor) {\n    return startValue + (endValue - startValue) * interpFactor;\n}\r\n\r\nfunction setInterpolationFactor(ValueToScale, inLow, inHigh) {\r\n    if (inHigh === inLow) return inLow;\n    return (ValueToScale-inLow)/(inHigh-inLow);\n}\r\n\r\n/******* MAIN PROCESSING *******/\r\nfunction setScaledNotes (value) {\r\n    isNoteScaled = value;\r\n}\r\n\r\nfunction main(newValue) {\r\n    if (ChordsMatrix[0] == undefined){  //DEBUG\r\n        post(\"APRETAR [LOADBANG]\", \"\\n\");\r\n        return;\r\n    }    \r\n    let chordsAmount = ChordsMatrix.length - 1;\r\n    let chords = new Array(0);\r\n        \r\n    let interpFactor = setInterpolationFactor(newValue, 0, 1);\r\n    \r\n    let loopAmount = Math.round(lerp(ChordsMatrix[0].length, ChordsMatrix[chordsAmount].length, interpFactor));  \r\n    \r\n    let outLow;\r\n    let outHigh;\r\n    let searchIndex;\r\n    let interpolatedNote;\r\n    \r\n    //post(\"loopAmount\", loopAmount, \"\\n\");\r\n    //post(\"ChordsMatrix[0].length\", ChordsMatrix[0].length, \"\\n\");\r\n    //post(\"ChordsMatrix[chordsAmount]\", ChordsMatrix[chordsAmount].length, \"\\n\");\r\n    \r\n    // 2 - get index chord\r\n    for (i=0; i < loopAmount;i++){\r\n        \r\n        searchIndex = setChordIndex(i, ChordsMatrix[0].length, loopAmount);\r\n        outLow = ChordsMatrix[0][Math.round(searchIndex)];\r\n        \r\n        searchIndex = setChordIndex(i, ChordsMatrix[chordsAmount].length , loopAmount);\r\n        outHigh = ChordsMatrix[chordsAmount][Math.round(searchIndex)];\r\n        \r\n        interpFactor = setInterpolationFactor(newValue, 0, 1);\r\n        interpNote = lerp(outLow, outHigh, interpFactor);\r\n        \r\n        if (isNoteScaled) interpNote = Math.round(interpNote);\r\n        \r\n        //post(\"outLow\", outLow, \"outHigh\", outHigh, \"\\n\");\r\n        post(\"interpolatedNote\", interpNote, \"\\n\");\r\n        outlet(0, interpNote);\r\n    } \n}\r\n",
+                    "filename": "none",
+                    "fontface": 0,
+                    "fontname": "<Monospaced>",
+                    "fontsize": 12.0,
+                    "id": "obj-159",
+                    "maxclass": "v8.codebox",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 2680.0, 2009.0, 982.0, 1303.0 ],
+                    "saved_object_attributes": {
+                        "parameter_enable": 0
+                    },
+                    "varname": "v8_AA[3]"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-153",
+                    "maxclass": "number",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 862.6666923761368, 780.0, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-90",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1502.666711449623, 2024.0000603199005, 100.0, 22.0 ],
+                    "text": "print REFACTOR"
+                }
+            },
+            {
+                "box": {
+                    "fontsize": 88.93797443678987,
+                    "id": "obj-87",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1546.6667127609253, 1889.3333896398544, 253.0, 111.0 ],
+                    "text": "81"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-30",
+                    "maxclass": "toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 2013.3333933353424, 256.1666783094406, 70.0, 70.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-31",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 2013.3333933353424, 372.16668176651, 140.0, 22.0 ],
+                    "text": "prepend setScaledNotes"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-32",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1874.666722536087, 194.8333431482315, 25.0, 20.0 ],
+                    "text": "0.5"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-33",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1884.0000561475754, 274.8333455324173, 19.0, 20.0 ],
+                    "text": "1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-35",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1884.0000561475754, 116.16667413711548, 19.0, 20.0 ],
+                    "text": "0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-43",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "float" ],
+                    "patching_rect": [ 1900.0000566244125, 308.1666798591614, 32.0, 22.0 ],
+                    "text": "/ 10."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-48",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1941.3333911895752, 308.1666798591614, 50.0, 22.0 ],
+                    "text": "0."
+                }
+            },
+            {
+                "box": {
+                    "disabled": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+                    "id": "obj-55",
+                    "itemtype": 0,
+                    "maxclass": "radiogroup",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1900.0000566244125, 116.16667413711548, 18.0, 178.0 ],
+                    "size": 11,
+                    "value": 0
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-57",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1813.333387374878, 345.50001430511475, 82.0, 22.0 ],
+                    "text": "prepend main"
+                }
+            },
+            {
+                "box": {
+                    "format": 6,
+                    "id": "obj-59",
+                    "maxclass": "flonum",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1813.333387374878, 308.1666798591614, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "fontsize": 23.713568496020102,
+                    "id": "obj-64",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1488.0000443458557, 206.83334350585938, 94.0, 34.0 ],
+                    "text": "DEBUG"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-70",
+                    "maxclass": "toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1502.666711449623, 256.1666783094406, 70.0, 70.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-71",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1502.666711449623, 354.1666783094406, 52.0, 22.0 ],
+                    "text": "gate 1 1"
+                }
+            },
+            {
+                "box": {
+                    "fontsize": 24.1491581632653,
+                    "id": "obj-77",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1585.3333805799484, 289.5000126361847, 109.0, 36.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-78",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 1585.3333805799484, 249.5000114440918, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
+                    "code": "inlets = 2;\r\noutlets = 1;\r\n// V5\r\n/****** MODULES ******/\r\n\r\nvar ChordManager = {\r\n    matrix: [],\r\n\r\n    init: function(inlets) {\r\n \r\n        /* Creates new array and fills then with a blank space\r\n        * First, .fill() ensures every slot is initialized (with undefined items).\n        * Then  .map(() => []) replaces each slot with a new empty array.\n        * Example: Having this.matrix = new Array(inlets).fill().map(() => []) where inlets is 3  \r\n        * will result in: [ [], [], [] ] \n        * This avoids undefined errors when you call .push() or .sort() on ChordManager.matrix[inlet].\r\n        */\r\n        \r\n        this.matrix = new Array(inlets).fill().map(() => []); \r\n        post(\"matrix initialized:\", this.matrix, \"\\n\");\r\n    },\r\n\r\n    addNote: function(inlet, note) {\r\n        this.matrix[inlet].push(note);\r\n        this.matrix[inlet].sort((a,b)=>a-b);\r\n        post(\"Chord:\", this.matrix[inlet], \"\\n\");\r\n    },\r\n\r\n    removeNote: function(inlet, note) {         \r\n        let idx = this.matrix[inlet].indexOf(note);\r\n        if (idx <= 0) {\r\n            post (\"Note Not Stored. Returning\", \"\\n\");\r\n            return;\r\n        }\r\n        \r\n        this.matrix[inlet].splice(idx, 1);\r\n    },\r\n\r\n    getChord: function(inlet) {\r\n        return this.matrix[inlet];\r\n    },\r\n\r\n    getChordLength: function(inlet) {\r\n        return this.matrix[inlet].length;\r\n    },\r\n    \r\n    test: function(inlet){\r\n        post(\"matrix:\", matrix[inlet], \"\\n\");\r\n    },\r\n    \r\n    isNoteStored: function(chord, note){\r\n        if (this.matrix[chord][note] == undefined)\r\n            return false;\r\n        return true;\r\n     }\r\n};\r\n\r\n\r\nvar Interpolation = {\r\n    lerp: function(a, b, t) {\r\n        return a + (b - a) * t;\r\n    },\r\n\r\n    factor: function(value, min, max) {\r\n        if (max === min) return min;\r\n        return (value - min) / (max - min);\r\n    }\r\n};\r\n\r\nvar Processor = {\r\n    isNoteScaled: true,\r\n\r\n    setScaledNotes: function(flag) {\r\n        this.isNoteScaled = flag;\r\n    },\r\n\r\n    process: function(newValue) {\r\n        let chordsAmount = ChordManager.matrix.length - 1;\r\n        let interpFactor = Interpolation.factor(newValue, 0, 1);\r\n\r\n        let loopAmount = Math.round(\r\n            Interpolation.lerp(\r\n                ChordManager.getChordLength(0),\r\n                ChordManager.getChordLength(chordsAmount),\r\n                interpFactor\r\n            )\r\n        );\r\n\r\n        for (let i = 0; i < loopAmount; i++) {\r\n            let lowIdx = Math.round(i * (ChordManager.getChordLength(0)-1) / (loopAmount-1));\r\n            let highIdx = Math.round(i * (ChordManager.getChordLength(chordsAmount)-1) / (loopAmount-1));\r\n\r\n            let outLow = ChordManager.getChord(0)[lowIdx];\r\n            let outHigh = ChordManager.getChord(chordsAmount)[highIdx];\r\n\r\n            let note = Interpolation.lerp(outLow, outHigh, interpFactor);\r\n            if (this.isNoteScaled) note = Math.round(note);\r\n\r\n            outlet(0, note);\r\n        }\r\n    }\r\n};\r\n\r\nfunction sanityCheck() {\r\n    if (ChordManager.matrix[0] === undefined) {\r\n        post (\"Chords Array Not Initialized.\",\"\\n\");\r\n        return false; \r\n    }\r\n    return true; \r\n}\r\n\r\n\r\n/****** MAIN FUNCTIONS ******/\r\n\r\n// INIT\r\nfunction loadbang() {\r\n    ChordManager.init(inlets);\r\n}\r\n\r\n// Notes\r\nfunction list(note, velocity) {\r\n    if (!sanityCheck()) return;\r\n    if (velocity > 0) {\r\n        ChordManager.addNote(inlet, note);\r\n    } else {\r\n        ChordManager.removeNote(inlet, note);\r\n    }\r\n}\r\n\r\n// Interpolation\r\nfunction main(newValue) {\r\n    if (!sanityCheck()) return;\r\n    \r\n    Processor.process(newValue);\r\n}",
+                    "filename": "none",
+                    "fontface": 0,
+                    "fontname": "<Monospaced>",
+                    "fontsize": 12.0,
+                    "id": "obj-27",
+                    "maxclass": "v8.codebox",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1502.666711449623, 429.33334612846375, 982.6666959524155, 1364.0000406503677 ],
+                    "saved_object_attributes": {
+                        "parameter_enable": 0
+                    },
+                    "varname": "v8_AA[2]"
+                }
+            },
             {
                 "box": {
                     "fontsize": 47.44144744062187,
@@ -41,7 +280,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 153.5, 1438.0, 50.0, 22.0 ],
-                    "text": "50 100"
+                    "text": "81 0"
                 }
             },
             {
@@ -53,7 +292,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 641.5, 900.0000268220901, 145.0, 44.0 ],
-                    "presentation_linecount": 3,
                     "text": "SET LOW AND HIGH TO SCALE "
                 }
             },
@@ -63,18 +301,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 501.0, 643.0, 123.0, 20.0 ],
+                    "patching_rect": [ 501.0, 651.0, 123.0, 20.0 ],
                     "text": "SET LOOP AMOUNT"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-125",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 698.0, 549.0, 32.0, 22.0 ],
-                    "text": "print"
                 }
             },
             {
@@ -118,7 +346,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 357.33334382375085, 537.0, 117.66665617624915, 22.0 ],
-                    "text": "array u172000813"
+                    "text": "array u678000384"
                 }
             },
             {
@@ -130,95 +358,6 @@
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 488.0, 508.0, 58.0, 22.0 ],
                     "text": "array.sort"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-109",
-                    "maxclass": "toggle",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 1932.5, 236.00000703334808, 70.0, 70.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-108",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1932.5, 352.0000104904175, 140.0, 22.0 ],
-                    "text": "prepend setScaledNotes"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-94",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1794.0, 175.0, 25.0, 20.0 ],
-                    "text": "0.5"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-95",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1803.0, 255.0, 19.0, 20.0 ],
-                    "text": "1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-96",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1803.0, 96.0, 19.0, 20.0 ],
-                    "text": "0"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-97",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "float" ],
-                    "patching_rect": [ 1819.0, 288.0, 32.0, 22.0 ],
-                    "text": "/ 10."
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-98",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1860.0, 288.0, 50.0, 22.0 ],
-                    "text": "0."
-                }
-            },
-            {
-                "box": {
-                    "disabled": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-                    "id": "obj-105",
-                    "itemtype": 0,
-                    "maxclass": "radiogroup",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 1819.0, 96.0, 18.0, 178.0 ],
-                    "size": 11,
-                    "value": 0
                 }
             },
             {
@@ -238,42 +377,6 @@
                         "parameter_enable": 0
                     },
                     "varname": "v8_AA[1]"
-                }
-            },
-            {
-                "box": {
-                    "fontsize": 72.47857819685322,
-                    "id": "obj-63",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1301.0, 1738.0, 210.0, 92.0 ],
-                    "presentation_linecount": 2,
-                    "text": "45"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-62",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1732.0, 325.0, 82.0, 22.0 ],
-                    "text": "prepend main"
-                }
-            },
-            {
-                "box": {
-                    "format": 6,
-                    "id": "obj-60",
-                    "maxclass": "flonum",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 1732.0, 288.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -340,62 +443,6 @@
             },
             {
                 "box": {
-                    "fontsize": 23.713568496020102,
-                    "id": "obj-24",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1406.6667085886002, 186.66667222976685, 94.0, 34.0 ],
-                    "text": "DEBUG"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-9",
-                    "maxclass": "toggle",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 1418.666708946228, 236.00000703334808, 70.0, 70.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-4",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1492.000044465065, 332.00000989437103, 32.0, 22.0 ],
-                    "text": "gate"
-                }
-            },
-            {
-                "box": {
-                    "fontsize": 24.1491581632653,
-                    "id": "obj-61",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1505.3333781957626, 269.33334136009216, 109.0, 36.0 ],
-                    "text": "loadbang"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-52",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "patching_rect": [ 1505.3333781957626, 229.33334016799927, 58.0, 22.0 ],
-                    "text": "loadbang"
-                }
-            },
-            {
-                "box": {
                     "code": "inlets = 2;\r\noutlets = 2;\r\n// V2\r\n//Chords Arrays\r\n//var ChordsMatrix = new Array(2);\r\nvar ChordsMatrix = [[],[]];\r\n\r\nfunction addNoteToChord(newNote){\r\n    \r\n    ChordsMatrix[inlet].push(newNote);\r\n    //post(\"Inlet: \" + inlet, \"\\n\");\r\n    //post(\"Chord note: \" + ChordsMatrix[inlet], \"\\n\");\r\n    //post(\"Chord length: \" + ChordsMatrix[inlet].length, \"\\n\");\r\n} \r\n//\r\nfunction removeNoteFromChord(noteToRemove){\r\n    //post(\"Chord length: \" + ChordsMatrix[inlet].length, \"\\n\");\r\n    if (ChordsMatrix[inlet].length == 0) return; // Return if array is empty\r\n    \r\n    let indexToRemove = ChordsMatrix[inlet].indexOf(noteToRemove); // Get index of Note\r\n    ChordsMatrix[inlet].splice(indexToRemove, 1);\r\n    //post(\"Chord n°: \" + ChordsMatrix[inlet], \"\\n\");\r\n}\r\n\r\nfunction outputChords(){\r\n    for (i=0; i<inlets; i++){\r\n        outlet(i, ChordsMatrix[i]);\r\n    }\r\n}\r\n\r\n\r\nfunction outputChordLength(){\r\n    for (i=0; i<inlets; i++){\r\n        outlet(i, ChordsMatrix[i].length);\r\n    }\r\n}\r\n\r\nfunction scale(x, inLow, inHigh, outLow, outHigh) {\n    // protect against divide-by-zero\n    if (inHigh === inLow) {\n        return outLow; \n    }\n    var norm = (x - inLow) / (inHigh - inLow);\n    return norm * (outHigh - outLow) + outLow;\n}\r\n\r\nfunction list(note, velocity) {\r\n    \r\n    if (velocity > 0) {\r\n        //post(\"Inlet: \" + inlet + \", note: \" + note + \", velocity: \" + velocity, \"\\n\");\r\n        addNoteToChord(note);\r\n        outputChordLength();\r\n        //outputChords();\r\n    } else {\r\n        removeNoteFromChord(note);\r\n        outputChordLength();\r\n        //outputChords();\r\n    }\r\n}\r\n",
                     "filename": "none",
                     "fontface": 0,
@@ -411,18 +458,6 @@
                         "parameter_enable": 0
                     },
                     "varname": "v8_AD"
-                }
-            },
-            {
-                "box": {
-                    "fontsize": 72.47857819685322,
-                    "id": "obj-44",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 2264.0, 1738.0, 210.0, 92.0 ],
-                    "text": "0"
                 }
             },
             {
@@ -493,7 +528,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 812.0000145435333, 369.1666783094406, 50.0, 22.0 ],
-                    "text": "45 19"
+                    "text": "41 0"
                 }
             },
             {
@@ -515,7 +550,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1307.0000145435333, 369.1666783094406, 50.0, 22.0 ],
-                    "text": "71 36"
+                    "text": "45 0"
                 }
             },
             {
@@ -531,30 +566,11 @@
             },
             {
                 "box": {
-                    "code": "inlets = 2;\r\noutlets = 1;\r\n// V5\r\nconst ChordsMatrix = new Array(inlets);\r\nvar isNoteScaled = true; \r\n\r\n/******* INIT *******/\r\n\nfunction loadbang() {\n    for (var i = 0; i < inlets; i++) {  // Initialize based on number of inlets\r\n        ChordsMatrix[i] = new Array(0);\r\n        post(\"ChordsMatrix[\"+i+\"]:\");\n    }\r\n    post(\"\\n\");\r\n    post(ChordsMatrix.length,\"\\n\");\n    //post(\"ChordsMatrix initialized with \" + inlets + \" rows\", \"\\n\");\n} \r\n\r\n/******* CHORD FUNCTIONS *******/\r\n\r\nfunction addNoteToChordAndSort(newNote){\r\n    ChordsMatrix[inlet].push(newNote);\r\n    ChordsMatrix[inlet].sort();\r\n    post(\"Chord: \" + inlet + \", note: \" + ChordsMatrix[inlet], \"\\n\");\r\n} \r\n\r\nfunction removeNoteFromChordAndSort(noteToRemove){\r\n    if (ChordsMatrix[inlet].length == 0) return; // Return if array is empty\r\n    \r\n    let noteRemoved = noteToRemove;\r\n    let indexToRemove = ChordsMatrix[inlet].indexOf(noteRemoved); // Get index of Note\r\n    \r\n    if (indexToRemove < 0){\r\n        post(noteToRemove, \"is not in the chord:\", ChordsMatrix[inlet], \"\\n\");\r\n    return;\r\n    }\r\n    ChordsMatrix[inlet].splice(indexToRemove, 1);\r\n    ChordsMatrix[inlet].sort();\r\n    //post(\"Chord: \" + inlet + \", note removed: \" + noteRemoved + \", Notes: \" + ChordsMatrix[inlet], \"\\n\");\r\n    post(\"Chord n°: \" + ChordsMatrix[inlet], \"\\n\");\r\n}\r\n\r\nfunction outputChords(){\r\n    for (i=0; i < inlets; i++){\r\n        outlet(i, ChordsMatrix[i]);\r\n    }\r\n}\r\n\r\nfunction outputChordLength(){\r\n    for (i=0; i<inlets; i++){\r\n        outlet(i, ChordsMatrix[i].length);\r\n    }\r\n}\r\n\r\nfunction setChordIndex(index, chordNotesAmount, indexAmount){\r\n    return index * (chordNotesAmount - 1) / (indexAmount - 1);   \r\n}\r\n\r\nfunction SanityCheck(){\r\n  if (ChordsMatrix[0] == undefined){  //DEBUG\r\n  post(\"APRETAR [LOADBANG]\", \"\\n\");\r\n  return;\r\n  }\r\n}\r\n\r\nfunction list(note, velocity) {\r\n    \r\n    if (ChordsMatrix[0] == undefined){  //DEBUG\r\n        post(\"APRETAR [LOADBANG]\", \"\\n\");\r\n        return;\r\n    }   \r\n     \r\n    if (velocity > 0) {\r\n        //post(\"Inlet: \" + inlet + \", note: \" + note + \", velocity: \" + velocity, \"\\n\");\r\n        addNoteToChordAndSort(note);\r\n        \r\n        //setChordLength(inlet);\r\n        //outputChordLength();\r\n        //outputChords();\r\n    } else {\r\n        removeNoteFromChordAndSort(note);    \r\n        \r\n        //setChordLength(inlet);\r\n        //outputChordLength();\r\n        //outputChords();\r\n    }\r\n}\r\n\r\n/******* SCALE FUNCTIONS *******/\r\n\r\nfunction lerp(startValue, endValue, interpFactor) {\n    return startValue + (endValue - startValue) * interpFactor;\n}\r\n\r\nfunction setInterpolationFactor(ValueToScale, inLow, inHigh) {\r\n    if (inHigh === inLow) return inLow;\n    return (ValueToScale-inLow)/(inHigh-inLow);\n}\r\n\r\n/******* MAIN PROCESSING *******/\r\nfunction setScaledNotes (value) {\r\n    isNoteScaled = value;\r\n}\r\n\r\nfunction main(newValue) {\r\n    if (ChordsMatrix[0] == undefined){  //DEBUG\r\n        post(\"APRETAR [LOADBANG]\", \"\\n\");\r\n        return;\r\n    }    \r\n    let chordsAmount = ChordsMatrix.length - 1;\r\n    let chords = new Array(0);\r\n        \r\n    // 1 - Set Array length in [Scale] \r\n    let interpFactor = setInterpolationFactor(newValue, 0, 1);\r\n    \r\n    let loopAmount = Math.round(lerp(ChordsMatrix[0].length, ChordsMatrix[chordsAmount].length, interpFactor));  \r\n    \r\n    let outLow;\r\n    let outHigh;\r\n    let searchIndex;\r\n    let interpolatedNote;\r\n    \r\n    //post(\"loopAmount\", loopAmount, \"\\n\");\r\n    \r\n    //post(\"ChordsMatrix[0].length\", ChordsMatrix[0].length, \"\\n\");\r\n    //post(\"ChordsMatrix[chordsAmount]\", ChordsMatrix[chordsAmount].length, \"\\n\");\r\n    // 2 - get index chord\r\n    for (i=0; i < loopAmount;i++){\r\n        \r\n        searchIndex = setChordIndex(i, ChordsMatrix[0].length, loopAmount);\r\n        outLow = ChordsMatrix[0][Math.round(searchIndex)];\r\n        \r\n        searchIndex = setChordIndex(i, ChordsMatrix[chordsAmount].length , loopAmount);\r\n        outHigh = ChordsMatrix[chordsAmount][Math.round(searchIndex)];\r\n        \r\n        interpFactor = setInterpolationFactor(newValue, 0, 1);\r\n        interpNote = lerp(outLow, outHigh, interpFactor);\r\n        \r\n        if (isNoteScaled) interpNote = Math.round(interpNote);\r\n        \r\n        //post(\"outLow\", outLow, \"outHigh\", outHigh, \"\\n\");\r\n        post(\"interpolatedNote\", interpNote, \"\\n\");\r\n        outlet(0, interpNote);\r\n    } \n}\r\n",
-                    "filename": "none",
-                    "fontface": 0,
-                    "fontname": "<Monospaced>",
-                    "fontsize": 12.0,
-                    "id": "obj-3",
-                    "maxclass": "v8.codebox",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1492.0, 421.0, 982.0, 1303.0 ],
-                    "saved_object_attributes": {
-                        "parameter_enable": 0
-                    },
-                    "varname": "v8_AA"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-146",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 178.66667199134827, 1218.6667029857635, 69.0, 22.0 ],
+                    "patching_rect": [ 173.5, 1252.0, 69.0, 22.0 ],
                     "text": "print NOTE"
                 }
             },
@@ -620,7 +636,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 281.0, 525.0, 50.0, 22.0 ],
-                    "text": "0.3"
+                    "text": "1."
                 }
             },
             {
@@ -635,7 +651,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 240.0, 333.0, 18.0, 178.0 ],
                     "size": 11,
-                    "value": 3
+                    "value": 10
                 }
             },
             {
@@ -773,7 +789,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 982.6666959524155, 961.3333619832993, 50.0, 22.0 ],
-                    "text": "62"
+                    "text": "81"
                 }
             },
             {
@@ -784,7 +800,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 557.333349943161, 961.3333619832993, 29.5, 22.0 ],
-                    "text": "45"
+                    "text": "41"
                 }
             },
             {
@@ -805,7 +821,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "int" ],
-                    "patching_rect": [ 373.0000145435333, 722.6666923761368, 65.0, 22.0 ],
+                    "patching_rect": [ 373.0, 731.0, 65.0, 22.0 ],
                     "text": "t b i"
                 }
             },
@@ -904,8 +920,8 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 862.6666923761368, 862.6666923761368, 164.0, 22.0 ],
-                    "text": "expr $f1 * ($f2 - 1.) / ($f3 - .1)"
+                    "patching_rect": [ 862.6666923761368, 862.6666923761368, 162.0, 22.0 ],
+                    "text": "expr $i1 * ($i2 - 1.) / ($i3 - .1)"
                 }
             },
             {
@@ -915,19 +931,8 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 419.0000145435333, 862.6666923761368, 164.0, 22.0 ],
-                    "text": "expr $f1 * ($f2 - 1.) / ($f3 - 1.)"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-66",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 419.0000145435333, 813.6666923761368, 29.5, 22.0 ],
-                    "text": "- 1"
+                    "patching_rect": [ 419.0000145435333, 862.6666923761368, 162.0, 22.0 ],
+                    "text": "expr $i1 * ($i2 - 1.) / ($i3 - .1)"
                 }
             },
             {
@@ -937,7 +942,7 @@
                     "numinlets": 2,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "bang", "int" ],
-                    "patching_rect": [ 373.0000145435333, 771.6666923761368, 65.0, 22.0 ],
+                    "patching_rect": [ 373.0, 780.0, 65.0, 22.0 ],
                     "text": "Uzi"
                 }
             },
@@ -961,7 +966,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 433.0, 654.0, 50.0, 22.0 ]
+                    "patching_rect": [ 433.0, 662.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -971,7 +976,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 373.0, 668.0, 39.0, 22.0 ],
+                    "patching_rect": [ 373.0, 676.0, 39.0, 22.0 ],
                     "text": "round"
                 }
             },
@@ -1020,7 +1025,7 @@
                     "numinlets": 6,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 373.0, 620.0, 113.0, 22.0 ],
+                    "patching_rect": [ 373.0, 628.0, 113.0, 22.0 ],
                     "text": "scale 0. 1. 0 1"
                 }
             },
@@ -1241,7 +1246,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 433.0, 694.0, 50.0, 22.0 ]
+                    "patching_rect": [ 433.0, 702.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -1288,7 +1293,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 352.0, 611.0, 290.0, 194.0 ],
+                    "patching_rect": [ 352.0, 619.0, 290.0, 194.0 ],
                     "proportion": 0.5
                 }
             },
@@ -1301,7 +1306,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 409.0, 803.0, 661.0, 203.0 ],
+                    "patching_rect": [ 409.0, 826.0, 661.0, 180.0 ],
                     "proportion": 0.5
                 }
             },
@@ -1426,24 +1431,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-97", 0 ],
-                    "source": [ "obj-105", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-108", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-108", 0 ],
-                    "source": [ "obj-109", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-111", 0 ],
                     "source": [ "obj-11", 0 ]
                 }
@@ -1520,15 +1507,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-125", 0 ],
-                    "order": 1,
-                    "source": [ "obj-123", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-46", 0 ],
-                    "order": 0,
                     "source": [ "obj-123", 0 ]
                 }
             },
@@ -1567,7 +1546,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
+                    "destination": [ "obj-27", 0 ],
                     "order": 0,
                     "source": [ "obj-14", 0 ]
                 }
@@ -1602,6 +1581,12 @@
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
                     "source": [ "obj-15", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-68", 0 ],
+                    "source": [ "obj-153", 0 ]
                 }
             },
             {
@@ -1704,6 +1689,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-87", 1 ],
+                    "order": 0,
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-90", 0 ],
+                    "order": 1,
+                    "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "order": 1,
                     "source": [ "obj-28", 0 ]
@@ -1739,8 +1738,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-63", 1 ],
-                    "source": [ "obj-3", 0 ]
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-30", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-27", 0 ],
+                    "source": [ "obj-31", 0 ]
                 }
             },
             {
@@ -1765,12 +1770,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-4", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-40", 1 ],
                     "source": [ "obj-41", 1 ]
                 }
@@ -1785,6 +1784,20 @@
                 "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-42", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-48", 1 ],
+                    "order": 0,
+                    "source": [ "obj-43", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 0 ],
+                    "order": 1,
+                    "source": [ "obj-43", 0 ]
                 }
             },
             {
@@ -1851,12 +1864,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-61", 0 ],
-                    "source": [ "obj-52", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "order": 0,
                     "source": [ "obj-54", 0 ]
@@ -1871,25 +1878,33 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-62", 0 ],
-                    "source": [ "obj-60", 0 ]
+                    "destination": [ "obj-43", 0 ],
+                    "source": [ "obj-55", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 1 ],
-                    "source": [ "obj-61", 0 ]
+                    "destination": [ "obj-27", 0 ],
+                    "source": [ "obj-57", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-62", 0 ]
+                    "destination": [ "obj-57", 0 ],
+                    "source": [ "obj-59", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-66", 0 ],
+                    "destination": [ "obj-67", 0 ],
+                    "order": 1,
+                    "source": [ "obj-65", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-68", 0 ],
+                    "order": 0,
                     "source": [ "obj-65", 2 ]
                 }
             },
@@ -1897,20 +1912,6 @@
                 "patchline": {
                     "destination": [ "obj-81", 0 ],
                     "source": [ "obj-65", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-67", 0 ],
-                    "order": 1,
-                    "source": [ "obj-66", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-68", 0 ],
-                    "order": 0,
-                    "source": [ "obj-66", 0 ]
                 }
             },
             {
@@ -1948,9 +1949,21 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 1 ],
+                    "destination": [ "obj-27", 1 ],
                     "order": 0,
                     "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-71", 0 ],
+                    "source": [ "obj-70", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-27", 0 ],
+                    "source": [ "obj-71", 0 ]
                 }
             },
             {
@@ -1981,6 +1994,18 @@
                 "patchline": {
                     "destination": [ "obj-99", 0 ],
                     "source": [ "obj-75", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-71", 1 ],
+                    "source": [ "obj-77", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-77", 0 ],
+                    "source": [ "obj-78", 0 ]
                 }
             },
             {
@@ -2062,12 +2087,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
-                    "source": [ "obj-9", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-103", 0 ],
                     "order": 0,
                     "source": [ "obj-93", 0 ]
@@ -2078,20 +2097,6 @@
                     "destination": [ "obj-146", 0 ],
                     "order": 1,
                     "source": [ "obj-93", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-62", 0 ],
-                    "order": 1,
-                    "source": [ "obj-97", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-98", 1 ],
-                    "order": 0,
-                    "source": [ "obj-97", 0 ]
                 }
             }
         ],
